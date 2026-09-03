@@ -1,0 +1,1001 @@
+Medication ID,Medication Name,Generic Name,Category,Dosage,Form,Manufacturer,Batch Number,Quantity in Stock,Expiration Date,Storage Location,Unit Cost,Supplier,Date Received,Critical Status
+MED-00001,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Novartis AG,BATCH-2023-39256,152,2026-11-20,Main Refrigerator A,32.45,McKesson Corporation,2026-04-16,True
+MED-00002,Metformin,Metformin,Antidiabetic,500mg,Tablet,GSK plc,BATCH-2022-22280,107,2026-11-05,Aisle 1 - Shelf A,6.44,Medline Industries,2026-04-01,True
+MED-00003,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,AstraZeneca PLC,BATCH-2025-38893,256,2026-11-28,Aisle 3 - Shelf D,123.12,AmerisourceBergen,2026-09-01,False
+MED-00004,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Roche Holding,BATCH-2024-46421,175,2027-11-12,Controlled Vault 1,8.85,Owens & Minor,2026-08-07,True
+MED-00005,Metformin,Metformin,Antidiabetic,500mg,Tablet,Sanofi S.A.,BATCH-2024-89131,89,2026-10-06,Main Refrigerator B,26.54,McKesson Corporation,2026-05-08,True
+MED-00006,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Novartis AG,BATCH-2026-48427,89,2027-12-08,Aisle 1 - Shelf B,12.55,Medline Industries,2026-04-08,False
+MED-00007,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Sandoz,BATCH-2023-47930,63,2027-03-16,Aisle 1 - Shelf A,16.47,McKesson Corporation,2026-05-28,False
+MED-00008,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Bristol Myers Squibb,BATCH-2023-58520,138,2027-02-14,Main Refrigerator B,54.33,Owens & Minor,2026-03-31,False
+MED-00009,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Roche Holding,BATCH-2023-70589,121,2028-06-25,Aisle 2 - Shelf C,2.16,Henry Schein,2026-07-08,False
+MED-00010,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2022-51347,48,2026-10-03,Aisle 2 - Shelf C,7.04,McKesson Corporation,2026-04-10,False
+MED-00011,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Johnson & Johnson,BATCH-2025-94259,82,2026-10-19,Narcotics Safe B,20.8,AmerisourceBergen,2026-04-12,False
+MED-00012,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,AbbVie Inc.,BATCH-2026-62350,98,2027-04-23,Controlled Vault 1,24.42,Owens & Minor,2026-04-25,False
+MED-00013,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Novartis AG,BATCH-2023-92240,179,2028-08-04,Aisle 1 - Shelf B,26.19,McKesson Corporation,2026-08-17,True
+MED-00014,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Sanofi S.A.,BATCH-2026-42953,55,2026-12-14,Narcotics Safe B,7.65,Henry Schein,2026-03-12,False
+MED-00015,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Novartis AG,BATCH-2024-94012,172,2026-10-14,Aisle 3 - Shelf D,8.13,Owens & Minor,2026-05-09,False
+MED-00016,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Sandoz,BATCH-2026-33416,128,2026-11-13,Main Refrigerator A,14.27,Owens & Minor,2026-06-18,False
+MED-00017,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2023-59009,46,2028-05-29,Aisle 2 - Shelf C,15.94,Henry Schein,2026-09-02,False
+MED-00018,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Johnson & Johnson,BATCH-2022-57576,76,2027-10-13,Aisle 1 - Shelf A,27.88,Medline Industries,2026-07-03,True
+MED-00019,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Merck & Co.,BATCH-2022-73699,139,2028-05-31,Aisle 1 - Shelf B,152.2,Henry Schein,2026-08-01,False
+MED-00020,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Teva Pharmaceutical,BATCH-2023-44741,93,2028-08-15,Aisle 3 - Shelf D,8.25,Medline Industries,2026-05-17,True
+MED-00021,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,AstraZeneca PLC,BATCH-2024-62296,199,2028-02-24,Aisle 2 - Shelf C,3.19,Owens & Minor,2026-04-23,False
+MED-00022,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Novartis AG,BATCH-2022-54313,189,2028-07-27,Aisle 2 - Shelf C,4.81,AmerisourceBergen,2026-07-08,True
+MED-00023,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Novartis AG,BATCH-2023-18834,139,2027-02-13,Aisle 1 - Shelf A,2.8,Owens & Minor,2026-04-24,False
+MED-00024,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,AbbVie Inc.,BATCH-2023-80678,193,2028-07-09,Narcotics Safe B,14.27,Owens & Minor,2026-04-08,True
+MED-00025,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Merck & Co.,BATCH-2023-22363,179,2028-02-09,Controlled Vault 1,22.87,Medline Industries,2026-05-20,True
+MED-00026,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Sandoz,BATCH-2022-62772,232,2027-03-24,Aisle 1 - Shelf B,44.22,McKesson Corporation,2026-07-01,False
+MED-00027,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Merck & Co.,BATCH-2023-65296,142,2027-02-18,Narcotics Safe B,24.33,Henry Schein,2026-05-12,True
+MED-00028,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AstraZeneca PLC,BATCH-2026-11934,251,2027-08-02,Aisle 1 - Shelf A,20.02,McKesson Corporation,2026-07-22,False
+MED-00029,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Bristol Myers Squibb,BATCH-2025-17685,122,2026-08-16,Aisle 2 - Shelf C,25.37,Medline Industries,2026-06-27,True
+MED-00030,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Bristol Myers Squibb,BATCH-2026-96752,98,2026-10-22,Controlled Vault 1,10.54,Cardinal Health,2026-07-09,False
+MED-00031,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,GSK plc,BATCH-2022-51104,245,2028-04-30,Aisle 3 - Shelf D,3.3,Owens & Minor,2026-04-20,True
+MED-00032,Losartan,Losartan,Antihypertensive,50mg,Tablet,Pfizer Inc.,BATCH-2023-18981,86,2027-07-31,Aisle 1 - Shelf B,6.65,Henry Schein,2026-05-22,True
+MED-00033,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,GSK plc,BATCH-2026-20745,188,2028-07-22,Aisle 1 - Shelf A,7.73,AmerisourceBergen,2026-04-11,True
+MED-00034,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Johnson & Johnson,BATCH-2024-41285,139,2026-11-14,Aisle 2 - Shelf C,27.63,Cardinal Health,2026-06-18,False
+MED-00035,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Johnson & Johnson,BATCH-2025-91416,77,2027-02-16,Aisle 1 - Shelf A,20.0,McKesson Corporation,2026-04-18,False
+MED-00036,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,AstraZeneca PLC,BATCH-2024-19016,96,2027-05-13,Aisle 2 - Shelf A,69.5,Cardinal Health,2026-05-13,False
+MED-00037,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,AstraZeneca PLC,BATCH-2026-95717,117,2028-06-22,Main Refrigerator A,9.29,Owens & Minor,2026-06-18,False
+MED-00038,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Novartis AG,BATCH-2022-24029,102,2026-10-22,Main Refrigerator A,14.92,AmerisourceBergen,2026-04-01,False
+MED-00039,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Sandoz,BATCH-2024-76244,106,2027-01-24,Aisle 2 - Shelf C,42.99,Cardinal Health,2026-08-10,False
+MED-00040,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Sanofi S.A.,BATCH-2022-53719,145,2027-08-28,Aisle 1 - Shelf A,125.37,Cardinal Health,2026-07-23,False
+MED-00041,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Bristol Myers Squibb,BATCH-2026-11267,34,2027-05-04,Controlled Vault 1,1.82,Henry Schein,2026-04-16,True
+MED-00042,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Johnson & Johnson,BATCH-2023-66333,114,2027-01-12,Aisle 3 - Shelf D,24.95,Henry Schein,2026-06-03,True
+MED-00043,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Teva Pharmaceutical,BATCH-2024-83385,104,2028-08-29,Aisle 1 - Shelf B,24.03,AmerisourceBergen,2026-07-25,False
+MED-00044,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Roche Holding,BATCH-2022-33509,137,2028-01-28,Controlled Vault 1,10.2,AmerisourceBergen,2026-03-15,False
+MED-00045,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Merck & Co.,BATCH-2022-60140,210,2027-07-18,Aisle 2 - Shelf A,46.1,Cardinal Health,2026-07-13,False
+MED-00046,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Bristol Myers Squibb,BATCH-2023-39219,173,2026-10-25,Main Refrigerator A,35.52,Cardinal Health,2026-06-23,True
+MED-00047,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,AbbVie Inc.,BATCH-2025-99065,159,2026-12-31,Aisle 3 - Shelf D,63.63,Cardinal Health,2026-08-04,False
+MED-00048,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Roche Holding,BATCH-2022-24208,333,2027-10-20,Main Refrigerator A,7.73,Henry Schein,2026-05-14,False
+MED-00049,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,AstraZeneca PLC,BATCH-2026-34914,123,2026-11-18,Controlled Vault 1,1.09,McKesson Corporation,2026-05-14,True
+MED-00050,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,AstraZeneca PLC,BATCH-2024-66531,87,2027-11-06,Aisle 2 - Shelf C,9.49,Henry Schein,2026-03-27,True
+MED-00051,Montelukast,Montelukast,Respiratory,10mg,Tablet,Teva Pharmaceutical,BATCH-2026-50538,61,2027-11-02,Main Refrigerator A,17.61,McKesson Corporation,2026-05-22,True
+MED-00052,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,AbbVie Inc.,BATCH-2023-65108,150,2027-05-30,Aisle 2 - Shelf A,5.68,Henry Schein,2026-03-29,False
+MED-00053,Furosemide,Furosemide,Diuretic,20mg,Tablet,AbbVie Inc.,BATCH-2022-49829,73,2028-07-18,Aisle 3 - Shelf D,73.94,Medline Industries,2026-03-31,False
+MED-00054,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Johnson & Johnson,BATCH-2025-98555,96,2027-05-25,Narcotics Safe B,38.26,Medline Industries,2026-03-18,True
+MED-00055,Metformin,Metformin,Antidiabetic,500mg,Tablet,AbbVie Inc.,BATCH-2022-40784,132,2027-07-21,Main Refrigerator B,10.19,Henry Schein,2026-07-14,True
+MED-00056,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Pfizer Inc.,BATCH-2025-90120,226,2027-02-15,Aisle 2 - Shelf C,80.13,McKesson Corporation,2026-05-09,True
+MED-00057,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Teva Pharmaceutical,BATCH-2025-74799,134,2026-11-17,Aisle 2 - Shelf C,15.53,Henry Schein,2026-09-01,False
+MED-00058,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Novartis AG,BATCH-2023-77889,176,2027-04-06,Aisle 2 - Shelf C,80.09,Medline Industries,2026-05-09,False
+MED-00059,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Bristol Myers Squibb,BATCH-2026-88047,133,2028-02-29,Aisle 3 - Shelf D,3.58,Owens & Minor,2026-03-30,True
+MED-00060,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Sandoz,BATCH-2026-68446,140,2028-04-02,Controlled Vault 1,80.59,Henry Schein,2026-05-10,False
+MED-00061,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Merck & Co.,BATCH-2026-73517,136,2026-10-08,Main Refrigerator A,6.64,Owens & Minor,2026-06-21,False
+MED-00062,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,AbbVie Inc.,BATCH-2026-20561,76,2026-11-17,Main Refrigerator B,41.71,Cardinal Health,2026-07-25,True
+MED-00063,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Merck & Co.,BATCH-2025-53369,56,2027-07-02,Controlled Vault 1,9.98,McKesson Corporation,2026-05-18,False
+MED-00064,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,GSK plc,BATCH-2026-59857,165,2027-10-04,Aisle 1 - Shelf A,48.53,Owens & Minor,2026-05-26,False
+MED-00065,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2026-38906,192,2026-11-04,Aisle 3 - Shelf D,29.9,Henry Schein,2026-08-26,False
+MED-00066,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Johnson & Johnson,BATCH-2023-71261,145,2028-06-01,Controlled Vault 1,16.54,Owens & Minor,2026-08-27,False
+MED-00067,Tramadol,Tramadol,Analgesic,50mg,Tablet,GSK plc,BATCH-2022-94246,68,2027-06-07,Aisle 1 - Shelf A,17.98,Henry Schein,2026-08-21,False
+MED-00068,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Sanofi S.A.,BATCH-2025-52840,71,2027-09-13,Aisle 2 - Shelf C,35.41,Cardinal Health,2026-05-18,False
+MED-00069,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Novartis AG,BATCH-2026-16826,117,2027-02-11,Aisle 1 - Shelf A,24.24,Medline Industries,2026-03-20,False
+MED-00070,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Pfizer Inc.,BATCH-2022-91439,242,2026-11-15,Aisle 2 - Shelf C,45.36,AmerisourceBergen,2026-08-04,True
+MED-00071,Furosemide,Furosemide,Diuretic,20mg,Tablet,Merck & Co.,BATCH-2024-31992,60,2027-03-30,Main Refrigerator A,108.21,Medline Industries,2026-07-23,False
+MED-00072,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Novartis AG,BATCH-2024-85470,151,2027-12-22,Aisle 1 - Shelf A,16.68,Henry Schein,2026-05-24,True
+MED-00073,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Merck & Co.,BATCH-2022-49529,150,2027-04-05,Aisle 2 - Shelf C,67.61,McKesson Corporation,2026-04-11,False
+MED-00074,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Pfizer Inc.,BATCH-2025-96706,111,2027-11-17,Aisle 3 - Shelf D,17.52,Cardinal Health,2026-08-30,False
+MED-00075,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2025-57472,90,2027-05-08,Aisle 1 - Shelf B,28.98,Medline Industries,2026-05-14,False
+MED-00076,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Sandoz,BATCH-2026-80539,182,2028-03-23,Main Refrigerator A,42.18,Henry Schein,2026-05-14,True
+MED-00077,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Sandoz,BATCH-2024-42177,68,2026-10-02,Main Refrigerator A,161.87,Henry Schein,2026-05-10,False
+MED-00078,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Bristol Myers Squibb,BATCH-2024-13761,127,2028-04-15,Controlled Vault 1,26.07,Henry Schein,2026-07-10,False
+MED-00079,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,AbbVie Inc.,BATCH-2026-46211,141,2027-06-16,Main Refrigerator A,42.93,Cardinal Health,2026-08-12,False
+MED-00080,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Sandoz,BATCH-2026-41499,157,2028-04-18,Narcotics Safe B,12.66,Medline Industries,2026-05-11,False
+MED-00081,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Pfizer Inc.,BATCH-2023-63005,153,2028-07-20,Main Refrigerator A,86.06,McKesson Corporation,2026-05-31,False
+MED-00082,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,AstraZeneca PLC,BATCH-2025-82140,153,2027-09-06,Main Refrigerator B,24.87,Henry Schein,2026-06-16,False
+MED-00083,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Merck & Co.,BATCH-2024-25670,158,2027-06-10,Aisle 2 - Shelf C,56.1,McKesson Corporation,2026-07-15,False
+MED-00084,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Sandoz,BATCH-2026-78765,209,2027-06-19,Main Refrigerator A,14.94,Medline Industries,2026-06-19,False
+MED-00085,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Johnson & Johnson,BATCH-2022-80010,73,2026-09-05,Main Refrigerator A,1.78,AmerisourceBergen,2026-04-14,True
+MED-00086,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Sandoz,BATCH-2022-11607,101,2028-03-27,Narcotics Safe B,27.88,AmerisourceBergen,2026-05-03,True
+MED-00087,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2024-72616,168,2026-09-19,Aisle 1 - Shelf A,1.83,AmerisourceBergen,2026-08-15,True
+MED-00088,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2023-29555,42,2027-02-28,Aisle 1 - Shelf A,16.13,Owens & Minor,2026-07-01,False
+MED-00089,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,AstraZeneca PLC,BATCH-2026-59856,120,2028-02-29,Aisle 2 - Shelf C,9.01,Medline Industries,2026-06-18,True
+MED-00090,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Sanofi S.A.,BATCH-2026-23006,60,2027-07-03,Aisle 1 - Shelf A,3.62,Cardinal Health,2026-03-26,True
+MED-00091,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,AbbVie Inc.,BATCH-2023-41439,119,2026-09-04,Aisle 1 - Shelf B,36.01,Owens & Minor,2026-05-21,True
+MED-00092,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Sandoz,BATCH-2024-14278,79,2028-03-11,Narcotics Safe B,130.82,Henry Schein,2026-08-15,True
+MED-00093,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Merck & Co.,BATCH-2025-25043,31,2027-09-01,Aisle 2 - Shelf C,11.55,Cardinal Health,2026-07-28,False
+MED-00094,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Pfizer Inc.,BATCH-2026-84607,129,2028-03-26,Main Refrigerator A,3.36,AmerisourceBergen,2026-03-10,False
+MED-00095,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Sandoz,BATCH-2026-80776,153,2027-02-23,Main Refrigerator A,7.16,Medline Industries,2026-04-02,True
+MED-00096,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Sanofi S.A.,BATCH-2026-42816,183,2026-11-16,Main Refrigerator B,10.58,Owens & Minor,2026-04-08,True
+MED-00097,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Pfizer Inc.,BATCH-2026-15273,278,2027-05-31,Main Refrigerator A,11.99,Owens & Minor,2026-05-05,True
+MED-00098,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Teva Pharmaceutical,BATCH-2023-86720,145,2027-03-06,Main Refrigerator A,47.37,Medline Industries,2026-05-05,False
+MED-00099,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sanofi S.A.,BATCH-2022-31079,324,2027-09-24,Main Refrigerator B,10.46,Cardinal Health,2026-03-17,False
+MED-00100,Tramadol,Tramadol,Analgesic,50mg,Tablet,AstraZeneca PLC,BATCH-2022-51224,199,2026-11-22,Narcotics Safe B,50.14,McKesson Corporation,2026-05-22,False
+MED-00101,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Pfizer Inc.,BATCH-2025-64165,148,2028-08-31,Aisle 3 - Shelf D,4.1,Owens & Minor,2026-04-28,True
+MED-00102,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Bristol Myers Squibb,BATCH-2024-81987,175,2026-11-29,Aisle 2 - Shelf C,22.95,McKesson Corporation,2026-03-08,True
+MED-00103,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Novartis AG,BATCH-2023-50730,101,2027-03-08,Aisle 2 - Shelf C,33.99,McKesson Corporation,2026-07-07,False
+MED-00104,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2023-75323,54,2026-11-18,Aisle 1 - Shelf B,2.12,Medline Industries,2026-06-25,False
+MED-00105,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Bristol Myers Squibb,BATCH-2025-82255,241,2026-11-11,Aisle 2 - Shelf C,68.45,Medline Industries,2026-04-25,True
+MED-00106,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Roche Holding,BATCH-2025-54548,47,2026-12-05,Main Refrigerator A,6.72,McKesson Corporation,2026-06-22,False
+MED-00107,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,AbbVie Inc.,BATCH-2023-68529,130,2028-06-20,Narcotics Safe B,31.35,Henry Schein,2026-04-16,False
+MED-00108,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Bristol Myers Squibb,BATCH-2023-84946,82,2028-01-27,Aisle 2 - Shelf C,30.49,Cardinal Health,2026-08-22,False
+MED-00109,Montelukast,Montelukast,Respiratory,10mg,Tablet,Sandoz,BATCH-2025-96991,257,2027-05-07,Controlled Vault 1,28.11,Medline Industries,2026-04-29,True
+MED-00110,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Roche Holding,BATCH-2022-67711,54,2026-12-18,Main Refrigerator B,17.58,Henry Schein,2026-07-28,True
+MED-00111,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Teva Pharmaceutical,BATCH-2025-44737,136,2027-02-23,Aisle 1 - Shelf B,13.95,AmerisourceBergen,2026-06-10,False
+MED-00112,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2024-92155,80,2028-06-09,Controlled Vault 1,1.32,Henry Schein,2026-08-24,False
+MED-00113,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Novartis AG,BATCH-2023-21846,82,2027-03-13,Main Refrigerator A,42.26,AmerisourceBergen,2026-03-24,True
+MED-00114,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Novartis AG,BATCH-2024-13794,182,2027-09-29,Aisle 2 - Shelf A,73.98,Medline Industries,2026-06-03,True
+MED-00115,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Sanofi S.A.,BATCH-2026-64008,179,2027-05-26,Aisle 2 - Shelf C,7.34,AmerisourceBergen,2026-07-20,False
+MED-00116,Metformin,Metformin,Antidiabetic,500mg,Tablet,GSK plc,BATCH-2025-86435,163,2026-11-02,Aisle 2 - Shelf C,58.05,Medline Industries,2026-03-23,True
+MED-00117,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Bristol Myers Squibb,BATCH-2025-47700,115,2026-11-01,Aisle 1 - Shelf A,52.93,Cardinal Health,2026-06-06,False
+MED-00118,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,AbbVie Inc.,BATCH-2024-69878,124,2027-06-24,Controlled Vault 1,93.95,Owens & Minor,2026-05-27,True
+MED-00119,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-84963,103,2026-11-17,Aisle 2 - Shelf C,49.66,McKesson Corporation,2026-06-19,False
+MED-00120,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Teva Pharmaceutical,BATCH-2022-84177,205,2027-01-22,Main Refrigerator A,82.0,Medline Industries,2026-03-31,False
+MED-00121,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Bristol Myers Squibb,BATCH-2026-56179,226,2026-10-20,Aisle 2 - Shelf C,79.56,Cardinal Health,2026-03-13,True
+MED-00122,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Sandoz,BATCH-2022-92242,118,2028-02-27,Aisle 2 - Shelf A,0.88,Owens & Minor,2026-08-25,False
+MED-00123,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Johnson & Johnson,BATCH-2022-48680,139,2028-02-01,Aisle 2 - Shelf A,30.32,Owens & Minor,2026-07-20,True
+MED-00124,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Roche Holding,BATCH-2026-75771,108,2027-08-23,Main Refrigerator B,21.33,Henry Schein,2026-05-02,False
+MED-00125,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AbbVie Inc.,BATCH-2022-71385,63,2026-10-18,Main Refrigerator B,49.35,Owens & Minor,2026-03-13,False
+MED-00126,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Teva Pharmaceutical,BATCH-2024-21836,55,2026-08-21,Aisle 3 - Shelf D,55.06,Medline Industries,2026-08-02,False
+MED-00127,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Johnson & Johnson,BATCH-2026-59941,115,2027-03-23,Main Refrigerator A,28.41,Owens & Minor,2026-03-14,False
+MED-00128,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Bristol Myers Squibb,BATCH-2024-89964,68,2026-09-30,Aisle 3 - Shelf D,77.03,McKesson Corporation,2026-05-07,True
+MED-00129,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,AbbVie Inc.,BATCH-2022-28320,71,2026-09-19,Controlled Vault 1,50.67,Owens & Minor,2026-08-04,True
+MED-00130,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Merck & Co.,BATCH-2025-69459,97,2028-06-08,Aisle 2 - Shelf A,4.23,Henry Schein,2026-05-18,True
+MED-00131,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Sandoz,BATCH-2025-95841,133,2026-09-19,Aisle 2 - Shelf A,60.88,Owens & Minor,2026-03-29,True
+MED-00132,Gabapentin,Gabapentin,Neurological,300mg,Capsule,AbbVie Inc.,BATCH-2023-68115,86,2026-10-27,Main Refrigerator B,3.47,McKesson Corporation,2026-08-08,False
+MED-00133,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2022-62184,47,2028-03-12,Main Refrigerator B,103.48,Henry Schein,2026-08-10,False
+MED-00134,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Merck & Co.,BATCH-2022-53713,78,2026-11-09,Aisle 1 - Shelf A,53.04,Owens & Minor,2026-07-12,True
+MED-00135,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,AstraZeneca PLC,BATCH-2023-53064,232,2028-08-04,Aisle 2 - Shelf C,19.82,AmerisourceBergen,2026-09-02,False
+MED-00136,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Roche Holding,BATCH-2024-32871,98,2027-04-16,Aisle 3 - Shelf D,2.53,AmerisourceBergen,2026-08-30,True
+MED-00137,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Merck & Co.,BATCH-2022-32838,116,2026-10-30,Main Refrigerator B,4.88,Henry Schein,2026-04-21,False
+MED-00138,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Sandoz,BATCH-2025-57453,223,2027-03-24,Narcotics Safe B,115.12,McKesson Corporation,2026-05-10,True
+MED-00139,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Merck & Co.,BATCH-2026-49535,175,2027-02-03,Aisle 1 - Shelf A,12.28,Henry Schein,2026-05-03,False
+MED-00140,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2025-68138,95,2026-09-23,Aisle 1 - Shelf B,0.93,Medline Industries,2026-07-27,True
+MED-00141,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Roche Holding,BATCH-2024-59925,149,2028-03-11,Aisle 3 - Shelf D,2.04,Cardinal Health,2026-04-26,False
+MED-00142,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Sanofi S.A.,BATCH-2026-38183,121,2027-07-24,Aisle 1 - Shelf B,3.18,McKesson Corporation,2026-05-20,True
+MED-00143,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Bristol Myers Squibb,BATCH-2022-50966,194,2027-12-21,Controlled Vault 1,122.43,Medline Industries,2026-07-25,False
+MED-00144,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2022-22219,345,2027-12-19,Aisle 1 - Shelf B,21.71,McKesson Corporation,2026-07-31,False
+MED-00145,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Pfizer Inc.,BATCH-2026-53207,145,2028-02-09,Aisle 3 - Shelf D,31.22,Henry Schein,2026-08-20,False
+MED-00146,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,GSK plc,BATCH-2022-85748,109,2027-05-10,Main Refrigerator B,11.87,Cardinal Health,2026-03-18,True
+MED-00147,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Merck & Co.,BATCH-2026-58176,193,2026-10-18,Main Refrigerator B,22.31,McKesson Corporation,2026-05-16,True
+MED-00148,Loratadine,Loratadine,Antihistamine,10mg,Tablet,AstraZeneca PLC,BATCH-2022-89822,199,2027-09-02,Aisle 3 - Shelf D,128.77,Henry Schein,2026-08-26,False
+MED-00149,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,AbbVie Inc.,BATCH-2024-56009,140,2026-08-31,Main Refrigerator A,59.33,Owens & Minor,2026-07-28,True
+MED-00150,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2023-92991,292,2026-09-20,Aisle 1 - Shelf B,6.71,Medline Industries,2026-07-09,False
+MED-00151,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Sanofi S.A.,BATCH-2023-58503,51,2028-07-06,Main Refrigerator B,70.86,Medline Industries,2026-04-03,False
+MED-00152,Metformin,Metformin,Antidiabetic,500mg,Tablet,Pfizer Inc.,BATCH-2026-16522,286,2027-09-07,Aisle 2 - Shelf A,1.44,AmerisourceBergen,2026-05-12,True
+MED-00153,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Sanofi S.A.,BATCH-2025-45804,213,2027-11-21,Narcotics Safe B,6.21,Medline Industries,2026-05-15,True
+MED-00154,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,AbbVie Inc.,BATCH-2026-97442,88,2027-07-16,Narcotics Safe B,17.28,Owens & Minor,2026-05-24,True
+MED-00155,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Pfizer Inc.,BATCH-2024-37686,109,2027-08-21,Aisle 2 - Shelf C,11.68,McKesson Corporation,2026-06-20,True
+MED-00156,Montelukast,Montelukast,Respiratory,10mg,Tablet,Novartis AG,BATCH-2025-33028,219,2026-11-07,Narcotics Safe B,70.51,McKesson Corporation,2026-07-06,True
+MED-00157,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,AstraZeneca PLC,BATCH-2022-62044,117,2026-09-04,Main Refrigerator B,101.87,Owens & Minor,2026-05-08,False
+MED-00158,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Johnson & Johnson,BATCH-2026-63008,119,2027-03-30,Controlled Vault 1,10.45,Henry Schein,2026-05-22,False
+MED-00159,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Johnson & Johnson,BATCH-2024-21551,61,2026-10-31,Narcotics Safe B,33.11,AmerisourceBergen,2026-04-05,False
+MED-00160,Tramadol,Tramadol,Analgesic,50mg,Tablet,AstraZeneca PLC,BATCH-2024-54500,107,2027-02-19,Controlled Vault 1,39.48,McKesson Corporation,2026-04-25,True
+MED-00161,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Novartis AG,BATCH-2023-55793,44,2027-05-03,Aisle 3 - Shelf D,39.47,Henry Schein,2026-07-04,False
+MED-00162,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Roche Holding,BATCH-2023-88957,223,2026-11-21,Aisle 2 - Shelf C,52.29,Cardinal Health,2026-03-19,True
+MED-00163,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Roche Holding,BATCH-2025-83889,213,2028-07-03,Narcotics Safe B,29.31,Owens & Minor,2026-03-22,False
+MED-00164,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,GSK plc,BATCH-2023-67640,121,2027-10-09,Main Refrigerator B,18.58,Cardinal Health,2026-06-24,True
+MED-00165,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Pfizer Inc.,BATCH-2022-50685,164,2027-01-10,Aisle 3 - Shelf D,8.88,Cardinal Health,2026-08-19,True
+MED-00166,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,AbbVie Inc.,BATCH-2026-87867,233,2028-06-22,Aisle 1 - Shelf B,1.01,McKesson Corporation,2026-08-23,False
+MED-00167,Sertraline,Sertraline,Psychiatric,50mg,Tablet,GSK plc,BATCH-2024-89299,201,2026-10-07,Aisle 2 - Shelf C,20.64,Owens & Minor,2026-05-10,False
+MED-00168,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Johnson & Johnson,BATCH-2026-94689,38,2026-10-19,Aisle 1 - Shelf B,15.48,Owens & Minor,2026-05-13,True
+MED-00169,Sertraline,Sertraline,Psychiatric,50mg,Tablet,AstraZeneca PLC,BATCH-2024-58870,247,2027-11-14,Aisle 2 - Shelf A,34.56,Henry Schein,2026-03-13,False
+MED-00170,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Pfizer Inc.,BATCH-2022-53213,121,2026-09-25,Main Refrigerator B,105.02,Owens & Minor,2026-05-27,True
+MED-00171,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,AbbVie Inc.,BATCH-2024-20682,39,2027-04-26,Aisle 2 - Shelf A,137.48,Owens & Minor,2026-06-05,True
+MED-00172,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Teva Pharmaceutical,BATCH-2023-87993,113,2027-02-27,Controlled Vault 1,14.45,Owens & Minor,2026-06-15,True
+MED-00173,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Sanofi S.A.,BATCH-2023-97833,52,2028-05-25,Main Refrigerator B,5.33,Owens & Minor,2026-08-10,False
+MED-00174,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Teva Pharmaceutical,BATCH-2024-12389,166,2026-10-17,Aisle 3 - Shelf D,6.27,Medline Industries,2026-06-07,False
+MED-00175,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Bristol Myers Squibb,BATCH-2023-30308,142,2027-03-16,Aisle 2 - Shelf C,15.34,AmerisourceBergen,2026-04-26,True
+MED-00176,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,AstraZeneca PLC,BATCH-2022-96760,66,2027-04-16,Aisle 3 - Shelf D,22.98,Owens & Minor,2026-04-03,False
+MED-00177,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Roche Holding,BATCH-2026-31697,64,2026-09-15,Aisle 2 - Shelf A,1.96,AmerisourceBergen,2026-03-13,False
+MED-00178,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Merck & Co.,BATCH-2025-40671,153,2028-03-27,Main Refrigerator A,11.93,Medline Industries,2026-07-15,False
+MED-00179,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Teva Pharmaceutical,BATCH-2025-46932,109,2028-02-04,Narcotics Safe B,16.35,Henry Schein,2026-07-23,False
+MED-00180,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Merck & Co.,BATCH-2024-16839,62,2028-06-22,Aisle 2 - Shelf A,41.54,Henry Schein,2026-08-07,False
+MED-00181,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,AstraZeneca PLC,BATCH-2022-31012,77,2027-05-02,Main Refrigerator A,89.28,McKesson Corporation,2026-05-14,False
+MED-00182,Metformin,Metformin,Antidiabetic,500mg,Tablet,Merck & Co.,BATCH-2022-64381,131,2026-09-20,Main Refrigerator B,11.85,Medline Industries,2026-05-30,True
+MED-00183,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Sanofi S.A.,BATCH-2023-13694,162,2026-09-26,Main Refrigerator B,8.72,McKesson Corporation,2026-03-20,False
+MED-00184,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Roche Holding,BATCH-2024-71925,174,2026-11-18,Aisle 1 - Shelf A,23.69,AmerisourceBergen,2026-05-05,False
+MED-00185,Sertraline,Sertraline,Psychiatric,50mg,Tablet,GSK plc,BATCH-2022-43544,45,2026-11-19,Aisle 1 - Shelf B,48.67,McKesson Corporation,2026-03-31,True
+MED-00186,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Sanofi S.A.,BATCH-2023-49472,233,2026-11-13,Main Refrigerator A,10.68,McKesson Corporation,2026-03-27,True
+MED-00187,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Novartis AG,BATCH-2026-80261,158,2027-08-07,Narcotics Safe B,27.08,McKesson Corporation,2026-07-28,True
+MED-00188,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Sanofi S.A.,BATCH-2023-84798,138,2027-02-28,Main Refrigerator B,21.26,McKesson Corporation,2026-04-21,True
+MED-00189,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Novartis AG,BATCH-2026-76535,42,2028-03-28,Aisle 3 - Shelf D,17.08,Henry Schein,2026-08-22,False
+MED-00190,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Sanofi S.A.,BATCH-2022-56805,130,2027-03-19,Main Refrigerator A,14.11,Cardinal Health,2026-04-07,False
+MED-00191,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Johnson & Johnson,BATCH-2024-81567,79,2028-03-22,Aisle 1 - Shelf A,77.92,AmerisourceBergen,2026-03-08,False
+MED-00192,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Teva Pharmaceutical,BATCH-2022-69988,60,2026-11-23,Aisle 2 - Shelf A,40.28,AmerisourceBergen,2026-07-13,True
+MED-00193,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Johnson & Johnson,BATCH-2025-81176,116,2026-09-24,Aisle 3 - Shelf D,27.46,Cardinal Health,2026-07-16,False
+MED-00194,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Johnson & Johnson,BATCH-2024-26315,245,2028-02-23,Main Refrigerator B,48.39,McKesson Corporation,2026-05-23,True
+MED-00195,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Bristol Myers Squibb,BATCH-2023-75038,62,2028-05-17,Main Refrigerator B,16.29,Medline Industries,2026-06-26,False
+MED-00196,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Novartis AG,BATCH-2022-66440,104,2028-06-13,Controlled Vault 1,30.1,Owens & Minor,2026-06-19,False
+MED-00197,Montelukast,Montelukast,Respiratory,10mg,Tablet,Novartis AG,BATCH-2024-50173,48,2028-02-12,Main Refrigerator B,6.31,McKesson Corporation,2026-07-22,True
+MED-00198,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Bristol Myers Squibb,BATCH-2022-56210,157,2027-01-30,Narcotics Safe B,6.63,Cardinal Health,2026-08-14,False
+MED-00199,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Teva Pharmaceutical,BATCH-2026-99051,82,2026-10-01,Main Refrigerator B,79.98,Medline Industries,2026-03-31,True
+MED-00200,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2022-40932,69,2027-12-30,Aisle 2 - Shelf A,26.52,McKesson Corporation,2026-04-10,False
+MED-00201,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,GSK plc,BATCH-2024-58760,135,2026-09-08,Narcotics Safe B,18.25,AmerisourceBergen,2026-04-20,False
+MED-00202,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Sanofi S.A.,BATCH-2023-24869,113,2026-11-06,Main Refrigerator A,70.72,Cardinal Health,2026-05-26,True
+MED-00203,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Novartis AG,BATCH-2025-38124,83,2026-12-01,Main Refrigerator A,39.16,Cardinal Health,2026-04-30,False
+MED-00204,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Novartis AG,BATCH-2025-32630,174,2027-03-02,Aisle 1 - Shelf B,28.98,AmerisourceBergen,2026-03-12,False
+MED-00205,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Johnson & Johnson,BATCH-2022-82089,40,2027-05-13,Main Refrigerator B,7.75,Owens & Minor,2026-03-07,False
+MED-00206,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Roche Holding,BATCH-2023-25907,156,2027-08-02,Aisle 3 - Shelf D,19.9,Cardinal Health,2026-04-29,False
+MED-00207,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Johnson & Johnson,BATCH-2025-82305,41,2027-02-08,Main Refrigerator B,33.51,Henry Schein,2026-06-15,True
+MED-00208,Tramadol,Tramadol,Analgesic,50mg,Tablet,Sandoz,BATCH-2026-63843,119,2027-02-16,Narcotics Safe B,30.97,Owens & Minor,2026-08-01,False
+MED-00209,Montelukast,Montelukast,Respiratory,10mg,Tablet,Teva Pharmaceutical,BATCH-2025-99143,112,2027-04-13,Narcotics Safe B,2.36,McKesson Corporation,2026-04-14,True
+MED-00210,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,GSK plc,BATCH-2025-75911,55,2026-09-07,Aisle 2 - Shelf A,5.55,AmerisourceBergen,2026-04-23,False
+MED-00211,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,AbbVie Inc.,BATCH-2024-39552,196,2028-05-17,Aisle 2 - Shelf A,40.54,AmerisourceBergen,2026-06-22,True
+MED-00212,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2026-45972,83,2028-06-01,Aisle 2 - Shelf C,32.19,Cardinal Health,2026-08-10,True
+MED-00213,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Teva Pharmaceutical,BATCH-2023-96341,22,2027-11-13,Aisle 2 - Shelf A,93.34,AmerisourceBergen,2026-04-11,False
+MED-00214,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Pfizer Inc.,BATCH-2026-44688,72,2028-02-02,Aisle 1 - Shelf A,117.86,McKesson Corporation,2026-03-28,False
+MED-00215,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Pfizer Inc.,BATCH-2024-94136,142,2028-01-22,Aisle 3 - Shelf D,7.5,Medline Industries,2026-06-18,False
+MED-00216,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Novartis AG,BATCH-2023-67619,81,2027-11-16,Aisle 1 - Shelf A,47.8,Owens & Minor,2026-03-31,False
+MED-00217,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Johnson & Johnson,BATCH-2024-62260,212,2026-10-27,Main Refrigerator B,56.01,Owens & Minor,2026-04-24,True
+MED-00218,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Novartis AG,BATCH-2025-26059,134,2026-10-10,Aisle 2 - Shelf C,6.76,Cardinal Health,2026-08-21,False
+MED-00219,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Sanofi S.A.,BATCH-2023-30932,144,2028-07-16,Controlled Vault 1,26.41,Henry Schein,2026-06-14,True
+MED-00220,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Roche Holding,BATCH-2025-75373,91,2027-03-05,Aisle 3 - Shelf D,73.9,Medline Industries,2026-05-25,False
+MED-00221,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Bristol Myers Squibb,BATCH-2026-56254,215,2026-11-11,Aisle 2 - Shelf C,17.06,AmerisourceBergen,2026-03-19,True
+MED-00222,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2022-24089,92,2027-12-12,Aisle 3 - Shelf D,13.05,Cardinal Health,2026-05-22,False
+MED-00223,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Pfizer Inc.,BATCH-2026-83638,117,2027-02-16,Aisle 1 - Shelf A,80.94,Medline Industries,2026-05-27,True
+MED-00224,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Bristol Myers Squibb,BATCH-2026-99181,267,2026-10-10,Main Refrigerator A,27.95,Henry Schein,2026-05-25,False
+MED-00225,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Johnson & Johnson,BATCH-2023-36090,132,2027-01-13,Main Refrigerator B,98.87,Henry Schein,2026-08-22,False
+MED-00226,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Roche Holding,BATCH-2025-78069,175,2028-05-13,Main Refrigerator B,14.77,Owens & Minor,2026-07-29,False
+MED-00227,Montelukast,Montelukast,Respiratory,10mg,Tablet,GSK plc,BATCH-2025-90805,140,2027-10-05,Aisle 2 - Shelf A,27.18,Cardinal Health,2026-04-04,True
+MED-00228,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,AstraZeneca PLC,BATCH-2025-83783,91,2027-12-15,Aisle 3 - Shelf D,54.89,Henry Schein,2026-06-10,False
+MED-00229,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Novartis AG,BATCH-2022-88238,89,2028-07-17,Main Refrigerator A,48.18,Medline Industries,2026-04-08,False
+MED-00230,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Sandoz,BATCH-2023-78712,70,2027-12-27,Narcotics Safe B,30.03,McKesson Corporation,2026-07-27,False
+MED-00231,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Teva Pharmaceutical,BATCH-2026-24404,151,2028-02-04,Aisle 1 - Shelf A,60.76,AmerisourceBergen,2026-07-26,True
+MED-00232,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Sandoz,BATCH-2026-90147,139,2027-02-04,Controlled Vault 1,66.08,AmerisourceBergen,2026-07-29,False
+MED-00233,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Merck & Co.,BATCH-2025-78875,99,2028-03-17,Main Refrigerator B,6.18,Henry Schein,2026-04-19,False
+MED-00234,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,AstraZeneca PLC,BATCH-2026-73462,64,2026-11-08,Main Refrigerator A,45.34,Cardinal Health,2026-06-18,True
+MED-00235,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,AbbVie Inc.,BATCH-2025-51555,184,2027-09-09,Aisle 2 - Shelf C,27.89,Cardinal Health,2026-06-21,False
+MED-00236,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,GSK plc,BATCH-2025-61712,231,2027-05-01,Aisle 3 - Shelf D,15.35,Owens & Minor,2026-06-20,True
+MED-00237,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,AbbVie Inc.,BATCH-2024-67983,37,2027-07-10,Aisle 1 - Shelf B,103.5,Owens & Minor,2026-07-13,False
+MED-00238,Azelastine,Azelastine,Antihistamine,0.1%,Spray,AstraZeneca PLC,BATCH-2024-27992,247,2027-08-05,Aisle 3 - Shelf D,31.39,Cardinal Health,2026-07-02,True
+MED-00239,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Teva Pharmaceutical,BATCH-2023-16880,369,2028-03-30,Aisle 2 - Shelf C,72.48,Henry Schein,2026-08-08,True
+MED-00240,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Roche Holding,BATCH-2023-63334,125,2028-04-03,Aisle 3 - Shelf D,29.65,McKesson Corporation,2026-05-03,False
+MED-00241,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Merck & Co.,BATCH-2024-94659,151,2028-07-12,Main Refrigerator B,6.29,Cardinal Health,2026-07-05,True
+MED-00242,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Sandoz,BATCH-2023-64773,131,2026-12-01,Aisle 1 - Shelf A,33.16,Owens & Minor,2026-08-24,False
+MED-00243,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2024-14910,258,2027-03-22,Aisle 2 - Shelf A,91.43,Medline Industries,2026-06-09,True
+MED-00244,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Bristol Myers Squibb,BATCH-2026-74738,86,2027-04-19,Aisle 3 - Shelf D,4.71,Owens & Minor,2026-04-26,True
+MED-00245,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,AbbVie Inc.,BATCH-2024-31298,120,2027-06-11,Aisle 1 - Shelf B,18.32,AmerisourceBergen,2026-08-30,False
+MED-00246,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Johnson & Johnson,BATCH-2023-90079,205,2028-02-13,Aisle 2 - Shelf C,14.79,Cardinal Health,2026-04-24,False
+MED-00247,Montelukast,Montelukast,Respiratory,10mg,Tablet,Novartis AG,BATCH-2023-28430,63,2027-08-14,Aisle 1 - Shelf B,88.84,Medline Industries,2026-09-01,True
+MED-00248,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Sanofi S.A.,BATCH-2024-53204,40,2026-12-14,Narcotics Safe B,15.41,AmerisourceBergen,2026-06-28,False
+MED-00249,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Johnson & Johnson,BATCH-2022-97528,96,2028-01-22,Aisle 2 - Shelf C,21.58,Owens & Minor,2026-03-11,True
+MED-00250,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Sandoz,BATCH-2024-58174,267,2026-10-12,Aisle 1 - Shelf B,7.29,Cardinal Health,2026-05-03,False
+MED-00251,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Bristol Myers Squibb,BATCH-2025-81989,113,2028-06-05,Main Refrigerator B,30.91,Owens & Minor,2026-03-16,True
+MED-00252,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Merck & Co.,BATCH-2026-68556,63,2028-07-02,Aisle 1 - Shelf B,6.13,AmerisourceBergen,2026-08-05,False
+MED-00253,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,AstraZeneca PLC,BATCH-2026-80341,154,2028-05-18,Aisle 2 - Shelf C,3.62,Henry Schein,2026-05-12,True
+MED-00254,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Teva Pharmaceutical,BATCH-2022-76895,116,2027-01-28,Narcotics Safe B,2.93,AmerisourceBergen,2026-05-09,True
+MED-00255,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,AstraZeneca PLC,BATCH-2026-17567,127,2027-10-14,Narcotics Safe B,8.75,Medline Industries,2026-08-28,True
+MED-00256,Tramadol,Tramadol,Analgesic,50mg,Tablet,AbbVie Inc.,BATCH-2026-19572,109,2027-02-06,Aisle 2 - Shelf C,1.8,McKesson Corporation,2026-04-17,True
+MED-00257,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Novartis AG,BATCH-2024-63591,127,2026-11-14,Aisle 1 - Shelf A,29.62,Medline Industries,2026-03-21,True
+MED-00258,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Johnson & Johnson,BATCH-2025-59236,235,2028-06-07,Narcotics Safe B,18.42,Medline Industries,2026-07-30,True
+MED-00259,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Johnson & Johnson,BATCH-2026-61518,20,2027-07-19,Aisle 2 - Shelf A,6.4,McKesson Corporation,2026-09-02,False
+MED-00260,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Pfizer Inc.,BATCH-2026-65591,136,2027-08-13,Narcotics Safe B,16.86,Cardinal Health,2026-05-08,False
+MED-00261,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Roche Holding,BATCH-2022-14222,100,2026-12-19,Aisle 2 - Shelf C,36.65,Cardinal Health,2026-07-03,False
+MED-00262,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Novartis AG,BATCH-2025-88352,94,2027-08-10,Aisle 1 - Shelf A,44.55,McKesson Corporation,2026-08-22,False
+MED-00263,Tramadol,Tramadol,Analgesic,50mg,Tablet,Bristol Myers Squibb,BATCH-2023-17398,112,2027-07-30,Aisle 3 - Shelf D,1.46,AmerisourceBergen,2026-04-08,True
+MED-00264,Montelukast,Montelukast,Respiratory,10mg,Tablet,GSK plc,BATCH-2023-49552,76,2028-05-19,Main Refrigerator B,1.2,Henry Schein,2026-07-08,True
+MED-00265,Gabapentin,Gabapentin,Neurological,300mg,Capsule,AbbVie Inc.,BATCH-2026-87550,75,2028-02-13,Aisle 1 - Shelf A,56.82,Cardinal Health,2026-04-13,False
+MED-00266,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Pfizer Inc.,BATCH-2026-51777,152,2027-10-06,Controlled Vault 1,4.17,Cardinal Health,2026-05-29,False
+MED-00267,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,AstraZeneca PLC,BATCH-2023-49418,61,2027-04-29,Aisle 2 - Shelf C,45.34,Medline Industries,2026-05-07,True
+MED-00268,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,AstraZeneca PLC,BATCH-2026-79467,132,2026-10-17,Controlled Vault 1,39.1,Medline Industries,2026-06-10,True
+MED-00269,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Novartis AG,BATCH-2022-80206,134,2026-10-21,Main Refrigerator B,12.64,Medline Industries,2026-05-29,False
+MED-00270,Trazodone,Trazodone,Psychiatric,50mg,Tablet,GSK plc,BATCH-2022-34662,40,2028-06-27,Aisle 1 - Shelf A,60.02,Henry Schein,2026-07-09,False
+MED-00271,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Merck & Co.,BATCH-2022-37762,278,2027-04-02,Main Refrigerator A,11.01,Cardinal Health,2026-05-03,False
+MED-00272,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Sandoz,BATCH-2025-41369,227,2027-12-27,Aisle 2 - Shelf C,34.75,Henry Schein,2026-05-06,False
+MED-00273,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Teva Pharmaceutical,BATCH-2024-57139,38,2027-03-13,Main Refrigerator A,28.61,Cardinal Health,2026-05-05,False
+MED-00274,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Johnson & Johnson,BATCH-2024-64254,38,2027-05-01,Main Refrigerator B,50.98,AmerisourceBergen,2026-08-29,True
+MED-00275,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,AstraZeneca PLC,BATCH-2024-29976,84,2026-11-09,Controlled Vault 1,71.5,Henry Schein,2026-07-02,True
+MED-00276,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,AstraZeneca PLC,BATCH-2024-74044,193,2028-04-18,Main Refrigerator B,19.88,Owens & Minor,2026-05-08,False
+MED-00277,Losartan,Losartan,Antihypertensive,50mg,Tablet,Sandoz,BATCH-2023-81636,114,2028-06-10,Aisle 2 - Shelf A,11.45,Cardinal Health,2026-03-22,True
+MED-00278,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,AstraZeneca PLC,BATCH-2022-10836,328,2027-07-27,Aisle 1 - Shelf B,5.75,McKesson Corporation,2026-08-16,False
+MED-00279,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Roche Holding,BATCH-2026-69770,166,2028-08-25,Aisle 2 - Shelf C,146.12,McKesson Corporation,2026-05-02,False
+MED-00280,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Bristol Myers Squibb,BATCH-2026-82305,52,2026-08-27,Aisle 1 - Shelf A,1.15,McKesson Corporation,2026-06-24,False
+MED-00281,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,AbbVie Inc.,BATCH-2025-33496,123,2026-09-08,Aisle 3 - Shelf D,4.88,McKesson Corporation,2026-07-03,True
+MED-00282,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,GSK plc,BATCH-2024-45038,41,2026-09-16,Main Refrigerator A,37.39,Henry Schein,2026-05-08,False
+MED-00283,Furosemide,Furosemide,Diuretic,20mg,Tablet,Merck & Co.,BATCH-2024-99658,156,2026-10-01,Aisle 2 - Shelf C,8.59,Owens & Minor,2026-03-20,False
+MED-00284,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Pfizer Inc.,BATCH-2025-59436,261,2026-09-04,Controlled Vault 1,7.25,McKesson Corporation,2026-03-07,False
+MED-00285,Losartan,Losartan,Antihypertensive,50mg,Tablet,Novartis AG,BATCH-2024-84167,255,2027-03-10,Controlled Vault 1,19.49,Medline Industries,2026-04-20,True
+MED-00286,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Merck & Co.,BATCH-2024-16102,143,2027-09-16,Narcotics Safe B,6.87,AmerisourceBergen,2026-04-16,False
+MED-00287,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2024-12052,24,2028-01-14,Aisle 2 - Shelf A,3.52,McKesson Corporation,2026-08-14,False
+MED-00288,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Roche Holding,BATCH-2026-61007,47,2028-06-08,Aisle 2 - Shelf C,12.42,Henry Schein,2026-06-10,True
+MED-00289,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Sandoz,BATCH-2026-55332,159,2027-02-18,Aisle 1 - Shelf B,44.93,AmerisourceBergen,2026-06-07,True
+MED-00290,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,GSK plc,BATCH-2024-13883,158,2028-03-08,Controlled Vault 1,38.64,Henry Schein,2026-04-30,True
+MED-00291,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Johnson & Johnson,BATCH-2025-34345,38,2027-02-28,Controlled Vault 1,46.66,Henry Schein,2026-03-28,False
+MED-00292,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Merck & Co.,BATCH-2022-45123,161,2026-11-18,Aisle 1 - Shelf B,24.51,Owens & Minor,2026-03-24,True
+MED-00293,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sandoz,BATCH-2024-23965,45,2026-09-13,Main Refrigerator B,14.74,Medline Industries,2026-05-12,True
+MED-00294,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,AbbVie Inc.,BATCH-2022-34561,95,2028-05-10,Aisle 2 - Shelf A,46.09,McKesson Corporation,2026-05-21,False
+MED-00295,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Pfizer Inc.,BATCH-2026-22198,133,2027-10-31,Main Refrigerator B,41.31,McKesson Corporation,2026-05-27,True
+MED-00296,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,AbbVie Inc.,BATCH-2022-83339,43,2028-07-10,Controlled Vault 1,56.73,Medline Industries,2026-04-22,False
+MED-00297,Losartan,Losartan,Antihypertensive,50mg,Tablet,Teva Pharmaceutical,BATCH-2023-45247,92,2028-04-20,Aisle 2 - Shelf A,11.62,Medline Industries,2026-07-27,True
+MED-00298,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Roche Holding,BATCH-2025-49289,37,2026-09-12,Main Refrigerator A,87.74,Medline Industries,2026-07-01,False
+MED-00299,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Teva Pharmaceutical,BATCH-2025-24021,210,2026-08-16,Aisle 2 - Shelf C,105.52,Medline Industries,2026-06-09,True
+MED-00300,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,GSK plc,BATCH-2025-53874,51,2028-08-02,Main Refrigerator B,72.71,Medline Industries,2026-07-30,False
+MED-00301,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Johnson & Johnson,BATCH-2025-51180,102,2026-10-29,Aisle 2 - Shelf C,58.0,Henry Schein,2026-06-13,True
+MED-00302,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Sandoz,BATCH-2026-41775,224,2027-09-16,Narcotics Safe B,10.55,Owens & Minor,2026-05-25,True
+MED-00303,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Novartis AG,BATCH-2026-81516,202,2026-12-30,Aisle 2 - Shelf C,9.25,Henry Schein,2026-05-07,True
+MED-00304,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Merck & Co.,BATCH-2022-63627,179,2026-10-23,Main Refrigerator A,42.34,Medline Industries,2026-07-03,False
+MED-00305,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Teva Pharmaceutical,BATCH-2025-19694,125,2028-07-21,Controlled Vault 1,90.88,AmerisourceBergen,2026-05-23,False
+MED-00306,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,AstraZeneca PLC,BATCH-2026-14818,208,2028-06-04,Controlled Vault 1,13.95,Owens & Minor,2026-04-03,False
+MED-00307,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Novartis AG,BATCH-2024-31802,111,2026-09-24,Aisle 2 - Shelf C,1.82,McKesson Corporation,2026-03-13,False
+MED-00308,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Sanofi S.A.,BATCH-2022-11382,48,2026-11-20,Controlled Vault 1,3.3,Cardinal Health,2026-04-23,True
+MED-00309,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,GSK plc,BATCH-2025-59036,152,2028-07-27,Aisle 2 - Shelf C,15.04,Owens & Minor,2026-03-10,False
+MED-00310,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Roche Holding,BATCH-2025-23703,100,2027-02-28,Aisle 1 - Shelf A,27.64,Cardinal Health,2026-08-04,False
+MED-00311,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Sandoz,BATCH-2024-54966,125,2026-11-03,Main Refrigerator B,13.93,AmerisourceBergen,2026-06-05,False
+MED-00312,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Novartis AG,BATCH-2024-18804,183,2027-03-30,Narcotics Safe B,9.78,Medline Industries,2026-08-28,False
+MED-00313,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Johnson & Johnson,BATCH-2023-41970,136,2027-11-06,Aisle 1 - Shelf B,71.93,Owens & Minor,2026-04-12,False
+MED-00314,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Bristol Myers Squibb,BATCH-2023-34430,170,2027-01-01,Controlled Vault 1,216.88,AmerisourceBergen,2026-03-29,False
+MED-00315,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Bristol Myers Squibb,BATCH-2025-10583,119,2026-11-21,Controlled Vault 1,51.51,Henry Schein,2026-08-17,False
+MED-00316,Furosemide,Furosemide,Diuretic,20mg,Tablet,Novartis AG,BATCH-2024-52727,86,2026-11-15,Aisle 2 - Shelf A,72.91,Henry Schein,2026-04-30,True
+MED-00317,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Teva Pharmaceutical,BATCH-2026-61451,90,2028-03-15,Controlled Vault 1,47.32,Cardinal Health,2026-03-28,False
+MED-00318,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Teva Pharmaceutical,BATCH-2026-87354,242,2026-09-08,Main Refrigerator A,4.6,Owens & Minor,2026-06-14,True
+MED-00319,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Merck & Co.,BATCH-2023-58929,50,2028-05-09,Aisle 1 - Shelf B,9.81,Cardinal Health,2026-05-26,True
+MED-00320,Gabapentin,Gabapentin,Neurological,300mg,Capsule,GSK plc,BATCH-2025-34347,67,2027-05-29,Controlled Vault 1,1.13,AmerisourceBergen,2026-04-13,False
+MED-00321,Losartan,Losartan,Antihypertensive,50mg,Tablet,Bristol Myers Squibb,BATCH-2023-51232,114,2028-08-28,Aisle 2 - Shelf A,40.34,Cardinal Health,2026-08-20,True
+MED-00322,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Pfizer Inc.,BATCH-2023-60324,132,2028-04-22,Aisle 2 - Shelf A,105.32,Medline Industries,2026-05-21,False
+MED-00323,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2025-31922,194,2026-09-28,Narcotics Safe B,22.55,Medline Industries,2026-07-08,True
+MED-00324,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Pfizer Inc.,BATCH-2026-47836,103,2026-11-02,Aisle 2 - Shelf C,6.9,Cardinal Health,2026-04-11,True
+MED-00325,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Bristol Myers Squibb,BATCH-2022-85066,127,2027-12-13,Aisle 3 - Shelf D,25.66,Henry Schein,2026-04-17,True
+MED-00326,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Pfizer Inc.,BATCH-2026-38644,152,2026-11-26,Narcotics Safe B,7.3,Owens & Minor,2026-03-19,False
+MED-00327,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Merck & Co.,BATCH-2025-44447,80,2028-02-25,Aisle 1 - Shelf A,15.58,Cardinal Health,2026-08-03,False
+MED-00328,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Merck & Co.,BATCH-2026-92938,84,2027-07-02,Main Refrigerator B,122.2,AmerisourceBergen,2026-07-12,False
+MED-00329,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Pfizer Inc.,BATCH-2026-46842,238,2026-11-18,Main Refrigerator B,6.35,Henry Schein,2026-06-20,False
+MED-00330,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,GSK plc,BATCH-2022-27771,83,2028-01-28,Aisle 3 - Shelf D,9.4,Cardinal Health,2026-08-18,True
+MED-00331,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Teva Pharmaceutical,BATCH-2023-29168,130,2028-01-09,Aisle 2 - Shelf A,30.87,AmerisourceBergen,2026-04-30,False
+MED-00332,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,GSK plc,BATCH-2025-59174,45,2027-03-08,Main Refrigerator A,73.98,Owens & Minor,2026-05-22,True
+MED-00333,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Sandoz,BATCH-2025-73968,81,2026-08-28,Main Refrigerator B,109.55,Cardinal Health,2026-08-10,False
+MED-00334,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Bristol Myers Squibb,BATCH-2022-80048,93,2027-07-07,Main Refrigerator B,58.54,Owens & Minor,2026-04-29,False
+MED-00335,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Johnson & Johnson,BATCH-2026-85750,165,2027-11-19,Main Refrigerator B,18.88,Cardinal Health,2026-03-12,True
+MED-00336,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Pfizer Inc.,BATCH-2025-12134,309,2028-02-27,Aisle 1 - Shelf B,11.03,McKesson Corporation,2026-05-09,True
+MED-00337,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Sanofi S.A.,BATCH-2024-30837,114,2027-03-08,Aisle 2 - Shelf A,9.2,AmerisourceBergen,2026-03-19,False
+MED-00338,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,AbbVie Inc.,BATCH-2023-16787,282,2027-07-30,Main Refrigerator B,3.27,McKesson Corporation,2026-05-16,False
+MED-00339,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Novartis AG,BATCH-2022-37973,115,2026-10-18,Aisle 1 - Shelf B,31.91,Owens & Minor,2026-04-23,False
+MED-00340,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2024-25806,214,2027-04-17,Aisle 1 - Shelf A,15.46,McKesson Corporation,2026-05-03,False
+MED-00341,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Merck & Co.,BATCH-2022-23526,167,2027-04-22,Aisle 1 - Shelf B,74.31,Medline Industries,2026-05-28,False
+MED-00342,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Roche Holding,BATCH-2022-79534,288,2027-05-20,Aisle 2 - Shelf A,38.1,Owens & Minor,2026-05-13,False
+MED-00343,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sandoz,BATCH-2025-90750,179,2027-03-01,Aisle 2 - Shelf A,40.4,AmerisourceBergen,2026-08-08,False
+MED-00344,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Novartis AG,BATCH-2024-66280,153,2027-04-25,Controlled Vault 1,49.4,Henry Schein,2026-07-01,True
+MED-00345,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Teva Pharmaceutical,BATCH-2026-88774,106,2026-12-30,Aisle 2 - Shelf C,48.12,McKesson Corporation,2026-03-18,False
+MED-00346,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Merck & Co.,BATCH-2023-61347,126,2026-10-07,Aisle 3 - Shelf D,60.12,Henry Schein,2026-07-03,True
+MED-00347,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Sanofi S.A.,BATCH-2025-93634,118,2026-12-15,Aisle 2 - Shelf C,12.34,McKesson Corporation,2026-06-02,False
+MED-00348,Montelukast,Montelukast,Respiratory,10mg,Tablet,Roche Holding,BATCH-2024-81612,223,2028-03-29,Controlled Vault 1,139.56,Medline Industries,2026-08-15,True
+MED-00349,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,GSK plc,BATCH-2024-38277,50,2026-09-29,Aisle 1 - Shelf A,27.68,McKesson Corporation,2026-05-24,True
+MED-00350,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,AbbVie Inc.,BATCH-2025-65518,173,2026-09-21,Aisle 3 - Shelf D,4.46,Owens & Minor,2026-04-18,False
+MED-00351,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Roche Holding,BATCH-2024-20357,133,2027-06-29,Aisle 1 - Shelf B,15.14,Cardinal Health,2026-07-25,True
+MED-00352,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Johnson & Johnson,BATCH-2024-67342,256,2027-01-31,Aisle 1 - Shelf B,94.6,Medline Industries,2026-07-02,False
+MED-00353,Metformin,Metformin,Antidiabetic,500mg,Tablet,Sanofi S.A.,BATCH-2026-89800,90,2026-09-25,Narcotics Safe B,43.61,McKesson Corporation,2026-03-18,True
+MED-00354,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Roche Holding,BATCH-2023-11487,129,2028-05-21,Aisle 1 - Shelf A,31.04,McKesson Corporation,2026-04-23,True
+MED-00355,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Sandoz,BATCH-2024-26637,215,2027-04-02,Aisle 2 - Shelf A,72.32,Cardinal Health,2026-08-26,False
+MED-00356,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Sanofi S.A.,BATCH-2022-44465,44,2027-02-19,Aisle 3 - Shelf D,121.94,Cardinal Health,2026-04-28,False
+MED-00357,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,AstraZeneca PLC,BATCH-2025-84302,84,2026-11-22,Aisle 1 - Shelf A,1.37,Cardinal Health,2026-08-07,True
+MED-00358,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2023-76692,143,2026-12-15,Aisle 1 - Shelf B,14.18,Owens & Minor,2026-07-02,True
+MED-00359,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Bristol Myers Squibb,BATCH-2023-33456,255,2028-06-21,Controlled Vault 1,21.16,Cardinal Health,2026-03-19,False
+MED-00360,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Merck & Co.,BATCH-2025-51934,112,2026-09-15,Aisle 2 - Shelf C,205.3,Cardinal Health,2026-08-03,False
+MED-00361,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Teva Pharmaceutical,BATCH-2023-77603,47,2027-02-11,Aisle 2 - Shelf A,55.93,McKesson Corporation,2026-05-06,False
+MED-00362,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,AbbVie Inc.,BATCH-2026-69866,27,2026-08-10,Aisle 1 - Shelf B,9.23,Cardinal Health,2026-06-20,True
+MED-00363,Furosemide,Furosemide,Diuretic,20mg,Tablet,AbbVie Inc.,BATCH-2025-58270,133,2027-06-21,Aisle 2 - Shelf C,11.67,Owens & Minor,2026-04-16,False
+MED-00364,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Merck & Co.,BATCH-2025-13133,83,2026-12-12,Aisle 1 - Shelf A,6.23,AmerisourceBergen,2026-06-09,True
+MED-00365,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Teva Pharmaceutical,BATCH-2022-36895,165,2026-11-04,Main Refrigerator A,36.11,Medline Industries,2026-08-18,False
+MED-00366,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sandoz,BATCH-2022-40339,110,2028-05-18,Aisle 1 - Shelf B,11.72,Cardinal Health,2026-05-20,True
+MED-00367,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Johnson & Johnson,BATCH-2026-22527,113,2028-01-10,Aisle 1 - Shelf B,9.65,Medline Industries,2026-08-14,False
+MED-00368,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,GSK plc,BATCH-2023-41034,133,2026-11-27,Controlled Vault 1,1.61,McKesson Corporation,2026-06-14,True
+MED-00369,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Sanofi S.A.,BATCH-2024-69343,54,2026-09-10,Main Refrigerator B,22.93,Owens & Minor,2026-07-30,False
+MED-00370,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,GSK plc,BATCH-2022-31544,241,2027-04-05,Aisle 2 - Shelf A,7.68,McKesson Corporation,2026-04-18,False
+MED-00371,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Merck & Co.,BATCH-2025-44735,140,2026-09-29,Main Refrigerator A,65.7,Medline Industries,2026-03-11,False
+MED-00372,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Sandoz,BATCH-2023-52964,149,2026-11-18,Aisle 1 - Shelf A,34.94,Owens & Minor,2026-07-01,True
+MED-00373,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sanofi S.A.,BATCH-2024-44100,130,2026-10-29,Aisle 1 - Shelf A,23.49,Henry Schein,2026-05-10,False
+MED-00374,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Sandoz,BATCH-2022-70560,170,2027-04-06,Aisle 2 - Shelf C,5.18,Henry Schein,2026-08-30,True
+MED-00375,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Merck & Co.,BATCH-2025-58790,78,2027-02-27,Aisle 2 - Shelf C,24.18,AmerisourceBergen,2026-04-06,False
+MED-00376,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,AbbVie Inc.,BATCH-2022-35919,282,2028-03-01,Aisle 1 - Shelf A,31.03,McKesson Corporation,2026-08-01,True
+MED-00377,Metformin,Metformin,Antidiabetic,500mg,Tablet,Johnson & Johnson,BATCH-2025-16637,181,2026-11-09,Aisle 1 - Shelf A,21.76,McKesson Corporation,2026-05-15,True
+MED-00378,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Sandoz,BATCH-2022-60165,79,2026-10-17,Narcotics Safe B,3.13,Medline Industries,2026-07-17,False
+MED-00379,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,AbbVie Inc.,BATCH-2022-90492,89,2026-10-22,Aisle 2 - Shelf A,12.57,Medline Industries,2026-04-28,False
+MED-00380,Gabapentin,Gabapentin,Neurological,300mg,Capsule,AstraZeneca PLC,BATCH-2022-46670,23,2028-05-24,Aisle 1 - Shelf A,69.34,Medline Industries,2026-07-01,False
+MED-00381,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AstraZeneca PLC,BATCH-2024-72873,65,2028-07-04,Controlled Vault 1,151.6,McKesson Corporation,2026-04-27,False
+MED-00382,Montelukast,Montelukast,Respiratory,10mg,Tablet,Sanofi S.A.,BATCH-2022-51795,113,2027-01-02,Aisle 2 - Shelf A,24.68,Cardinal Health,2026-06-23,True
+MED-00383,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Bristol Myers Squibb,BATCH-2026-40508,248,2026-11-15,Main Refrigerator B,0.84,Henry Schein,2026-07-03,False
+MED-00384,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,AstraZeneca PLC,BATCH-2023-85457,184,2027-12-01,Aisle 1 - Shelf A,26.02,Owens & Minor,2026-07-20,False
+MED-00385,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Merck & Co.,BATCH-2024-87537,101,2026-09-26,Main Refrigerator B,3.36,Henry Schein,2026-06-04,True
+MED-00386,Furosemide,Furosemide,Diuretic,20mg,Tablet,GSK plc,BATCH-2025-81057,78,2027-03-05,Aisle 2 - Shelf C,5.48,AmerisourceBergen,2026-08-19,False
+MED-00387,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,GSK plc,BATCH-2026-72650,282,2027-06-27,Aisle 1 - Shelf A,8.32,AmerisourceBergen,2026-07-31,True
+MED-00388,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Sandoz,BATCH-2022-12872,164,2027-04-27,Main Refrigerator B,4.37,AmerisourceBergen,2026-08-05,True
+MED-00389,Loratadine,Loratadine,Antihistamine,10mg,Tablet,AstraZeneca PLC,BATCH-2024-96787,236,2026-10-23,Aisle 1 - Shelf B,96.83,Cardinal Health,2026-06-12,False
+MED-00390,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Roche Holding,BATCH-2025-95089,189,2028-06-30,Controlled Vault 1,27.78,Owens & Minor,2026-03-09,True
+MED-00391,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Johnson & Johnson,BATCH-2025-50215,169,2027-09-30,Aisle 2 - Shelf A,57.13,AmerisourceBergen,2026-08-01,True
+MED-00392,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Sandoz,BATCH-2026-14244,144,2026-10-24,Controlled Vault 1,59.53,McKesson Corporation,2026-03-30,True
+MED-00393,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Teva Pharmaceutical,BATCH-2025-28434,227,2026-09-15,Aisle 1 - Shelf B,36.61,Henry Schein,2026-06-13,False
+MED-00394,Losartan,Losartan,Antihypertensive,50mg,Tablet,Teva Pharmaceutical,BATCH-2025-11493,130,2026-10-19,Main Refrigerator B,46.53,McKesson Corporation,2026-03-09,True
+MED-00395,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Johnson & Johnson,BATCH-2022-16310,79,2027-05-22,Aisle 1 - Shelf B,9.16,Cardinal Health,2026-05-20,False
+MED-00396,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Sanofi S.A.,BATCH-2025-23294,88,2028-07-16,Aisle 3 - Shelf D,14.88,Cardinal Health,2026-03-20,False
+MED-00397,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Teva Pharmaceutical,BATCH-2025-19661,154,2026-09-04,Aisle 2 - Shelf A,24.63,AmerisourceBergen,2026-06-13,False
+MED-00398,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Novartis AG,BATCH-2023-59212,83,2026-10-02,Main Refrigerator B,44.95,McKesson Corporation,2026-08-10,True
+MED-00399,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,GSK plc,BATCH-2022-66534,119,2026-11-29,Narcotics Safe B,40.41,Henry Schein,2026-05-14,False
+MED-00400,Losartan,Losartan,Antihypertensive,50mg,Tablet,Pfizer Inc.,BATCH-2023-34901,124,2028-06-22,Main Refrigerator B,1.59,McKesson Corporation,2026-04-17,True
+MED-00401,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Teva Pharmaceutical,BATCH-2023-22571,100,2028-04-18,Main Refrigerator A,45.96,Cardinal Health,2026-07-25,True
+MED-00402,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Johnson & Johnson,BATCH-2022-48607,40,2028-04-07,Controlled Vault 1,19.9,McKesson Corporation,2026-07-13,False
+MED-00403,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Pfizer Inc.,BATCH-2024-20739,54,2027-03-31,Aisle 2 - Shelf A,1.93,AmerisourceBergen,2026-06-16,True
+MED-00404,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Sanofi S.A.,BATCH-2024-21945,46,2027-12-17,Narcotics Safe B,30.75,Medline Industries,2026-05-28,False
+MED-00405,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Roche Holding,BATCH-2024-67637,268,2026-10-21,Aisle 1 - Shelf A,72.84,Medline Industries,2026-04-11,False
+MED-00406,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Roche Holding,BATCH-2022-97574,89,2028-07-28,Aisle 1 - Shelf B,19.67,Owens & Minor,2026-07-06,False
+MED-00407,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Pfizer Inc.,BATCH-2025-80190,165,2028-07-11,Aisle 3 - Shelf D,8.78,Medline Industries,2026-07-04,False
+MED-00408,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,AbbVie Inc.,BATCH-2022-75811,43,2028-07-10,Controlled Vault 1,35.45,McKesson Corporation,2026-03-13,False
+MED-00409,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Roche Holding,BATCH-2023-31910,80,2027-06-18,Narcotics Safe B,84.4,McKesson Corporation,2026-08-01,True
+MED-00410,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Sanofi S.A.,BATCH-2023-92211,144,2027-10-26,Controlled Vault 1,9.99,McKesson Corporation,2026-08-16,True
+MED-00411,Metformin,Metformin,Antidiabetic,500mg,Tablet,Sanofi S.A.,BATCH-2026-52746,115,2028-05-18,Controlled Vault 1,72.11,Henry Schein,2026-05-08,True
+MED-00412,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Sandoz,BATCH-2025-24748,213,2026-11-10,Aisle 3 - Shelf D,25.81,Henry Schein,2026-04-06,False
+MED-00413,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Novartis AG,BATCH-2024-80206,210,2027-08-30,Aisle 1 - Shelf B,17.86,McKesson Corporation,2026-05-27,False
+MED-00414,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Bristol Myers Squibb,BATCH-2022-32570,178,2026-11-11,Narcotics Safe B,52.47,Henry Schein,2026-03-12,False
+MED-00415,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Sanofi S.A.,BATCH-2024-41139,54,2027-09-04,Controlled Vault 1,123.02,McKesson Corporation,2026-05-30,True
+MED-00416,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Johnson & Johnson,BATCH-2024-74437,43,2027-07-24,Main Refrigerator A,7.01,Cardinal Health,2026-07-30,False
+MED-00417,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Sandoz,BATCH-2024-64627,99,2027-03-04,Main Refrigerator B,14.88,Medline Industries,2026-07-16,True
+MED-00418,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Merck & Co.,BATCH-2026-59009,100,2027-05-14,Narcotics Safe B,34.1,Medline Industries,2026-08-17,False
+MED-00419,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Sandoz,BATCH-2023-78719,219,2027-01-01,Controlled Vault 1,6.9,Henry Schein,2026-07-20,True
+MED-00420,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Merck & Co.,BATCH-2022-69827,182,2027-06-24,Aisle 2 - Shelf C,65.56,McKesson Corporation,2026-06-24,True
+MED-00421,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Bristol Myers Squibb,BATCH-2022-99282,218,2028-08-02,Controlled Vault 1,31.31,Henry Schein,2026-05-11,True
+MED-00422,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Bristol Myers Squibb,BATCH-2024-55121,98,2026-11-30,Aisle 3 - Shelf D,11.5,Henry Schein,2026-06-28,True
+MED-00423,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Sandoz,BATCH-2022-60667,143,2027-07-10,Main Refrigerator A,27.01,McKesson Corporation,2026-07-08,True
+MED-00424,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Merck & Co.,BATCH-2024-95404,108,2026-09-28,Aisle 2 - Shelf C,13.8,Owens & Minor,2026-03-12,False
+MED-00425,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Bristol Myers Squibb,BATCH-2026-11109,62,2027-10-11,Aisle 2 - Shelf A,1.99,AmerisourceBergen,2026-03-22,True
+MED-00426,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Sanofi S.A.,BATCH-2025-43029,126,2028-05-19,Main Refrigerator B,21.73,Medline Industries,2026-03-27,True
+MED-00427,Tramadol,Tramadol,Analgesic,50mg,Tablet,GSK plc,BATCH-2026-96816,149,2028-06-29,Aisle 1 - Shelf A,23.99,McKesson Corporation,2026-03-21,False
+MED-00428,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,GSK plc,BATCH-2022-73142,69,2026-09-12,Main Refrigerator A,13.38,Cardinal Health,2026-03-23,True
+MED-00429,Montelukast,Montelukast,Respiratory,10mg,Tablet,AbbVie Inc.,BATCH-2023-29651,145,2027-08-06,Main Refrigerator A,8.39,Cardinal Health,2026-08-19,True
+MED-00430,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,GSK plc,BATCH-2023-13336,135,2027-08-25,Main Refrigerator B,71.41,Medline Industries,2026-05-18,False
+MED-00431,Tramadol,Tramadol,Analgesic,50mg,Tablet,Sanofi S.A.,BATCH-2026-84978,79,2027-07-18,Aisle 1 - Shelf A,41.79,Owens & Minor,2026-03-11,False
+MED-00432,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Teva Pharmaceutical,BATCH-2026-49347,114,2028-06-26,Main Refrigerator B,71.61,Medline Industries,2026-07-18,False
+MED-00433,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Novartis AG,BATCH-2024-83273,308,2027-06-08,Aisle 2 - Shelf A,1.58,Medline Industries,2026-03-12,True
+MED-00434,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Teva Pharmaceutical,BATCH-2024-39272,130,2027-11-07,Aisle 2 - Shelf C,9.0,McKesson Corporation,2026-05-30,False
+MED-00435,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,GSK plc,BATCH-2022-71674,148,2028-07-19,Narcotics Safe B,18.02,Cardinal Health,2026-03-28,True
+MED-00436,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Bristol Myers Squibb,BATCH-2022-99220,73,2026-10-07,Aisle 3 - Shelf D,260.96,AmerisourceBergen,2026-07-26,False
+MED-00437,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Merck & Co.,BATCH-2026-69974,137,2026-11-28,Controlled Vault 1,132.8,Cardinal Health,2026-07-18,True
+MED-00438,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Novartis AG,BATCH-2023-51079,196,2026-08-12,Main Refrigerator B,29.8,Medline Industries,2026-07-11,False
+MED-00439,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Roche Holding,BATCH-2025-21539,101,2028-02-15,Aisle 2 - Shelf A,74.28,Henry Schein,2026-05-22,True
+MED-00440,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Bristol Myers Squibb,BATCH-2022-79963,40,2026-12-17,Aisle 1 - Shelf A,58.23,Medline Industries,2026-06-12,True
+MED-00441,Allopurinol,Allopurinol,Antigout,100mg,Tablet,AstraZeneca PLC,BATCH-2022-92141,66,2026-11-29,Aisle 1 - Shelf A,56.45,AmerisourceBergen,2026-06-06,False
+MED-00442,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Roche Holding,BATCH-2026-87158,225,2027-02-07,Controlled Vault 1,28.02,McKesson Corporation,2026-08-22,True
+MED-00443,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,AbbVie Inc.,BATCH-2026-78697,100,2027-04-19,Aisle 3 - Shelf D,14.24,Medline Industries,2026-06-07,True
+MED-00444,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Johnson & Johnson,BATCH-2025-12506,53,2027-04-16,Aisle 2 - Shelf A,17.72,AmerisourceBergen,2026-07-10,True
+MED-00445,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Pfizer Inc.,BATCH-2023-26143,41,2027-01-10,Aisle 3 - Shelf D,9.99,Henry Schein,2026-05-29,False
+MED-00446,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AbbVie Inc.,BATCH-2026-16286,52,2026-12-23,Aisle 1 - Shelf A,32.87,Henry Schein,2026-08-21,False
+MED-00447,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Novartis AG,BATCH-2025-26199,82,2027-05-08,Narcotics Safe B,34.32,Medline Industries,2026-07-12,False
+MED-00448,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Teva Pharmaceutical,BATCH-2024-65164,26,2027-09-05,Aisle 1 - Shelf A,26.12,Owens & Minor,2026-03-27,False
+MED-00449,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Sandoz,BATCH-2022-77054,77,2027-04-02,Controlled Vault 1,1.41,AmerisourceBergen,2026-06-22,True
+MED-00450,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Novartis AG,BATCH-2026-36181,57,2028-05-21,Aisle 2 - Shelf C,30.88,Medline Industries,2026-07-13,True
+MED-00451,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sandoz,BATCH-2023-15164,44,2028-04-08,Main Refrigerator A,33.27,Medline Industries,2026-06-10,False
+MED-00452,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Pfizer Inc.,BATCH-2022-85255,167,2026-10-09,Aisle 1 - Shelf B,109.45,McKesson Corporation,2026-04-25,False
+MED-00453,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Sandoz,BATCH-2024-94454,158,2027-10-02,Aisle 1 - Shelf B,8.13,Owens & Minor,2026-06-27,True
+MED-00454,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Pfizer Inc.,BATCH-2022-48085,100,2028-02-12,Aisle 2 - Shelf A,2.68,McKesson Corporation,2026-08-04,False
+MED-00455,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Pfizer Inc.,BATCH-2023-53078,144,2028-02-24,Aisle 2 - Shelf A,15.66,McKesson Corporation,2026-03-27,True
+MED-00456,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Sandoz,BATCH-2024-33969,114,2028-03-14,Main Refrigerator B,12.24,McKesson Corporation,2026-06-25,True
+MED-00457,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2025-95045,65,2026-10-12,Narcotics Safe B,57.36,Owens & Minor,2026-03-08,False
+MED-00458,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Pfizer Inc.,BATCH-2025-87430,34,2028-02-24,Aisle 1 - Shelf B,44.58,AmerisourceBergen,2026-07-18,False
+MED-00459,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Sanofi S.A.,BATCH-2023-73318,144,2027-03-28,Aisle 1 - Shelf A,19.18,Cardinal Health,2026-05-20,True
+MED-00460,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Pfizer Inc.,BATCH-2024-11620,108,2028-07-15,Main Refrigerator A,7.51,McKesson Corporation,2026-04-11,False
+MED-00461,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Teva Pharmaceutical,BATCH-2026-91033,106,2027-08-14,Aisle 3 - Shelf D,43.71,Cardinal Health,2026-05-02,True
+MED-00462,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Teva Pharmaceutical,BATCH-2023-83183,127,2026-12-14,Controlled Vault 1,115.82,Owens & Minor,2026-03-22,False
+MED-00463,Losartan,Losartan,Antihypertensive,50mg,Tablet,AstraZeneca PLC,BATCH-2023-19812,66,2027-10-27,Narcotics Safe B,57.9,Medline Industries,2026-07-03,True
+MED-00464,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,AbbVie Inc.,BATCH-2023-82154,83,2027-07-31,Aisle 3 - Shelf D,106.35,McKesson Corporation,2026-08-13,False
+MED-00465,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Bristol Myers Squibb,BATCH-2022-75333,120,2026-11-04,Narcotics Safe B,60.36,Henry Schein,2026-03-19,False
+MED-00466,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Novartis AG,BATCH-2022-83024,99,2028-08-12,Controlled Vault 1,33.54,Medline Industries,2026-03-28,False
+MED-00467,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AbbVie Inc.,BATCH-2023-95799,145,2027-12-10,Aisle 3 - Shelf D,64.61,Henry Schein,2026-08-20,False
+MED-00468,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Merck & Co.,BATCH-2026-91232,99,2027-12-10,Main Refrigerator B,53.58,Medline Industries,2026-05-10,False
+MED-00469,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Novartis AG,BATCH-2022-54742,173,2027-09-27,Aisle 2 - Shelf C,61.03,Owens & Minor,2026-04-15,True
+MED-00470,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Johnson & Johnson,BATCH-2022-31516,285,2028-01-26,Aisle 1 - Shelf B,34.72,Owens & Minor,2026-08-06,False
+MED-00471,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,GSK plc,BATCH-2022-61497,71,2027-06-16,Aisle 2 - Shelf C,31.42,AmerisourceBergen,2026-06-08,True
+MED-00472,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Sanofi S.A.,BATCH-2025-69950,154,2028-05-02,Aisle 1 - Shelf B,9.05,McKesson Corporation,2026-07-30,True
+MED-00473,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Pfizer Inc.,BATCH-2026-66729,75,2028-05-06,Aisle 1 - Shelf A,1.34,Henry Schein,2026-07-19,False
+MED-00474,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,GSK plc,BATCH-2022-60778,218,2027-10-28,Aisle 2 - Shelf A,9.74,AmerisourceBergen,2026-04-26,False
+MED-00475,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Sanofi S.A.,BATCH-2024-62149,261,2028-03-10,Aisle 2 - Shelf C,32.09,Henry Schein,2026-07-30,False
+MED-00476,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Sanofi S.A.,BATCH-2024-81802,138,2028-06-21,Aisle 3 - Shelf D,42.08,Henry Schein,2026-03-25,True
+MED-00477,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Merck & Co.,BATCH-2024-98129,116,2027-06-03,Main Refrigerator A,20.06,AmerisourceBergen,2026-04-27,True
+MED-00478,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Sandoz,BATCH-2022-56168,193,2028-02-03,Main Refrigerator B,5.31,Owens & Minor,2026-03-14,False
+MED-00479,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,AstraZeneca PLC,BATCH-2022-78515,206,2027-01-26,Controlled Vault 1,45.6,Cardinal Health,2026-03-15,True
+MED-00480,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Merck & Co.,BATCH-2024-99573,41,2027-10-01,Aisle 2 - Shelf A,3.63,Cardinal Health,2026-07-12,False
+MED-00481,Allopurinol,Allopurinol,Antigout,100mg,Tablet,AstraZeneca PLC,BATCH-2025-23432,157,2028-06-30,Main Refrigerator B,7.96,McKesson Corporation,2026-07-07,False
+MED-00482,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Teva Pharmaceutical,BATCH-2023-76967,59,2027-09-23,Controlled Vault 1,3.02,Henry Schein,2026-03-09,False
+MED-00483,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Pfizer Inc.,BATCH-2025-99803,76,2026-12-16,Controlled Vault 1,2.95,Medline Industries,2026-06-30,False
+MED-00484,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,GSK plc,BATCH-2024-87120,80,2027-06-19,Aisle 2 - Shelf C,74.73,Medline Industries,2026-06-19,False
+MED-00485,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Roche Holding,BATCH-2023-32779,169,2026-10-06,Aisle 1 - Shelf B,27.15,Owens & Minor,2026-05-16,False
+MED-00486,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,AstraZeneca PLC,BATCH-2023-86544,56,2026-08-18,Aisle 2 - Shelf A,180.38,Cardinal Health,2026-07-25,False
+MED-00487,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Roche Holding,BATCH-2026-96755,54,2028-06-18,Aisle 1 - Shelf A,29.06,Cardinal Health,2026-06-03,False
+MED-00488,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Sandoz,BATCH-2023-34100,100,2027-05-15,Aisle 3 - Shelf D,29.42,Cardinal Health,2026-05-19,False
+MED-00489,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,AstraZeneca PLC,BATCH-2024-38992,273,2027-11-07,Aisle 1 - Shelf B,7.25,Medline Industries,2026-06-02,False
+MED-00490,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Merck & Co.,BATCH-2025-83575,64,2026-12-12,Aisle 3 - Shelf D,4.06,Henry Schein,2026-08-04,True
+MED-00491,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Johnson & Johnson,BATCH-2026-91412,163,2026-10-02,Aisle 2 - Shelf C,49.89,Medline Industries,2026-06-12,True
+MED-00492,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Novartis AG,BATCH-2026-47070,227,2027-12-21,Main Refrigerator A,92.19,Medline Industries,2026-04-24,True
+MED-00493,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AstraZeneca PLC,BATCH-2022-48854,55,2026-11-05,Narcotics Safe B,18.34,Medline Industries,2026-08-12,False
+MED-00494,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Roche Holding,BATCH-2022-92173,121,2026-09-25,Aisle 3 - Shelf D,26.26,Henry Schein,2026-03-25,True
+MED-00495,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Merck & Co.,BATCH-2022-36945,176,2028-02-21,Controlled Vault 1,3.77,Owens & Minor,2026-03-21,False
+MED-00496,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Novartis AG,BATCH-2022-70191,85,2026-09-06,Aisle 2 - Shelf A,53.82,Owens & Minor,2026-08-20,False
+MED-00497,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,AbbVie Inc.,BATCH-2026-39837,142,2028-01-24,Aisle 1 - Shelf B,1.79,Henry Schein,2026-05-26,True
+MED-00498,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Teva Pharmaceutical,BATCH-2024-12213,60,2026-10-04,Controlled Vault 1,3.71,Medline Industries,2026-03-22,False
+MED-00499,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,GSK plc,BATCH-2022-56884,68,2026-11-23,Aisle 1 - Shelf A,28.74,McKesson Corporation,2026-03-11,False
+MED-00500,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,GSK plc,BATCH-2025-59992,70,2027-01-03,Main Refrigerator A,32.62,McKesson Corporation,2026-05-04,True
+MED-00501,Losartan,Losartan,Antihypertensive,50mg,Tablet,AstraZeneca PLC,BATCH-2025-81529,42,2026-11-13,Aisle 2 - Shelf A,88.64,AmerisourceBergen,2026-07-28,True
+MED-00502,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Teva Pharmaceutical,BATCH-2022-82551,133,2027-04-26,Main Refrigerator B,8.68,Owens & Minor,2026-08-02,True
+MED-00503,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Pfizer Inc.,BATCH-2026-81765,116,2027-11-20,Controlled Vault 1,4.83,Henry Schein,2026-07-10,False
+MED-00504,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Teva Pharmaceutical,BATCH-2023-34116,90,2027-06-19,Aisle 2 - Shelf A,71.39,Henry Schein,2026-08-04,True
+MED-00505,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Teva Pharmaceutical,BATCH-2026-70458,212,2027-02-15,Aisle 1 - Shelf A,55.13,Henry Schein,2026-06-20,True
+MED-00506,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Novartis AG,BATCH-2023-86099,86,2027-04-13,Aisle 1 - Shelf B,7.17,Cardinal Health,2026-03-15,False
+MED-00507,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Merck & Co.,BATCH-2026-19149,101,2028-03-08,Main Refrigerator A,15.37,McKesson Corporation,2026-06-10,False
+MED-00508,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Teva Pharmaceutical,BATCH-2026-84299,120,2027-10-22,Aisle 2 - Shelf A,5.48,Cardinal Health,2026-05-16,True
+MED-00509,Losartan,Losartan,Antihypertensive,50mg,Tablet,Pfizer Inc.,BATCH-2023-93995,128,2027-12-06,Aisle 2 - Shelf C,90.13,Cardinal Health,2026-07-30,True
+MED-00510,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Sandoz,BATCH-2025-68373,372,2028-06-19,Narcotics Safe B,7.23,Cardinal Health,2026-08-06,False
+MED-00511,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Teva Pharmaceutical,BATCH-2024-28350,98,2027-06-22,Aisle 1 - Shelf B,18.3,Henry Schein,2026-06-27,True
+MED-00512,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Teva Pharmaceutical,BATCH-2022-76476,94,2028-07-17,Aisle 1 - Shelf B,1.42,McKesson Corporation,2026-05-22,False
+MED-00513,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,GSK plc,BATCH-2026-44159,64,2028-03-30,Aisle 1 - Shelf A,116.0,AmerisourceBergen,2026-03-19,False
+MED-00514,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Roche Holding,BATCH-2023-87280,153,2026-11-02,Controlled Vault 1,13.58,Cardinal Health,2026-04-27,False
+MED-00515,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Novartis AG,BATCH-2026-11388,120,2028-08-22,Main Refrigerator B,20.76,Medline Industries,2026-03-11,False
+MED-00516,Losartan,Losartan,Antihypertensive,50mg,Tablet,AstraZeneca PLC,BATCH-2023-33480,136,2028-07-04,Narcotics Safe B,34.33,AmerisourceBergen,2026-03-18,True
+MED-00517,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sandoz,BATCH-2024-15297,72,2026-11-04,Narcotics Safe B,6.27,Owens & Minor,2026-07-05,True
+MED-00518,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,AbbVie Inc.,BATCH-2022-97632,77,2027-12-07,Aisle 2 - Shelf C,2.58,Cardinal Health,2026-05-26,True
+MED-00519,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Bristol Myers Squibb,BATCH-2024-23529,112,2027-09-09,Aisle 1 - Shelf A,144.54,McKesson Corporation,2026-06-27,False
+MED-00520,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,AstraZeneca PLC,BATCH-2025-95678,83,2028-07-26,Aisle 2 - Shelf A,13.15,Henry Schein,2026-03-19,True
+MED-00521,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2025-39215,92,2027-11-21,Main Refrigerator A,41.74,Henry Schein,2026-05-01,False
+MED-00522,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Bristol Myers Squibb,BATCH-2026-28214,117,2026-11-05,Aisle 1 - Shelf A,59.36,Henry Schein,2026-03-22,False
+MED-00523,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Merck & Co.,BATCH-2023-57477,75,2027-07-26,Aisle 2 - Shelf A,13.3,AmerisourceBergen,2026-05-19,False
+MED-00524,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Johnson & Johnson,BATCH-2025-98503,152,2026-10-14,Aisle 1 - Shelf B,5.4,Owens & Minor,2026-03-21,False
+MED-00525,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2022-26762,346,2026-11-13,Aisle 2 - Shelf C,21.41,McKesson Corporation,2026-04-24,False
+MED-00526,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,GSK plc,BATCH-2023-43850,86,2028-01-22,Aisle 1 - Shelf A,62.02,AmerisourceBergen,2026-04-02,False
+MED-00527,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2022-38389,57,2028-04-09,Main Refrigerator A,51.83,McKesson Corporation,2026-07-21,False
+MED-00528,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Sanofi S.A.,BATCH-2026-33839,114,2027-05-23,Aisle 2 - Shelf A,1.18,Henry Schein,2026-03-11,False
+MED-00529,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Bristol Myers Squibb,BATCH-2023-59572,105,2026-10-16,Aisle 1 - Shelf B,50.49,Henry Schein,2026-04-22,False
+MED-00530,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Teva Pharmaceutical,BATCH-2026-22622,123,2028-08-08,Aisle 2 - Shelf A,0.93,Medline Industries,2026-08-24,True
+MED-00531,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,AstraZeneca PLC,BATCH-2022-73208,59,2028-06-07,Aisle 1 - Shelf B,130.86,Henry Schein,2026-09-02,False
+MED-00532,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Teva Pharmaceutical,BATCH-2026-65139,64,2026-09-20,Controlled Vault 1,21.7,Owens & Minor,2026-05-16,False
+MED-00533,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Bristol Myers Squibb,BATCH-2026-85513,114,2026-11-03,Main Refrigerator B,4.11,Medline Industries,2026-07-05,True
+MED-00534,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2025-43791,56,2026-12-10,Aisle 3 - Shelf D,47.29,Cardinal Health,2026-04-08,True
+MED-00535,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Novartis AG,BATCH-2025-95792,114,2028-01-25,Aisle 1 - Shelf A,17.0,Henry Schein,2026-06-02,True
+MED-00536,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Roche Holding,BATCH-2024-80268,69,2027-12-12,Main Refrigerator A,78.42,Medline Industries,2026-03-30,True
+MED-00537,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Teva Pharmaceutical,BATCH-2025-82365,78,2027-12-17,Aisle 2 - Shelf C,20.64,Medline Industries,2026-04-12,False
+MED-00538,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Bristol Myers Squibb,BATCH-2026-55135,200,2027-04-23,Main Refrigerator A,64.83,Cardinal Health,2026-03-18,False
+MED-00539,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Sandoz,BATCH-2023-23143,328,2026-10-29,Narcotics Safe B,79.42,AmerisourceBergen,2026-06-08,True
+MED-00540,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AstraZeneca PLC,BATCH-2023-61000,81,2026-08-06,Aisle 1 - Shelf A,33.81,Henry Schein,2026-07-27,False
+MED-00541,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,GSK plc,BATCH-2022-44483,118,2026-09-05,Aisle 1 - Shelf B,47.3,Medline Industries,2026-05-27,True
+MED-00542,Tramadol,Tramadol,Analgesic,50mg,Tablet,GSK plc,BATCH-2024-88311,74,2027-05-31,Aisle 3 - Shelf D,40.41,Owens & Minor,2026-03-23,True
+MED-00543,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Bristol Myers Squibb,BATCH-2026-47487,94,2028-05-08,Aisle 2 - Shelf C,0.93,McKesson Corporation,2026-04-23,True
+MED-00544,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Merck & Co.,BATCH-2022-57151,129,2026-08-09,Aisle 2 - Shelf A,47.31,Henry Schein,2026-08-11,True
+MED-00545,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Sanofi S.A.,BATCH-2025-86818,50,2026-08-26,Controlled Vault 1,52.65,Cardinal Health,2026-08-16,True
+MED-00546,Metformin,Metformin,Antidiabetic,500mg,Tablet,AstraZeneca PLC,BATCH-2026-55625,64,2027-09-12,Aisle 3 - Shelf D,7.67,Cardinal Health,2026-07-07,True
+MED-00547,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Merck & Co.,BATCH-2026-10609,214,2026-10-30,Controlled Vault 1,1.24,Medline Industries,2026-04-26,True
+MED-00548,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,AstraZeneca PLC,BATCH-2024-54560,170,2028-05-11,Aisle 3 - Shelf D,120.82,McKesson Corporation,2026-06-29,True
+MED-00549,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,GSK plc,BATCH-2025-83815,195,2026-10-25,Narcotics Safe B,17.34,Cardinal Health,2026-05-08,False
+MED-00550,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2025-25239,74,2027-07-16,Aisle 1 - Shelf A,5.03,Henry Schein,2026-03-13,False
+MED-00551,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Merck & Co.,BATCH-2024-77699,229,2027-08-29,Controlled Vault 1,26.95,Cardinal Health,2026-07-01,False
+MED-00552,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Novartis AG,BATCH-2022-82686,157,2028-04-03,Main Refrigerator B,121.51,Medline Industries,2026-06-14,True
+MED-00553,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Merck & Co.,BATCH-2023-99536,79,2026-11-20,Main Refrigerator A,32.74,Henry Schein,2026-07-13,False
+MED-00554,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Sandoz,BATCH-2023-40042,189,2026-11-12,Main Refrigerator A,48.75,AmerisourceBergen,2026-06-03,True
+MED-00555,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Novartis AG,BATCH-2025-90455,155,2026-08-31,Aisle 1 - Shelf B,14.95,McKesson Corporation,2026-04-17,True
+MED-00556,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Bristol Myers Squibb,BATCH-2025-85303,203,2028-05-09,Main Refrigerator B,9.4,Cardinal Health,2026-06-23,False
+MED-00557,Tramadol,Tramadol,Analgesic,50mg,Tablet,Merck & Co.,BATCH-2022-78909,61,2028-06-08,Aisle 2 - Shelf A,33.72,Henry Schein,2026-08-25,False
+MED-00558,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Johnson & Johnson,BATCH-2025-25776,88,2026-12-11,Aisle 2 - Shelf A,76.79,Medline Industries,2026-08-30,False
+MED-00559,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Merck & Co.,BATCH-2024-57395,96,2026-11-08,Aisle 1 - Shelf B,12.29,Medline Industries,2026-06-27,False
+MED-00560,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,AbbVie Inc.,BATCH-2024-34105,137,2026-11-17,Main Refrigerator B,88.43,Medline Industries,2026-05-30,False
+MED-00561,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Sanofi S.A.,BATCH-2023-84895,134,2027-07-25,Narcotics Safe B,49.73,Cardinal Health,2026-08-08,True
+MED-00562,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,AbbVie Inc.,BATCH-2025-59923,217,2027-05-05,Aisle 3 - Shelf D,52.93,AmerisourceBergen,2026-05-04,True
+MED-00563,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Pfizer Inc.,BATCH-2025-27625,107,2028-05-15,Controlled Vault 1,7.34,AmerisourceBergen,2026-04-19,False
+MED-00564,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Johnson & Johnson,BATCH-2024-83680,139,2026-09-07,Main Refrigerator A,2.04,Medline Industries,2026-03-10,False
+MED-00565,Losartan,Losartan,Antihypertensive,50mg,Tablet,Pfizer Inc.,BATCH-2025-92557,118,2026-09-27,Main Refrigerator A,5.44,AmerisourceBergen,2026-06-09,True
+MED-00566,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Johnson & Johnson,BATCH-2026-43779,179,2027-11-27,Aisle 3 - Shelf D,25.17,Cardinal Health,2026-03-13,False
+MED-00567,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Merck & Co.,BATCH-2023-47304,159,2028-05-08,Aisle 3 - Shelf D,46.69,Henry Schein,2026-05-01,True
+MED-00568,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Sandoz,BATCH-2025-90434,348,2027-04-30,Aisle 1 - Shelf B,12.86,Medline Industries,2026-07-22,False
+MED-00569,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Johnson & Johnson,BATCH-2022-20369,203,2026-10-24,Controlled Vault 1,41.37,Medline Industries,2026-03-19,True
+MED-00570,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Sandoz,BATCH-2024-68313,139,2027-12-09,Controlled Vault 1,6.61,Cardinal Health,2026-04-05,True
+MED-00571,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Bristol Myers Squibb,BATCH-2023-13027,186,2026-10-20,Aisle 2 - Shelf A,0.83,Medline Industries,2026-03-07,True
+MED-00572,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Novartis AG,BATCH-2025-23501,180,2028-03-31,Aisle 2 - Shelf A,4.16,AmerisourceBergen,2026-04-15,True
+MED-00573,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Pfizer Inc.,BATCH-2022-23622,66,2026-11-14,Aisle 3 - Shelf D,56.84,Medline Industries,2026-05-26,False
+MED-00574,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Merck & Co.,BATCH-2025-92114,134,2026-11-06,Main Refrigerator A,34.0,AmerisourceBergen,2026-07-21,True
+MED-00575,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Pfizer Inc.,BATCH-2024-72410,48,2027-09-07,Main Refrigerator B,15.87,Owens & Minor,2026-04-15,False
+MED-00576,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Roche Holding,BATCH-2023-87441,135,2028-07-02,Aisle 3 - Shelf D,50.59,Owens & Minor,2026-05-14,False
+MED-00577,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Teva Pharmaceutical,BATCH-2024-55504,242,2026-10-09,Aisle 3 - Shelf D,48.43,Owens & Minor,2026-05-12,False
+MED-00578,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Johnson & Johnson,BATCH-2023-49789,47,2026-08-20,Main Refrigerator A,13.26,Medline Industries,2026-07-30,True
+MED-00579,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,AbbVie Inc.,BATCH-2022-74478,59,2026-12-12,Aisle 3 - Shelf D,196.81,Medline Industries,2026-05-15,False
+MED-00580,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AbbVie Inc.,BATCH-2022-81855,71,2028-06-29,Aisle 2 - Shelf C,76.56,Henry Schein,2026-05-14,False
+MED-00581,Tramadol,Tramadol,Analgesic,50mg,Tablet,Merck & Co.,BATCH-2025-38913,30,2027-08-05,Controlled Vault 1,17.89,AmerisourceBergen,2026-04-23,False
+MED-00582,Allopurinol,Allopurinol,Antigout,100mg,Tablet,GSK plc,BATCH-2024-94994,268,2028-01-29,Main Refrigerator A,34.33,Owens & Minor,2026-07-16,False
+MED-00583,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2024-24464,74,2027-09-07,Aisle 2 - Shelf A,55.83,AmerisourceBergen,2026-03-07,False
+MED-00584,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Bristol Myers Squibb,BATCH-2022-29942,128,2026-09-21,Main Refrigerator B,36.48,AmerisourceBergen,2026-08-28,True
+MED-00585,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Novartis AG,BATCH-2023-67464,70,2027-07-29,Main Refrigerator A,30.86,Cardinal Health,2026-08-10,True
+MED-00586,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Pfizer Inc.,BATCH-2024-65082,290,2028-04-26,Aisle 2 - Shelf C,40.0,Medline Industries,2026-05-30,True
+MED-00587,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Sandoz,BATCH-2022-29148,293,2027-02-14,Main Refrigerator B,11.51,McKesson Corporation,2026-04-16,True
+MED-00588,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Roche Holding,BATCH-2025-11653,116,2027-08-14,Main Refrigerator A,2.61,AmerisourceBergen,2026-05-27,True
+MED-00589,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Bristol Myers Squibb,BATCH-2023-70402,227,2026-09-25,Aisle 1 - Shelf A,54.28,AmerisourceBergen,2026-07-11,False
+MED-00590,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Sanofi S.A.,BATCH-2024-30789,191,2026-10-03,Main Refrigerator A,20.81,Owens & Minor,2026-04-15,False
+MED-00591,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Novartis AG,BATCH-2024-36047,167,2026-09-25,Narcotics Safe B,14.42,Cardinal Health,2026-07-09,False
+MED-00592,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Merck & Co.,BATCH-2024-11974,70,2026-10-21,Controlled Vault 1,32.42,Owens & Minor,2026-04-06,True
+MED-00593,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Sanofi S.A.,BATCH-2022-86162,108,2028-04-02,Aisle 1 - Shelf A,224.69,AmerisourceBergen,2026-03-10,True
+MED-00594,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Roche Holding,BATCH-2023-30669,129,2028-08-27,Aisle 1 - Shelf B,35.89,Cardinal Health,2026-06-08,True
+MED-00595,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Teva Pharmaceutical,BATCH-2024-94485,158,2027-03-22,Aisle 1 - Shelf A,4.91,McKesson Corporation,2026-08-01,True
+MED-00596,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Merck & Co.,BATCH-2024-67503,210,2026-09-16,Aisle 3 - Shelf D,30.19,Cardinal Health,2026-06-03,False
+MED-00597,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Roche Holding,BATCH-2025-67344,98,2028-04-17,Aisle 1 - Shelf A,7.64,Cardinal Health,2026-07-16,False
+MED-00598,Furosemide,Furosemide,Diuretic,20mg,Tablet,Roche Holding,BATCH-2024-71393,48,2028-06-22,Main Refrigerator B,1.36,Henry Schein,2026-07-23,False
+MED-00599,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,AstraZeneca PLC,BATCH-2024-44517,56,2028-05-04,Narcotics Safe B,11.66,AmerisourceBergen,2026-05-28,False
+MED-00600,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Roche Holding,BATCH-2026-41298,128,2026-09-21,Main Refrigerator B,20.15,McKesson Corporation,2026-05-26,False
+MED-00601,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,AstraZeneca PLC,BATCH-2026-30202,153,2027-10-28,Narcotics Safe B,23.59,Owens & Minor,2026-08-05,False
+MED-00602,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,AstraZeneca PLC,BATCH-2022-27009,85,2026-10-06,Aisle 1 - Shelf B,3.44,Owens & Minor,2026-07-13,True
+MED-00603,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Bristol Myers Squibb,BATCH-2022-84843,114,2028-01-04,Aisle 1 - Shelf B,46.26,AmerisourceBergen,2026-03-18,True
+MED-00604,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,AstraZeneca PLC,BATCH-2022-58018,279,2026-12-16,Main Refrigerator A,6.56,Henry Schein,2026-07-11,True
+MED-00605,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Bristol Myers Squibb,BATCH-2022-57307,63,2028-02-01,Narcotics Safe B,37.95,McKesson Corporation,2026-05-31,False
+MED-00606,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Sandoz,BATCH-2026-15328,137,2027-02-20,Main Refrigerator A,3.0,McKesson Corporation,2026-07-09,False
+MED-00607,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Novartis AG,BATCH-2026-60506,110,2027-08-14,Aisle 2 - Shelf C,10.43,McKesson Corporation,2026-04-10,True
+MED-00608,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Roche Holding,BATCH-2025-23829,103,2028-03-16,Aisle 3 - Shelf D,10.55,Henry Schein,2026-03-07,False
+MED-00609,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Sanofi S.A.,BATCH-2023-82085,188,2027-05-13,Aisle 2 - Shelf A,52.98,McKesson Corporation,2026-04-19,False
+MED-00610,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Bristol Myers Squibb,BATCH-2026-52553,72,2028-01-29,Main Refrigerator B,23.9,Cardinal Health,2026-03-24,True
+MED-00611,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Sandoz,BATCH-2026-81516,23,2027-08-20,Aisle 2 - Shelf C,81.03,Cardinal Health,2026-06-02,True
+MED-00612,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2022-47287,185,2027-10-08,Aisle 1 - Shelf A,38.65,Medline Industries,2026-09-01,False
+MED-00613,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Merck & Co.,BATCH-2022-46170,121,2028-05-09,Main Refrigerator B,2.38,AmerisourceBergen,2026-04-13,True
+MED-00614,Furosemide,Furosemide,Diuretic,20mg,Tablet,GSK plc,BATCH-2022-70341,154,2026-10-27,Aisle 1 - Shelf B,11.05,AmerisourceBergen,2026-04-06,False
+MED-00615,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Merck & Co.,BATCH-2022-84774,177,2027-02-20,Main Refrigerator A,29.66,Cardinal Health,2026-06-11,False
+MED-00616,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Bristol Myers Squibb,BATCH-2026-22499,53,2028-07-15,Narcotics Safe B,125.65,AmerisourceBergen,2026-05-28,False
+MED-00617,Metformin,Metformin,Antidiabetic,500mg,Tablet,Pfizer Inc.,BATCH-2025-64594,42,2027-04-05,Main Refrigerator B,6.24,Cardinal Health,2026-07-06,True
+MED-00618,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Teva Pharmaceutical,BATCH-2025-17094,212,2026-09-21,Aisle 1 - Shelf A,10.61,Henry Schein,2026-04-11,False
+MED-00619,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Johnson & Johnson,BATCH-2023-16621,130,2028-01-09,Aisle 2 - Shelf C,4.77,Henry Schein,2026-05-11,True
+MED-00620,Allopurinol,Allopurinol,Antigout,100mg,Tablet,GSK plc,BATCH-2022-39109,210,2027-05-03,Aisle 3 - Shelf D,45.41,Henry Schein,2026-07-31,False
+MED-00621,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Novartis AG,BATCH-2026-62322,128,2028-02-20,Aisle 1 - Shelf A,3.48,Medline Industries,2026-03-08,False
+MED-00622,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Roche Holding,BATCH-2023-73944,94,2028-07-10,Aisle 3 - Shelf D,23.7,Medline Industries,2026-07-14,True
+MED-00623,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,GSK plc,BATCH-2023-41760,147,2027-10-30,Aisle 3 - Shelf D,19.07,Owens & Minor,2026-03-11,True
+MED-00624,Furosemide,Furosemide,Diuretic,20mg,Tablet,Novartis AG,BATCH-2025-57876,187,2028-08-02,Controlled Vault 1,28.09,McKesson Corporation,2026-03-19,False
+MED-00625,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,AbbVie Inc.,BATCH-2026-67961,118,2027-07-30,Main Refrigerator B,22.02,AmerisourceBergen,2026-07-13,False
+MED-00626,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2022-17148,75,2027-05-03,Aisle 1 - Shelf B,54.51,AmerisourceBergen,2026-06-21,True
+MED-00627,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Johnson & Johnson,BATCH-2024-68990,79,2028-06-05,Aisle 1 - Shelf B,14.53,Owens & Minor,2026-07-10,False
+MED-00628,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,AstraZeneca PLC,BATCH-2026-73311,72,2026-12-21,Main Refrigerator A,26.14,Henry Schein,2026-05-29,False
+MED-00629,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Teva Pharmaceutical,BATCH-2024-32324,139,2026-09-10,Aisle 1 - Shelf A,72.06,Henry Schein,2026-03-08,True
+MED-00630,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,AbbVie Inc.,BATCH-2022-18729,101,2027-09-06,Narcotics Safe B,21.5,McKesson Corporation,2026-03-17,True
+MED-00631,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2022-48337,185,2027-07-27,Aisle 1 - Shelf B,24.61,Cardinal Health,2026-05-28,False
+MED-00632,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Sandoz,BATCH-2025-88263,111,2026-11-05,Main Refrigerator B,37.93,McKesson Corporation,2026-05-08,False
+MED-00633,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Sandoz,BATCH-2023-79391,91,2027-05-12,Aisle 1 - Shelf A,117.31,McKesson Corporation,2026-08-29,False
+MED-00634,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Teva Pharmaceutical,BATCH-2024-40959,210,2027-09-11,Main Refrigerator B,26.43,Cardinal Health,2026-08-18,False
+MED-00635,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AbbVie Inc.,BATCH-2026-46725,188,2028-01-09,Aisle 1 - Shelf A,35.74,Medline Industries,2026-03-18,True
+MED-00636,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Novartis AG,BATCH-2026-98866,78,2027-07-23,Controlled Vault 1,18.14,Owens & Minor,2026-05-19,True
+MED-00637,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,GSK plc,BATCH-2024-89346,121,2027-07-02,Controlled Vault 1,42.16,AmerisourceBergen,2026-03-19,False
+MED-00638,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,GSK plc,BATCH-2023-50501,182,2028-05-22,Aisle 2 - Shelf C,13.83,Henry Schein,2026-07-30,True
+MED-00639,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Roche Holding,BATCH-2024-18888,96,2027-04-03,Aisle 2 - Shelf A,79.05,Owens & Minor,2026-07-17,False
+MED-00640,Montelukast,Montelukast,Respiratory,10mg,Tablet,Roche Holding,BATCH-2024-64269,92,2027-10-09,Aisle 1 - Shelf A,6.27,Owens & Minor,2026-05-12,True
+MED-00641,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Teva Pharmaceutical,BATCH-2023-34632,316,2026-11-21,Main Refrigerator A,75.42,Owens & Minor,2026-03-30,True
+MED-00642,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,AbbVie Inc.,BATCH-2026-40432,61,2026-10-05,Aisle 2 - Shelf C,25.13,Henry Schein,2026-06-03,True
+MED-00643,Metformin,Metformin,Antidiabetic,500mg,Tablet,Sandoz,BATCH-2026-89260,111,2027-12-20,Aisle 2 - Shelf A,39.08,Medline Industries,2026-07-17,True
+MED-00644,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2023-31467,149,2026-09-28,Narcotics Safe B,6.85,Medline Industries,2026-08-30,True
+MED-00645,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Sanofi S.A.,BATCH-2023-18668,104,2028-02-25,Aisle 2 - Shelf C,0.94,AmerisourceBergen,2026-03-29,True
+MED-00646,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Sandoz,BATCH-2023-66040,194,2026-09-27,Narcotics Safe B,26.73,Cardinal Health,2026-05-28,False
+MED-00647,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Johnson & Johnson,BATCH-2026-94068,159,2028-05-19,Aisle 3 - Shelf D,46.52,Medline Industries,2026-08-06,False
+MED-00648,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2026-80499,139,2028-06-26,Aisle 2 - Shelf C,68.86,McKesson Corporation,2026-05-26,False
+MED-00649,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Teva Pharmaceutical,BATCH-2024-67613,128,2027-09-21,Aisle 2 - Shelf C,13.71,McKesson Corporation,2026-05-07,False
+MED-00650,Losartan,Losartan,Antihypertensive,50mg,Tablet,Sanofi S.A.,BATCH-2026-28643,227,2028-03-09,Aisle 1 - Shelf A,60.84,Cardinal Health,2026-08-10,True
+MED-00651,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,AstraZeneca PLC,BATCH-2026-81618,29,2028-03-08,Aisle 2 - Shelf A,62.16,McKesson Corporation,2026-08-27,True
+MED-00652,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Bristol Myers Squibb,BATCH-2025-21820,81,2026-11-17,Aisle 2 - Shelf C,7.18,Henry Schein,2026-03-20,True
+MED-00653,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Roche Holding,BATCH-2022-24963,181,2027-02-28,Aisle 1 - Shelf B,10.1,Owens & Minor,2026-04-21,False
+MED-00654,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Sanofi S.A.,BATCH-2026-30958,156,2027-05-26,Aisle 3 - Shelf D,15.47,Owens & Minor,2026-06-09,False
+MED-00655,Furosemide,Furosemide,Diuretic,20mg,Tablet,Teva Pharmaceutical,BATCH-2023-33444,260,2026-09-13,Aisle 2 - Shelf A,34.45,AmerisourceBergen,2026-06-15,False
+MED-00656,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Bristol Myers Squibb,BATCH-2022-27245,96,2026-08-28,Aisle 2 - Shelf A,64.96,Cardinal Health,2026-06-30,False
+MED-00657,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Bristol Myers Squibb,BATCH-2026-10753,145,2027-07-13,Narcotics Safe B,5.22,Medline Industries,2026-04-05,False
+MED-00658,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-20407,115,2026-09-01,Controlled Vault 1,14.26,Medline Industries,2026-04-15,False
+MED-00659,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,GSK plc,BATCH-2023-16411,89,2026-09-15,Aisle 3 - Shelf D,68.26,Owens & Minor,2026-08-24,True
+MED-00660,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Pfizer Inc.,BATCH-2024-21495,130,2026-09-17,Main Refrigerator A,64.0,Owens & Minor,2026-07-19,True
+MED-00661,Losartan,Losartan,Antihypertensive,50mg,Tablet,Teva Pharmaceutical,BATCH-2023-69682,184,2027-12-06,Aisle 3 - Shelf D,25.66,Cardinal Health,2026-08-24,True
+MED-00662,Metformin,Metformin,Antidiabetic,500mg,Tablet,AbbVie Inc.,BATCH-2025-18869,50,2028-06-18,Main Refrigerator B,8.87,Cardinal Health,2026-08-17,True
+MED-00663,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Bristol Myers Squibb,BATCH-2024-53150,153,2028-05-23,Aisle 1 - Shelf B,51.34,AmerisourceBergen,2026-07-11,True
+MED-00664,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Merck & Co.,BATCH-2022-84890,128,2027-03-02,Aisle 1 - Shelf A,38.78,Henry Schein,2026-05-02,False
+MED-00665,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Sandoz,BATCH-2025-89802,145,2026-11-09,Main Refrigerator A,29.27,Henry Schein,2026-03-27,False
+MED-00666,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Roche Holding,BATCH-2026-92818,101,2028-08-18,Narcotics Safe B,21.24,Henry Schein,2026-07-05,False
+MED-00667,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,AbbVie Inc.,BATCH-2022-13143,206,2027-07-03,Aisle 1 - Shelf A,17.25,AmerisourceBergen,2026-03-29,False
+MED-00668,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Sanofi S.A.,BATCH-2024-83454,108,2026-11-13,Main Refrigerator B,4.61,McKesson Corporation,2026-07-13,False
+MED-00669,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,AbbVie Inc.,BATCH-2024-49358,85,2026-12-09,Aisle 1 - Shelf B,88.07,Cardinal Health,2026-08-04,False
+MED-00670,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2026-90739,110,2027-06-19,Controlled Vault 1,68.9,Cardinal Health,2026-06-10,False
+MED-00671,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Johnson & Johnson,BATCH-2025-14660,153,2028-03-18,Narcotics Safe B,57.7,Owens & Minor,2026-04-18,False
+MED-00672,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Bristol Myers Squibb,BATCH-2026-49235,100,2028-06-23,Aisle 1 - Shelf A,115.71,Medline Industries,2026-04-18,False
+MED-00673,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Merck & Co.,BATCH-2024-18678,66,2026-10-05,Main Refrigerator B,12.07,Henry Schein,2026-06-08,False
+MED-00674,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Teva Pharmaceutical,BATCH-2026-89388,204,2027-10-14,Aisle 2 - Shelf A,4.68,Henry Schein,2026-06-14,False
+MED-00675,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Pfizer Inc.,BATCH-2022-75149,142,2027-10-08,Controlled Vault 1,10.19,Cardinal Health,2026-07-09,False
+MED-00676,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,AbbVie Inc.,BATCH-2024-14901,287,2028-03-01,Aisle 1 - Shelf B,22.64,AmerisourceBergen,2026-04-26,False
+MED-00677,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Bristol Myers Squibb,BATCH-2023-54579,177,2028-05-22,Aisle 2 - Shelf A,12.98,Henry Schein,2026-06-15,False
+MED-00678,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Johnson & Johnson,BATCH-2026-98698,42,2026-10-06,Aisle 1 - Shelf B,2.23,AmerisourceBergen,2026-05-08,False
+MED-00679,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Sandoz,BATCH-2022-50760,191,2028-08-02,Aisle 1 - Shelf B,7.67,Henry Schein,2026-08-11,False
+MED-00680,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Bristol Myers Squibb,BATCH-2026-96374,271,2026-09-28,Aisle 1 - Shelf B,10.08,McKesson Corporation,2026-06-15,False
+MED-00681,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Merck & Co.,BATCH-2023-47560,121,2028-02-27,Aisle 2 - Shelf C,62.8,Cardinal Health,2026-03-15,False
+MED-00682,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,AbbVie Inc.,BATCH-2024-25002,211,2026-08-23,Aisle 2 - Shelf A,4.77,AmerisourceBergen,2026-04-12,True
+MED-00683,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Novartis AG,BATCH-2024-82006,193,2026-11-18,Aisle 3 - Shelf D,30.18,AmerisourceBergen,2026-06-22,False
+MED-00684,Furosemide,Furosemide,Diuretic,20mg,Tablet,Merck & Co.,BATCH-2024-90381,152,2027-01-23,Aisle 1 - Shelf B,20.2,AmerisourceBergen,2026-07-31,False
+MED-00685,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Bristol Myers Squibb,BATCH-2022-60279,79,2027-06-04,Aisle 1 - Shelf A,32.74,Owens & Minor,2026-04-03,True
+MED-00686,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Teva Pharmaceutical,BATCH-2026-56612,36,2027-06-23,Narcotics Safe B,21.01,Owens & Minor,2026-03-15,True
+MED-00687,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,AstraZeneca PLC,BATCH-2026-27274,260,2028-03-26,Narcotics Safe B,42.95,McKesson Corporation,2026-08-09,True
+MED-00688,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,AbbVie Inc.,BATCH-2025-40368,227,2026-11-30,Narcotics Safe B,25.64,Owens & Minor,2026-03-29,False
+MED-00689,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Johnson & Johnson,BATCH-2024-52567,101,2026-09-19,Aisle 2 - Shelf A,37.47,Medline Industries,2026-08-05,False
+MED-00690,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Bristol Myers Squibb,BATCH-2024-55693,70,2026-10-10,Aisle 2 - Shelf A,32.63,Medline Industries,2026-05-22,False
+MED-00691,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Sandoz,BATCH-2026-95124,119,2028-03-19,Main Refrigerator B,3.08,McKesson Corporation,2026-05-23,True
+MED-00692,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Sanofi S.A.,BATCH-2026-30843,270,2027-12-31,Aisle 2 - Shelf C,16.22,AmerisourceBergen,2026-08-17,True
+MED-00693,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Merck & Co.,BATCH-2025-84345,81,2027-08-01,Controlled Vault 1,11.84,Owens & Minor,2026-07-20,False
+MED-00694,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Teva Pharmaceutical,BATCH-2022-87616,114,2027-03-12,Narcotics Safe B,14.59,McKesson Corporation,2026-05-12,False
+MED-00695,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,AbbVie Inc.,BATCH-2026-24253,48,2028-08-04,Aisle 1 - Shelf B,12.03,Medline Industries,2026-05-28,True
+MED-00696,Montelukast,Montelukast,Respiratory,10mg,Tablet,Bristol Myers Squibb,BATCH-2022-38522,111,2028-07-19,Aisle 1 - Shelf A,25.94,Owens & Minor,2026-03-24,True
+MED-00697,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Pfizer Inc.,BATCH-2025-79632,97,2028-03-04,Aisle 2 - Shelf A,30.21,AmerisourceBergen,2026-07-14,False
+MED-00698,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Teva Pharmaceutical,BATCH-2026-99071,74,2028-02-21,Main Refrigerator A,12.66,Cardinal Health,2026-06-06,False
+MED-00699,Metformin,Metformin,Antidiabetic,500mg,Tablet,GSK plc,BATCH-2025-26718,106,2027-02-04,Aisle 3 - Shelf D,34.1,McKesson Corporation,2026-05-31,True
+MED-00700,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Pfizer Inc.,BATCH-2024-24378,166,2027-07-31,Aisle 3 - Shelf D,15.32,McKesson Corporation,2026-05-15,False
+MED-00701,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,GSK plc,BATCH-2025-63219,203,2027-05-29,Main Refrigerator B,42.9,Medline Industries,2026-05-04,False
+MED-00702,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Merck & Co.,BATCH-2024-64687,118,2026-11-28,Controlled Vault 1,5.43,Henry Schein,2026-03-15,True
+MED-00703,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Roche Holding,BATCH-2022-28873,76,2028-04-14,Aisle 1 - Shelf B,19.03,McKesson Corporation,2026-03-18,True
+MED-00704,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Roche Holding,BATCH-2025-69772,45,2028-02-11,Aisle 2 - Shelf A,44.32,McKesson Corporation,2026-03-27,False
+MED-00705,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Bristol Myers Squibb,BATCH-2026-68988,43,2027-07-22,Controlled Vault 1,109.09,Henry Schein,2026-07-17,True
+MED-00706,Pregabalin,Pregabalin,Neurological,75mg,Capsule,GSK plc,BATCH-2023-75762,186,2028-07-15,Narcotics Safe B,0.55,McKesson Corporation,2026-06-01,False
+MED-00707,Ciprofloxacin,Ciprofloxacin,Antibiotic,500mg,Tablet,Pfizer Inc.,BATCH-2024-24832,88,2027-02-22,Narcotics Safe B,2.65,Henry Schein,2026-07-28,False
+MED-00708,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Sandoz,BATCH-2025-77757,126,2027-03-03,Main Refrigerator A,41.11,Henry Schein,2026-07-02,True
+MED-00709,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Teva Pharmaceutical,BATCH-2026-85973,100,2026-09-14,Aisle 1 - Shelf B,16.62,Owens & Minor,2026-04-19,False
+MED-00710,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Pfizer Inc.,BATCH-2026-71503,68,2027-11-29,Narcotics Safe B,19.5,Medline Industries,2026-06-19,False
+MED-00711,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Roche Holding,BATCH-2026-44136,108,2026-09-19,Main Refrigerator A,15.84,McKesson Corporation,2026-04-07,True
+MED-00712,Losartan,Losartan,Antihypertensive,50mg,Tablet,GSK plc,BATCH-2026-13578,121,2026-10-09,Main Refrigerator A,39.15,McKesson Corporation,2026-08-01,True
+MED-00713,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Novartis AG,BATCH-2023-90713,60,2026-12-17,Main Refrigerator A,0.86,Cardinal Health,2026-08-05,False
+MED-00714,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Roche Holding,BATCH-2025-58466,237,2027-08-27,Aisle 2 - Shelf A,86.08,Henry Schein,2026-03-07,True
+MED-00715,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Bristol Myers Squibb,BATCH-2022-54937,191,2028-08-03,Aisle 3 - Shelf D,5.0,AmerisourceBergen,2026-07-25,False
+MED-00716,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2023-96594,136,2027-07-06,Controlled Vault 1,2.91,Medline Industries,2026-04-08,False
+MED-00717,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Johnson & Johnson,BATCH-2022-16884,58,2027-10-07,Main Refrigerator A,19.69,McKesson Corporation,2026-05-04,True
+MED-00718,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,AstraZeneca PLC,BATCH-2025-72205,123,2028-02-21,Controlled Vault 1,23.79,AmerisourceBergen,2026-08-30,False
+MED-00719,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Bristol Myers Squibb,BATCH-2026-99505,84,2027-03-12,Main Refrigerator B,29.13,Medline Industries,2026-04-19,True
+MED-00720,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Johnson & Johnson,BATCH-2024-45432,122,2026-09-24,Main Refrigerator A,46.22,Medline Industries,2026-04-06,False
+MED-00721,Tramadol,Tramadol,Analgesic,50mg,Tablet,Bristol Myers Squibb,BATCH-2026-35549,193,2027-06-05,Aisle 2 - Shelf C,20.17,Owens & Minor,2026-06-14,False
+MED-00722,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Pfizer Inc.,BATCH-2022-11567,147,2028-03-03,Aisle 1 - Shelf A,11.77,Owens & Minor,2026-06-05,False
+MED-00723,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,10mg,Tablet,Sandoz,BATCH-2023-14461,196,2026-09-23,Main Refrigerator A,56.55,Cardinal Health,2026-03-18,True
+MED-00724,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Merck & Co.,BATCH-2022-21322,78,2026-11-15,Aisle 1 - Shelf B,68.71,Henry Schein,2026-03-21,False
+MED-00725,Furosemide,Furosemide,Diuretic,20mg,Tablet,Roche Holding,BATCH-2024-48609,108,2028-03-11,Aisle 2 - Shelf A,31.05,McKesson Corporation,2026-06-24,False
+MED-00726,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Sanofi S.A.,BATCH-2024-31229,178,2026-10-07,Main Refrigerator B,32.66,Owens & Minor,2026-05-28,False
+MED-00727,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Johnson & Johnson,BATCH-2024-33321,199,2027-06-26,Main Refrigerator A,6.89,McKesson Corporation,2026-03-30,False
+MED-00728,Tramadol,Tramadol,Analgesic,50mg,Tablet,Roche Holding,BATCH-2022-28857,208,2028-08-22,Narcotics Safe B,5.88,Owens & Minor,2026-03-22,False
+MED-00729,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Bristol Myers Squibb,BATCH-2022-14569,97,2026-09-22,Main Refrigerator A,1.4,Owens & Minor,2026-06-30,True
+MED-00730,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Bristol Myers Squibb,BATCH-2023-95572,176,2028-01-06,Narcotics Safe B,35.96,McKesson Corporation,2026-06-26,False
+MED-00731,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sandoz,BATCH-2026-10485,83,2028-04-18,Controlled Vault 1,13.55,Cardinal Health,2026-05-03,True
+MED-00732,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Sanofi S.A.,BATCH-2026-39602,103,2028-04-09,Aisle 1 - Shelf B,33.08,Owens & Minor,2026-08-02,True
+MED-00733,Furosemide,Furosemide,Diuretic,20mg,Tablet,AstraZeneca PLC,BATCH-2024-62509,54,2027-03-05,Main Refrigerator B,21.68,Cardinal Health,2026-06-01,True
+MED-00734,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Johnson & Johnson,BATCH-2024-94907,82,2027-12-31,Narcotics Safe B,5.8,McKesson Corporation,2026-03-17,True
+MED-00735,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,AbbVie Inc.,BATCH-2022-92656,88,2028-02-24,Controlled Vault 1,116.87,Owens & Minor,2026-07-16,False
+MED-00736,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Pfizer Inc.,BATCH-2026-41258,115,2027-02-05,Aisle 1 - Shelf A,1.89,AmerisourceBergen,2026-04-17,True
+MED-00737,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,AbbVie Inc.,BATCH-2025-12151,110,2026-09-29,Aisle 3 - Shelf D,1.33,Medline Industries,2026-08-23,True
+MED-00738,Tramadol,Tramadol,Analgesic,50mg,Tablet,Novartis AG,BATCH-2025-98877,94,2028-07-18,Aisle 3 - Shelf D,21.97,AmerisourceBergen,2026-07-05,False
+MED-00739,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Pfizer Inc.,BATCH-2025-95699,157,2028-08-27,Aisle 2 - Shelf A,109.76,Owens & Minor,2026-08-22,True
+MED-00740,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Sandoz,BATCH-2022-32577,98,2027-03-12,Aisle 2 - Shelf A,77.25,Owens & Minor,2026-05-09,False
+MED-00741,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Roche Holding,BATCH-2022-24965,213,2028-08-24,Aisle 1 - Shelf B,12.41,Henry Schein,2026-07-08,True
+MED-00742,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Merck & Co.,BATCH-2025-52498,142,2028-06-13,Main Refrigerator B,17.77,Medline Industries,2026-07-29,True
+MED-00743,Montelukast,Montelukast,Respiratory,10mg,Tablet,Merck & Co.,BATCH-2024-18286,43,2026-10-13,Aisle 2 - Shelf A,6.36,McKesson Corporation,2026-05-19,True
+MED-00744,Losartan,Losartan,Antihypertensive,50mg,Tablet,Sandoz,BATCH-2023-67496,58,2026-11-10,Aisle 3 - Shelf D,27.81,Cardinal Health,2026-08-23,True
+MED-00745,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Novartis AG,BATCH-2023-12048,164,2027-02-23,Controlled Vault 1,13.1,Owens & Minor,2026-09-01,True
+MED-00746,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Roche Holding,BATCH-2025-72391,152,2026-11-13,Main Refrigerator A,8.08,McKesson Corporation,2026-06-25,False
+MED-00747,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Bristol Myers Squibb,BATCH-2023-90024,106,2028-04-27,Aisle 2 - Shelf C,119.28,Medline Industries,2026-03-30,False
+MED-00748,Metformin,Metformin,Antidiabetic,500mg,Tablet,Teva Pharmaceutical,BATCH-2025-10599,88,2027-06-17,Main Refrigerator B,15.43,Cardinal Health,2026-08-03,True
+MED-00749,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Novartis AG,BATCH-2026-76524,60,2027-07-04,Main Refrigerator B,34.94,Henry Schein,2026-06-24,True
+MED-00750,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Merck & Co.,BATCH-2025-75210,133,2027-01-16,Aisle 2 - Shelf A,18.48,McKesson Corporation,2026-08-20,True
+MED-00751,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Johnson & Johnson,BATCH-2025-42949,205,2028-03-11,Aisle 2 - Shelf C,8.37,Cardinal Health,2026-08-22,False
+MED-00752,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Sandoz,BATCH-2023-30715,302,2028-04-12,Aisle 3 - Shelf D,1.91,McKesson Corporation,2026-04-24,True
+MED-00753,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Novartis AG,BATCH-2026-85990,399,2027-06-24,Narcotics Safe B,116.88,AmerisourceBergen,2026-03-13,True
+MED-00754,Montelukast,Montelukast,Respiratory,10mg,Tablet,Merck & Co.,BATCH-2023-22853,45,2026-10-30,Main Refrigerator B,45.32,McKesson Corporation,2026-07-13,True
+MED-00755,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Merck & Co.,BATCH-2026-73492,204,2027-07-12,Narcotics Safe B,55.21,McKesson Corporation,2026-03-30,True
+MED-00756,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Roche Holding,BATCH-2023-69996,123,2027-09-05,Main Refrigerator B,55.83,Medline Industries,2026-07-13,False
+MED-00757,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Roche Holding,BATCH-2024-27891,162,2028-02-04,Aisle 1 - Shelf A,6.14,McKesson Corporation,2026-07-21,True
+MED-00758,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Johnson & Johnson,BATCH-2026-30550,94,2028-08-20,Main Refrigerator A,139.19,AmerisourceBergen,2026-07-21,False
+MED-00759,Furosemide,Furosemide,Diuretic,20mg,Tablet,AstraZeneca PLC,BATCH-2025-78389,208,2028-07-30,Aisle 1 - Shelf B,16.97,AmerisourceBergen,2026-05-04,False
+MED-00760,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-42329,113,2027-07-18,Aisle 1 - Shelf A,8.45,Cardinal Health,2026-04-04,True
+MED-00761,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,GSK plc,BATCH-2022-15250,82,2028-05-02,Controlled Vault 1,24.23,McKesson Corporation,2026-08-25,True
+MED-00762,Pregabalin,Pregabalin,Neurological,75mg,Capsule,AstraZeneca PLC,BATCH-2022-69302,233,2026-09-28,Narcotics Safe B,70.74,Medline Industries,2026-08-30,False
+MED-00763,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Sandoz,BATCH-2023-56976,113,2027-03-05,Aisle 2 - Shelf C,51.12,Medline Industries,2026-08-29,False
+MED-00764,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Teva Pharmaceutical,BATCH-2025-84760,136,2026-09-18,Aisle 2 - Shelf A,109.86,Cardinal Health,2026-05-07,False
+MED-00765,Hydrocortisone Cream,Hydrocortisone,Dermatological,1%,Cream,Roche Holding,BATCH-2023-58551,104,2026-12-04,Controlled Vault 1,20.74,Owens & Minor,2026-03-26,False
+MED-00766,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Sanofi S.A.,BATCH-2026-14287,107,2028-08-21,Main Refrigerator B,78.75,Owens & Minor,2026-04-17,False
+MED-00767,Furosemide,Furosemide,Diuretic,20mg,Tablet,Merck & Co.,BATCH-2026-54000,160,2026-10-03,Aisle 1 - Shelf B,91.81,Owens & Minor,2026-03-14,False
+MED-00768,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Pfizer Inc.,BATCH-2024-70994,16,2027-05-31,Controlled Vault 1,23.18,McKesson Corporation,2026-03-21,False
+MED-00769,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Sandoz,BATCH-2023-28141,208,2026-10-11,Aisle 3 - Shelf D,5.55,McKesson Corporation,2026-03-20,False
+MED-00770,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Sandoz,BATCH-2023-52003,191,2026-11-16,Aisle 2 - Shelf C,16.05,Henry Schein,2026-05-17,False
+MED-00771,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,Pfizer Inc.,BATCH-2024-69298,80,2027-04-07,Main Refrigerator B,111.0,McKesson Corporation,2026-05-05,False
+MED-00772,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,AstraZeneca PLC,BATCH-2024-69241,183,2027-02-08,Aisle 3 - Shelf D,215.01,Owens & Minor,2026-07-16,False
+MED-00773,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Novartis AG,BATCH-2023-47797,191,2026-09-09,Controlled Vault 1,1.0,McKesson Corporation,2026-06-24,False
+MED-00774,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Sandoz,BATCH-2023-36772,153,2026-12-26,Narcotics Safe B,63.38,AmerisourceBergen,2026-06-19,True
+MED-00775,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Teva Pharmaceutical,BATCH-2025-55442,80,2026-12-24,Aisle 2 - Shelf A,51.78,Henry Schein,2026-06-20,False
+MED-00776,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Novartis AG,BATCH-2026-94498,147,2027-11-02,Aisle 2 - Shelf C,51.35,McKesson Corporation,2026-05-01,False
+MED-00777,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Teva Pharmaceutical,BATCH-2026-68360,141,2028-07-05,Aisle 3 - Shelf D,23.9,Owens & Minor,2026-07-31,True
+MED-00778,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,AbbVie Inc.,BATCH-2023-73470,202,2026-11-27,Main Refrigerator A,18.82,AmerisourceBergen,2026-08-21,False
+MED-00779,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Johnson & Johnson,BATCH-2023-91085,78,2028-06-03,Narcotics Safe B,4.62,Cardinal Health,2026-06-21,True
+MED-00780,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Roche Holding,BATCH-2023-41182,107,2026-10-24,Aisle 2 - Shelf A,103.77,Owens & Minor,2026-04-08,True
+MED-00781,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Bristol Myers Squibb,BATCH-2023-36890,34,2027-01-07,Main Refrigerator B,24.8,Cardinal Health,2026-03-16,True
+MED-00782,Montelukast,Montelukast,Respiratory,10mg,Tablet,Johnson & Johnson,BATCH-2025-80761,131,2028-06-01,Main Refrigerator B,43.48,AmerisourceBergen,2026-06-17,True
+MED-00783,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Pfizer Inc.,BATCH-2023-70036,42,2027-05-11,Narcotics Safe B,12.05,Medline Industries,2026-09-01,True
+MED-00784,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,AstraZeneca PLC,BATCH-2024-72116,74,2028-07-12,Main Refrigerator B,93.19,Henry Schein,2026-03-16,False
+MED-00785,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,GSK plc,BATCH-2024-24721,180,2027-01-13,Narcotics Safe B,23.15,Owens & Minor,2026-07-29,True
+MED-00786,Trazodone,Trazodone,Psychiatric,50mg,Tablet,AstraZeneca PLC,BATCH-2022-62642,104,2026-10-26,Main Refrigerator A,36.3,McKesson Corporation,2026-08-10,False
+MED-00787,Montelukast,Montelukast,Respiratory,10mg,Tablet,Pfizer Inc.,BATCH-2026-79000,120,2026-12-02,Aisle 2 - Shelf C,37.03,Henry Schein,2026-06-23,True
+MED-00788,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Pfizer Inc.,BATCH-2025-98744,135,2026-09-20,Aisle 3 - Shelf D,77.33,McKesson Corporation,2026-05-25,False
+MED-00789,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Bristol Myers Squibb,BATCH-2022-97394,129,2026-11-27,Aisle 3 - Shelf D,3.11,Cardinal Health,2026-05-16,False
+MED-00790,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Sanofi S.A.,BATCH-2024-55209,59,2028-06-29,Aisle 1 - Shelf A,61.01,Cardinal Health,2026-08-11,False
+MED-00791,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Sandoz,BATCH-2025-47831,176,2028-02-10,Controlled Vault 1,28.64,Medline Industries,2026-05-19,True
+MED-00792,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,GSK plc,BATCH-2023-37234,57,2028-05-23,Aisle 1 - Shelf B,11.58,Henry Schein,2026-06-09,True
+MED-00793,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,GSK plc,BATCH-2022-63668,120,2026-10-15,Aisle 1 - Shelf B,12.21,Medline Industries,2026-04-13,False
+MED-00794,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Sandoz,BATCH-2023-34380,140,2026-11-04,Aisle 2 - Shelf A,48.83,Henry Schein,2026-08-23,False
+MED-00795,Azelastine,Azelastine,Antihistamine,0.1%,Spray,AbbVie Inc.,BATCH-2025-83306,65,2026-11-23,Main Refrigerator A,0.5,Henry Schein,2026-09-02,False
+MED-00796,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,AbbVie Inc.,BATCH-2022-95696,80,2027-09-23,Narcotics Safe B,43.46,Cardinal Health,2026-05-19,True
+MED-00797,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Bristol Myers Squibb,BATCH-2022-25644,117,2028-04-20,Aisle 2 - Shelf C,64.5,Owens & Minor,2026-08-16,True
+MED-00798,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Sandoz,BATCH-2026-67156,69,2028-04-03,Narcotics Safe B,16.13,Cardinal Health,2026-03-09,True
+MED-00799,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Novartis AG,BATCH-2026-12299,208,2026-10-07,Aisle 3 - Shelf D,65.24,Cardinal Health,2026-07-27,False
+MED-00800,Montelukast,Montelukast,Respiratory,10mg,Tablet,Bristol Myers Squibb,BATCH-2024-31405,198,2026-09-15,Aisle 2 - Shelf A,20.41,Owens & Minor,2026-05-18,True
+MED-00801,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Johnson & Johnson,BATCH-2024-79417,78,2026-09-10,Main Refrigerator A,17.08,McKesson Corporation,2026-03-26,False
+MED-00802,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Novartis AG,BATCH-2026-52284,112,2027-10-07,Aisle 2 - Shelf A,35.56,Henry Schein,2026-06-25,True
+MED-00803,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Sandoz,BATCH-2022-80047,305,2026-12-16,Main Refrigerator B,0.65,Owens & Minor,2026-07-29,False
+MED-00804,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,AbbVie Inc.,BATCH-2025-54605,154,2026-10-17,Narcotics Safe B,118.9,Cardinal Health,2026-07-25,False
+MED-00805,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Merck & Co.,BATCH-2026-78898,71,2027-03-29,Aisle 3 - Shelf D,105.9,AmerisourceBergen,2026-05-19,False
+MED-00806,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Novartis AG,BATCH-2022-72851,61,2027-04-24,Aisle 2 - Shelf A,53.79,McKesson Corporation,2026-05-12,False
+MED-00807,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,AstraZeneca PLC,BATCH-2024-13769,201,2027-04-03,Aisle 2 - Shelf A,2.23,Cardinal Health,2026-07-08,True
+MED-00808,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Sandoz,BATCH-2024-26429,145,2026-10-09,Aisle 2 - Shelf C,20.34,AmerisourceBergen,2026-05-17,True
+MED-00809,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Novartis AG,BATCH-2025-66524,108,2026-11-23,Aisle 1 - Shelf A,8.7,McKesson Corporation,2026-03-18,True
+MED-00810,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,GSK plc,BATCH-2022-43162,48,2026-12-13,Narcotics Safe B,51.57,McKesson Corporation,2026-08-09,True
+MED-00811,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Novartis AG,BATCH-2026-36217,48,2027-03-05,Aisle 2 - Shelf C,60.94,Henry Schein,2026-07-27,True
+MED-00812,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sandoz,BATCH-2024-31044,92,2028-08-21,Main Refrigerator B,22.87,Cardinal Health,2026-07-03,False
+MED-00813,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,GSK plc,BATCH-2026-11832,151,2027-09-17,Aisle 1 - Shelf B,9.01,McKesson Corporation,2026-07-21,False
+MED-00814,Allopurinol,Allopurinol,Antigout,100mg,Tablet,AstraZeneca PLC,BATCH-2023-76085,193,2028-07-28,Aisle 1 - Shelf B,5.64,McKesson Corporation,2026-07-17,False
+MED-00815,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Teva Pharmaceutical,BATCH-2024-59756,259,2028-01-24,Aisle 2 - Shelf A,47.46,McKesson Corporation,2026-08-05,False
+MED-00816,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Johnson & Johnson,BATCH-2022-78121,203,2027-09-24,Narcotics Safe B,44.21,McKesson Corporation,2026-04-13,True
+MED-00817,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Pfizer Inc.,BATCH-2025-25167,49,2027-10-18,Main Refrigerator B,77.82,McKesson Corporation,2026-03-11,False
+MED-00818,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-48088,68,2027-02-12,Aisle 3 - Shelf D,4.64,AmerisourceBergen,2026-05-04,False
+MED-00819,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Johnson & Johnson,BATCH-2025-98092,48,2027-02-28,Aisle 1 - Shelf A,11.4,AmerisourceBergen,2026-08-03,True
+MED-00820,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sanofi S.A.,BATCH-2023-18481,44,2027-06-24,Aisle 1 - Shelf B,5.15,Medline Industries,2026-06-08,True
+MED-00821,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,GSK plc,BATCH-2023-65666,58,2026-11-18,Aisle 1 - Shelf B,24.26,Medline Industries,2026-04-07,False
+MED-00822,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,AbbVie Inc.,BATCH-2024-72367,176,2028-01-21,Controlled Vault 1,0.85,Owens & Minor,2026-05-01,True
+MED-00823,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,AbbVie Inc.,BATCH-2022-26015,23,2027-04-19,Narcotics Safe B,116.36,AmerisourceBergen,2026-08-26,False
+MED-00824,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Sandoz,BATCH-2025-98880,310,2026-09-09,Aisle 1 - Shelf B,52.55,McKesson Corporation,2026-05-28,True
+MED-00825,Rivaroxaban,Rivaroxaban,Anticoagulant,15mg,Tablet,Teva Pharmaceutical,BATCH-2024-91522,131,2027-02-19,Aisle 2 - Shelf A,26.28,Cardinal Health,2026-03-17,True
+MED-00826,Allopurinol,Allopurinol,Antigout,100mg,Tablet,AstraZeneca PLC,BATCH-2023-48477,101,2027-08-27,Narcotics Safe B,1.12,Medline Industries,2026-04-17,False
+MED-00827,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,AstraZeneca PLC,BATCH-2022-66414,129,2026-11-01,Aisle 1 - Shelf A,52.42,Henry Schein,2026-06-14,False
+MED-00828,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Sanofi S.A.,BATCH-2022-14306,28,2027-10-09,Narcotics Safe B,0.55,Medline Industries,2026-07-22,True
+MED-00829,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Sanofi S.A.,BATCH-2025-73891,134,2028-04-18,Main Refrigerator A,36.89,AmerisourceBergen,2026-03-18,False
+MED-00830,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Teva Pharmaceutical,BATCH-2025-83695,166,2028-01-07,Narcotics Safe B,18.26,Henry Schein,2026-06-27,False
+MED-00831,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,GSK plc,BATCH-2024-52006,167,2027-04-13,Main Refrigerator B,2.88,Medline Industries,2026-06-01,True
+MED-00832,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sandoz,BATCH-2024-59882,75,2027-12-03,Aisle 1 - Shelf A,48.66,Henry Schein,2026-05-20,True
+MED-00833,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Pfizer Inc.,BATCH-2023-40752,72,2027-02-08,Aisle 2 - Shelf C,2.59,Owens & Minor,2026-06-16,False
+MED-00834,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Johnson & Johnson,BATCH-2026-52744,155,2026-09-25,Aisle 1 - Shelf A,16.43,AmerisourceBergen,2026-05-17,True
+MED-00835,Furosemide,Furosemide,Diuretic,20mg,Tablet,AstraZeneca PLC,BATCH-2022-71564,120,2027-12-24,Main Refrigerator A,8.13,Medline Industries,2026-04-09,False
+MED-00836,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Johnson & Johnson,BATCH-2025-23114,140,2026-11-04,Aisle 1 - Shelf B,30.72,Henry Schein,2026-04-27,False
+MED-00837,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Teva Pharmaceutical,BATCH-2026-49258,64,2028-04-24,Aisle 2 - Shelf A,58.83,Cardinal Health,2026-03-24,False
+MED-00838,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Novartis AG,BATCH-2024-44754,52,2028-01-18,Aisle 2 - Shelf C,11.03,Henry Schein,2026-07-07,True
+MED-00839,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Sandoz,BATCH-2026-54150,256,2026-11-09,Aisle 1 - Shelf B,87.82,McKesson Corporation,2026-04-20,True
+MED-00840,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Sanofi S.A.,BATCH-2022-95398,100,2027-10-06,Main Refrigerator B,43.55,AmerisourceBergen,2026-05-15,False
+MED-00841,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,AstraZeneca PLC,BATCH-2025-62730,36,2028-06-15,Aisle 2 - Shelf C,6.08,Cardinal Health,2026-07-18,False
+MED-00842,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Teva Pharmaceutical,BATCH-2023-85608,60,2028-03-25,Aisle 3 - Shelf D,26.9,Owens & Minor,2026-06-26,False
+MED-00843,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AstraZeneca PLC,BATCH-2026-92150,106,2026-11-02,Controlled Vault 1,24.8,Henry Schein,2026-07-27,True
+MED-00844,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Roche Holding,BATCH-2025-63773,85,2027-02-06,Main Refrigerator A,58.07,Owens & Minor,2026-03-24,False
+MED-00845,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Sanofi S.A.,BATCH-2023-43612,132,2026-10-19,Main Refrigerator A,28.18,Cardinal Health,2026-08-04,False
+MED-00846,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Merck & Co.,BATCH-2024-70838,83,2028-02-22,Aisle 2 - Shelf C,21.14,McKesson Corporation,2026-05-17,True
+MED-00847,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Pfizer Inc.,BATCH-2024-27882,111,2027-09-13,Aisle 2 - Shelf A,2.29,AmerisourceBergen,2026-03-18,True
+MED-00848,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Roche Holding,BATCH-2025-12609,148,2027-10-20,Aisle 1 - Shelf A,113.71,Owens & Minor,2026-04-01,True
+MED-00849,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Novartis AG,BATCH-2022-62021,142,2027-04-25,Main Refrigerator B,106.37,Medline Industries,2026-07-04,True
+MED-00850,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,GSK plc,BATCH-2022-78414,119,2028-07-19,Aisle 3 - Shelf D,20.61,Owens & Minor,2026-04-21,True
+MED-00851,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Bristol Myers Squibb,BATCH-2026-26027,139,2028-07-23,Aisle 2 - Shelf C,3.16,McKesson Corporation,2026-05-26,False
+MED-00852,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Sandoz,BATCH-2025-38574,127,2026-10-21,Aisle 2 - Shelf C,55.56,Owens & Minor,2026-05-13,True
+MED-00853,Gabapentin,Gabapentin,Neurological,300mg,Capsule,AbbVie Inc.,BATCH-2025-79922,119,2027-10-23,Aisle 1 - Shelf A,101.2,Henry Schein,2026-04-16,False
+MED-00854,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Bristol Myers Squibb,BATCH-2024-28993,118,2027-10-14,Aisle 2 - Shelf C,50.06,Owens & Minor,2026-08-28,False
+MED-00855,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,GSK plc,BATCH-2023-43158,158,2027-12-09,Aisle 1 - Shelf A,23.18,McKesson Corporation,2026-03-11,False
+MED-00856,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,AstraZeneca PLC,BATCH-2025-11031,65,2028-01-09,Narcotics Safe B,38.94,AmerisourceBergen,2026-06-29,True
+MED-00857,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Novartis AG,BATCH-2023-31001,180,2027-10-23,Main Refrigerator A,29.64,AmerisourceBergen,2026-03-22,True
+MED-00858,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Pfizer Inc.,BATCH-2025-71746,116,2027-11-08,Aisle 1 - Shelf B,0.82,Cardinal Health,2026-05-17,False
+MED-00859,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Novartis AG,BATCH-2026-18698,254,2028-06-15,Main Refrigerator A,91.72,AmerisourceBergen,2026-06-11,False
+MED-00860,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Sandoz,BATCH-2023-92595,163,2026-12-06,Aisle 1 - Shelf A,14.08,McKesson Corporation,2026-05-23,False
+MED-00861,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Teva Pharmaceutical,BATCH-2026-20778,53,2026-11-18,Main Refrigerator B,46.18,Cardinal Health,2026-03-20,True
+MED-00862,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Roche Holding,BATCH-2024-69177,106,2027-08-26,Controlled Vault 1,23.45,Henry Schein,2026-07-20,False
+MED-00863,Trazodone,Trazodone,Psychiatric,50mg,Tablet,GSK plc,BATCH-2023-21062,69,2026-11-29,Main Refrigerator A,4.91,Cardinal Health,2026-05-29,False
+MED-00864,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,GSK plc,BATCH-2022-83207,74,2027-03-04,Aisle 1 - Shelf A,175.46,AmerisourceBergen,2026-05-07,False
+MED-00865,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,AbbVie Inc.,BATCH-2022-62564,43,2027-05-04,Aisle 2 - Shelf A,50.6,Owens & Minor,2026-08-11,False
+MED-00866,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Roche Holding,BATCH-2022-78922,50,2028-03-11,Aisle 1 - Shelf B,88.22,Henry Schein,2026-03-14,False
+MED-00867,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Novartis AG,BATCH-2023-44891,42,2027-04-15,Aisle 2 - Shelf C,30.62,AmerisourceBergen,2026-05-15,False
+MED-00868,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Merck & Co.,BATCH-2024-98760,215,2026-11-23,Aisle 2 - Shelf C,29.56,Henry Schein,2026-07-27,True
+MED-00869,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,AbbVie Inc.,BATCH-2026-69110,82,2028-03-16,Aisle 2 - Shelf C,37.91,Cardinal Health,2026-08-12,False
+MED-00870,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Bristol Myers Squibb,BATCH-2025-37815,76,2028-08-05,Main Refrigerator B,4.26,AmerisourceBergen,2026-06-29,False
+MED-00871,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Novartis AG,BATCH-2022-53628,82,2027-11-30,Aisle 1 - Shelf A,9.23,Henry Schein,2026-03-31,False
+MED-00872,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,GSK plc,BATCH-2022-43247,131,2028-01-11,Aisle 1 - Shelf A,105.67,Owens & Minor,2026-03-15,False
+MED-00873,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Roche Holding,BATCH-2026-33510,104,2027-11-15,Aisle 1 - Shelf A,20.58,Henry Schein,2026-05-06,False
+MED-00874,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Novartis AG,BATCH-2025-28585,156,2026-10-24,Aisle 3 - Shelf D,12.12,Cardinal Health,2026-08-22,True
+MED-00875,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-47083,397,2027-08-29,Main Refrigerator B,79.08,Cardinal Health,2026-03-30,True
+MED-00876,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,AbbVie Inc.,BATCH-2025-31624,237,2027-05-06,Main Refrigerator B,24.59,Henry Schein,2026-04-13,False
+MED-00877,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2022-34762,92,2026-10-06,Narcotics Safe B,31.8,Owens & Minor,2026-05-05,True
+MED-00878,Pantoprazole,Pantoprazole,Gastrointestinal,40mg,Tablet,Roche Holding,BATCH-2025-25207,84,2027-01-13,Narcotics Safe B,8.62,Owens & Minor,2026-05-12,False
+MED-00879,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Sandoz,BATCH-2025-74616,62,2027-05-03,Narcotics Safe B,3.0,Henry Schein,2026-08-02,True
+MED-00880,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Novartis AG,BATCH-2023-32058,117,2028-07-01,Main Refrigerator A,58.79,AmerisourceBergen,2026-03-17,False
+MED-00881,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Merck & Co.,BATCH-2026-84814,170,2026-12-01,Aisle 1 - Shelf A,14.63,Henry Schein,2026-08-14,True
+MED-00882,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Bristol Myers Squibb,BATCH-2024-13402,199,2027-04-06,Aisle 1 - Shelf B,6.25,Owens & Minor,2026-05-25,False
+MED-00883,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,GSK plc,BATCH-2023-13784,172,2028-04-07,Main Refrigerator B,27.61,McKesson Corporation,2026-05-09,True
+MED-00884,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,AbbVie Inc.,BATCH-2024-15747,83,2027-10-31,Aisle 1 - Shelf A,5.29,Henry Schein,2026-04-10,False
+MED-00885,Lisinopril,Lisinopril,Antihypertensive,10mg,Tablet,Merck & Co.,BATCH-2024-17279,40,2028-06-15,Main Refrigerator A,0.5,McKesson Corporation,2026-04-01,True
+MED-00886,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Novartis AG,BATCH-2023-41467,168,2027-03-04,Main Refrigerator A,127.02,Medline Industries,2026-08-28,False
+MED-00887,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Merck & Co.,BATCH-2025-47347,21,2027-05-09,Controlled Vault 1,13.19,AmerisourceBergen,2026-08-03,False
+MED-00888,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Bristol Myers Squibb,BATCH-2026-27208,62,2027-03-11,Main Refrigerator A,46.24,Medline Industries,2026-05-31,True
+MED-00889,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,Merck & Co.,BATCH-2025-72447,74,2027-03-05,Narcotics Safe B,9.39,Medline Industries,2026-05-17,False
+MED-00890,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Johnson & Johnson,BATCH-2025-92665,217,2026-09-14,Aisle 2 - Shelf A,19.72,Henry Schein,2026-05-07,False
+MED-00891,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Merck & Co.,BATCH-2025-79111,179,2027-09-26,Aisle 2 - Shelf A,14.27,Owens & Minor,2026-05-06,False
+MED-00892,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Novartis AG,BATCH-2023-26749,183,2027-08-14,Main Refrigerator A,16.72,Medline Industries,2026-04-22,False
+MED-00893,Pregabalin,Pregabalin,Neurological,75mg,Capsule,AbbVie Inc.,BATCH-2026-20031,159,2028-05-08,Aisle 1 - Shelf A,58.02,Henry Schein,2026-05-17,False
+MED-00894,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Novartis AG,BATCH-2024-43405,243,2026-12-19,Main Refrigerator A,3.36,Medline Industries,2026-08-04,False
+MED-00895,Clopidogrel,Clopidogrel,Antiplatelet,75mg,Tablet,Teva Pharmaceutical,BATCH-2023-61505,39,2027-10-03,Aisle 2 - Shelf A,43.74,Medline Industries,2026-06-14,True
+MED-00896,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Sandoz,BATCH-2026-44743,151,2027-06-12,Narcotics Safe B,106.94,Medline Industries,2026-07-10,True
+MED-00897,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Novartis AG,BATCH-2022-66858,83,2026-12-08,Main Refrigerator A,11.29,Owens & Minor,2026-05-24,True
+MED-00898,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Pfizer Inc.,BATCH-2025-63096,42,2028-08-10,Narcotics Safe B,50.3,AmerisourceBergen,2026-05-01,True
+MED-00899,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,GSK plc,BATCH-2025-49669,177,2026-09-08,Main Refrigerator B,25.74,Henry Schein,2026-08-30,True
+MED-00900,Atorvastatin,Atorvastatin,Antihyperlipidemic,20mg,Tablet,Novartis AG,BATCH-2022-37424,127,2026-10-19,Aisle 2 - Shelf C,42.31,McKesson Corporation,2026-05-14,False
+MED-00901,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2022-49441,97,2026-10-31,Aisle 2 - Shelf C,42.01,Henry Schein,2026-08-28,False
+MED-00902,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Roche Holding,BATCH-2025-71799,282,2026-08-18,Narcotics Safe B,69.74,AmerisourceBergen,2026-04-06,True
+MED-00903,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Merck & Co.,BATCH-2022-53758,181,2028-02-18,Controlled Vault 1,15.33,Cardinal Health,2026-05-19,True
+MED-00904,Loratadine,Loratadine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2024-14851,81,2028-07-30,Aisle 3 - Shelf D,134.93,Owens & Minor,2026-03-30,False
+MED-00905,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Bristol Myers Squibb,BATCH-2026-12492,148,2027-02-06,Aisle 1 - Shelf A,29.4,AmerisourceBergen,2026-06-26,False
+MED-00906,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Sanofi S.A.,BATCH-2025-91618,176,2028-02-22,Aisle 1 - Shelf B,24.5,Medline Industries,2026-08-28,False
+MED-00907,Losartan,Losartan,Antihypertensive,50mg,Tablet,AbbVie Inc.,BATCH-2025-55068,60,2028-05-05,Aisle 2 - Shelf C,46.91,Owens & Minor,2026-07-08,True
+MED-00908,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Teva Pharmaceutical,BATCH-2023-48455,93,2028-01-06,Narcotics Safe B,1.39,Cardinal Health,2026-05-19,True
+MED-00909,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Teva Pharmaceutical,BATCH-2025-31237,45,2026-11-20,Main Refrigerator B,59.96,Owens & Minor,2026-08-11,False
+MED-00910,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Bristol Myers Squibb,BATCH-2023-30488,95,2026-10-30,Aisle 2 - Shelf A,119.93,AmerisourceBergen,2026-04-29,False
+MED-00911,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,Merck & Co.,BATCH-2022-12376,117,2027-08-27,Aisle 3 - Shelf D,69.98,AmerisourceBergen,2026-06-03,True
+MED-00912,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Roche Holding,BATCH-2022-18344,79,2026-10-18,Aisle 3 - Shelf D,56.83,AmerisourceBergen,2026-08-03,False
+MED-00913,Hydrochlorothiazide,Hydrochlorothiazide,Diuretic,25mg,Tablet,Merck & Co.,BATCH-2024-56562,28,2028-06-25,Main Refrigerator A,70.66,Medline Industries,2026-06-26,False
+MED-00914,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Sandoz,BATCH-2022-67386,205,2027-03-26,Aisle 1 - Shelf B,13.48,Henry Schein,2026-08-06,True
+MED-00915,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,GSK plc,BATCH-2026-15501,168,2026-10-11,Aisle 1 - Shelf B,56.25,Henry Schein,2026-07-12,False
+MED-00916,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Roche Holding,BATCH-2025-76308,93,2027-05-09,Main Refrigerator A,34.82,Owens & Minor,2026-03-21,False
+MED-00917,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Johnson & Johnson,BATCH-2023-67554,217,2026-12-09,Aisle 1 - Shelf B,0.93,AmerisourceBergen,2026-07-02,False
+MED-00918,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Bristol Myers Squibb,BATCH-2026-32447,134,2028-01-31,Main Refrigerator A,2.36,Cardinal Health,2026-06-02,True
+MED-00919,Ondansetron,Ondansetron,Antiemetic,4mg,Tablet,Teva Pharmaceutical,BATCH-2026-65275,37,2026-10-31,Aisle 2 - Shelf A,15.74,AmerisourceBergen,2026-05-20,False
+MED-00920,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Bristol Myers Squibb,BATCH-2022-68009,145,2026-08-29,Main Refrigerator B,14.73,Henry Schein,2026-04-23,True
+MED-00921,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,Novartis AG,BATCH-2025-31538,80,2027-01-09,Main Refrigerator B,54.1,Cardinal Health,2026-03-17,False
+MED-00922,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Roche Holding,BATCH-2026-48761,251,2028-06-21,Aisle 1 - Shelf A,20.34,Henry Schein,2026-06-17,False
+MED-00923,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Sandoz,BATCH-2022-46671,59,2027-05-02,Main Refrigerator B,16.89,Cardinal Health,2026-03-07,False
+MED-00924,Tramadol,Tramadol,Analgesic,50mg,Tablet,Bristol Myers Squibb,BATCH-2026-91836,219,2027-11-21,Aisle 2 - Shelf C,36.43,Owens & Minor,2026-03-20,False
+MED-00925,Tramadol,Tramadol,Analgesic,50mg,Tablet,Merck & Co.,BATCH-2022-80442,207,2027-04-11,Aisle 1 - Shelf B,19.47,Cardinal Health,2026-04-22,False
+MED-00926,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,AbbVie Inc.,BATCH-2026-82323,242,2027-05-15,Aisle 1 - Shelf B,4.24,AmerisourceBergen,2026-08-28,False
+MED-00927,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,AstraZeneca PLC,BATCH-2023-49838,65,2027-03-26,Main Refrigerator A,138.07,Henry Schein,2026-08-18,False
+MED-00928,Cetirizine,Cetirizine,Antihistamine,10mg,Tablet,Johnson & Johnson,BATCH-2024-26228,65,2027-04-09,Aisle 3 - Shelf D,26.09,Cardinal Health,2026-05-11,True
+MED-00929,Fluticasone,Fluticasone,Respiratory,50mcg,Spray,GSK plc,BATCH-2025-54430,102,2028-07-20,Aisle 1 - Shelf A,43.17,Owens & Minor,2026-04-11,True
+MED-00930,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Teva Pharmaceutical,BATCH-2026-40649,66,2026-11-23,Aisle 3 - Shelf D,15.39,Owens & Minor,2026-04-09,False
+MED-00931,Trazodone,Trazodone,Psychiatric,50mg,Tablet,Roche Holding,BATCH-2026-42457,45,2027-06-18,Controlled Vault 1,23.59,Owens & Minor,2026-06-02,True
+MED-00932,Escitalopram,Escitalopram,Psychiatric,10mg,Tablet,Novartis AG,BATCH-2025-20740,79,2027-04-15,Controlled Vault 1,12.36,AmerisourceBergen,2026-05-04,True
+MED-00933,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,Bristol Myers Squibb,BATCH-2026-62789,130,2028-01-11,Main Refrigerator B,3.3,McKesson Corporation,2026-06-27,False
+MED-00934,Warfarin,Warfarin,Anticoagulant,5mg,Tablet,Bristol Myers Squibb,BATCH-2025-74165,121,2028-02-02,Controlled Vault 1,106.36,Owens & Minor,2026-07-23,True
+MED-00935,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,AstraZeneca PLC,BATCH-2025-26958,84,2028-05-11,Narcotics Safe B,34.7,AmerisourceBergen,2026-04-20,True
+MED-00936,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Sandoz,BATCH-2025-14273,99,2028-06-27,Narcotics Safe B,11.39,AmerisourceBergen,2026-05-31,True
+MED-00937,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,GSK plc,BATCH-2022-58442,178,2027-01-13,Aisle 1 - Shelf B,33.46,Medline Industries,2026-04-22,True
+MED-00938,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Novartis AG,BATCH-2024-49748,57,2026-10-05,Main Refrigerator A,11.57,Cardinal Health,2026-07-28,True
+MED-00939,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,GSK plc,BATCH-2024-47156,197,2026-11-25,Aisle 1 - Shelf A,4.42,Medline Industries,2026-04-30,True
+MED-00940,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Novartis AG,BATCH-2022-15856,135,2028-07-04,Main Refrigerator B,101.85,Henry Schein,2026-05-10,False
+MED-00941,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Sanofi S.A.,BATCH-2023-76160,156,2028-03-06,Aisle 2 - Shelf A,31.5,Medline Industries,2026-07-26,False
+MED-00942,Ranitidine,Ranitidine,Gastrointestinal,150mg,Tablet,Johnson & Johnson,BATCH-2025-40516,140,2027-01-18,Controlled Vault 1,40.39,McKesson Corporation,2026-03-15,False
+MED-00943,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Sandoz,BATCH-2023-13251,102,2027-10-15,Aisle 1 - Shelf B,10.71,Cardinal Health,2026-04-12,False
+MED-00944,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Novartis AG,BATCH-2022-35221,113,2027-01-26,Aisle 3 - Shelf D,111.11,Owens & Minor,2026-04-10,False
+MED-00945,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Merck & Co.,BATCH-2022-25765,208,2026-12-22,Aisle 3 - Shelf D,39.57,Medline Industries,2026-06-24,False
+MED-00946,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Merck & Co.,BATCH-2022-79932,96,2027-01-18,Narcotics Safe B,4.26,AmerisourceBergen,2026-04-30,False
+MED-00947,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Johnson & Johnson,BATCH-2025-13153,115,2027-08-23,Aisle 2 - Shelf A,48.79,Medline Industries,2026-08-10,False
+MED-00948,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,Novartis AG,BATCH-2024-28878,105,2026-11-22,Aisle 2 - Shelf A,20.42,Henry Schein,2026-08-11,True
+MED-00949,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,AbbVie Inc.,BATCH-2022-90540,90,2027-06-06,Aisle 2 - Shelf A,0.82,Medline Industries,2026-08-27,True
+MED-00950,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Pfizer Inc.,BATCH-2022-51948,42,2027-08-24,Controlled Vault 1,33.75,Cardinal Health,2026-05-29,True
+MED-00951,Azelastine,Azelastine,Antihistamine,0.1%,Spray,Novartis AG,BATCH-2023-88250,52,2028-05-02,Aisle 2 - Shelf C,3.85,McKesson Corporation,2026-05-27,False
+MED-00952,Insulin Glargine,Insulin Glargine,Antidiabetic,100units/ml,Injection,AbbVie Inc.,BATCH-2025-82498,168,2028-04-11,Main Refrigerator B,73.98,McKesson Corporation,2026-08-26,True
+MED-00953,Gabapentin,Gabapentin,Neurological,300mg,Capsule,Teva Pharmaceutical,BATCH-2024-82623,73,2027-08-12,Aisle 1 - Shelf A,10.46,AmerisourceBergen,2026-04-13,False
+MED-00954,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,5/325mg,Tablet,Roche Holding,BATCH-2025-20998,77,2027-04-27,Controlled Vault 1,22.0,Cardinal Health,2026-05-30,False
+MED-00955,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Roche Holding,BATCH-2025-82764,167,2026-08-18,Aisle 3 - Shelf D,3.46,AmerisourceBergen,2026-03-28,False
+MED-00956,Albuterol,Albuterol,Respiratory,90mcg,Inhaler,Teva Pharmaceutical,BATCH-2022-73201,246,2026-10-20,Aisle 1 - Shelf A,64.31,AmerisourceBergen,2026-03-12,True
+MED-00957,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Johnson & Johnson,BATCH-2026-76889,152,2026-11-07,Aisle 2 - Shelf C,28.0,Owens & Minor,2026-04-11,False
+MED-00958,Doxycycline,Doxycycline,Antibiotic,100mg,Capsule,AbbVie Inc.,BATCH-2022-28304,150,2028-02-18,Controlled Vault 1,34.07,McKesson Corporation,2026-07-11,False
+MED-00959,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,AstraZeneca PLC,BATCH-2024-69338,184,2026-11-15,Main Refrigerator B,2.98,Cardinal Health,2026-06-12,True
+MED-00960,Ibuprofen,Ibuprofen,Analgesic/NSAID,400mg,Tablet,Merck & Co.,BATCH-2022-27527,185,2026-08-19,Main Refrigerator B,89.24,Medline Industries,2026-09-01,False
+MED-00961,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Teva Pharmaceutical,BATCH-2026-74091,203,2027-02-20,Controlled Vault 1,16.59,AmerisourceBergen,2026-04-18,False
+MED-00962,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Teva Pharmaceutical,BATCH-2024-59332,357,2027-06-02,Aisle 1 - Shelf B,38.93,Medline Industries,2026-03-08,False
+MED-00963,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Novartis AG,BATCH-2023-68271,102,2027-09-16,Main Refrigerator B,10.49,Medline Industries,2026-03-12,True
+MED-00964,Venlafaxine,Venlafaxine,Psychiatric,75mg,Capsule,Johnson & Johnson,BATCH-2026-91951,242,2027-07-30,Aisle 1 - Shelf B,20.03,AmerisourceBergen,2026-04-29,False
+MED-00965,Naproxen,Naproxen,Analgesic/NSAID,250mg,Tablet,Pfizer Inc.,BATCH-2026-37405,306,2028-01-12,Narcotics Safe B,2.82,Cardinal Health,2026-08-05,True
+MED-00966,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,GSK plc,BATCH-2023-82323,74,2028-08-11,Narcotics Safe B,12.6,Henry Schein,2026-04-11,True
+MED-00967,Metoprolol Tartrate,Metoprolol,Antihypertensive,25mg,Tablet,Novartis AG,BATCH-2022-26702,93,2026-11-09,Aisle 2 - Shelf A,24.94,Henry Schein,2026-07-06,True
+MED-00968,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Sandoz,BATCH-2022-98832,113,2026-11-08,Aisle 2 - Shelf C,24.14,Cardinal Health,2026-05-09,False
+MED-00969,Amoxicillin,Amoxicillin,Antibiotic,500mg,Capsule,Sanofi S.A.,BATCH-2024-66694,87,2027-04-06,Aisle 1 - Shelf A,11.05,Owens & Minor,2026-03-12,False
+MED-00970,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Bristol Myers Squibb,BATCH-2026-15697,241,2026-10-21,Main Refrigerator B,6.62,Medline Industries,2026-05-18,False
+MED-00971,Prednisone,Prednisone,Corticosteroid,10mg,Tablet,Bristol Myers Squibb,BATCH-2025-35507,177,2026-12-28,Aisle 1 - Shelf A,40.95,Cardinal Health,2026-07-07,False
+MED-00972,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Sanofi S.A.,BATCH-2023-31558,140,2026-09-24,Aisle 2 - Shelf C,12.45,McKesson Corporation,2026-08-09,False
+MED-00973,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Bristol Myers Squibb,BATCH-2026-92090,60,2027-08-13,Aisle 1 - Shelf A,27.34,Medline Industries,2026-08-06,False
+MED-00974,Fluoxetine,Fluoxetine,Psychiatric,20mg,Capsule,Merck & Co.,BATCH-2024-78114,71,2028-08-08,Aisle 1 - Shelf A,15.78,Cardinal Health,2026-03-28,False
+MED-00975,Sertraline,Sertraline,Psychiatric,50mg,Tablet,Novartis AG,BATCH-2026-26361,151,2026-09-05,Narcotics Safe B,86.28,Owens & Minor,2026-05-29,True
+MED-00976,Montelukast,Montelukast,Respiratory,10mg,Tablet,Sandoz,BATCH-2022-67923,156,2026-09-23,Aisle 2 - Shelf A,14.35,McKesson Corporation,2026-03-26,True
+MED-00977,Pregabalin,Pregabalin,Neurological,75mg,Capsule,Novartis AG,BATCH-2026-16842,122,2027-03-11,Aisle 1 - Shelf A,73.65,McKesson Corporation,2026-03-28,False
+MED-00978,Allopurinol,Allopurinol,Antigout,100mg,Tablet,Sanofi S.A.,BATCH-2025-60321,27,2028-08-29,Aisle 1 - Shelf A,17.96,AmerisourceBergen,2026-03-28,False
+MED-00979,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Johnson & Johnson,BATCH-2025-77792,128,2027-06-18,Aisle 1 - Shelf A,69.02,Owens & Minor,2026-08-06,True
+MED-00980,Glipizide,Glipizide,Antidiabetic,5mg,Tablet,Pfizer Inc.,BATCH-2026-35377,454,2027-04-11,Aisle 1 - Shelf B,64.19,Henry Schein,2026-03-23,True
+MED-00981,Lorazepam,Lorazepam,Psychiatric,1mg,Tablet,AbbVie Inc.,BATCH-2025-91376,146,2026-11-24,Controlled Vault 1,33.51,Cardinal Health,2026-08-22,False
+MED-00982,Cephalexin,Cephalexin,Antibiotic,250mg,Capsule,Roche Holding,BATCH-2026-95420,161,2028-06-09,Controlled Vault 1,39.69,Cardinal Health,2026-07-27,False
+MED-00983,Amlodipine,Amlodipine,Antihypertensive,5mg,Tablet,Bristol Myers Squibb,BATCH-2024-58343,157,2028-05-16,Main Refrigerator B,4.88,Cardinal Health,2026-04-05,True
+MED-00984,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,10mg,Tablet,Teva Pharmaceutical,BATCH-2023-76467,67,2027-01-27,Aisle 1 - Shelf A,0.57,AmerisourceBergen,2026-05-17,False
+MED-00985,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Merck & Co.,BATCH-2022-54767,193,2028-03-25,Aisle 2 - Shelf C,6.66,AmerisourceBergen,2026-04-02,True
+MED-00986,Duloxetine,Duloxetine,Psychiatric,30mg,Capsule,Johnson & Johnson,BATCH-2026-49273,188,2026-11-02,Main Refrigerator B,1.18,Henry Schein,2026-08-23,False
+MED-00987,Alprazolam,Alprazolam,Psychiatric,0.5mg,Tablet,Merck & Co.,BATCH-2023-71149,76,2026-11-20,Aisle 2 - Shelf C,9.3,McKesson Corporation,2026-06-10,False
+MED-00988,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,875mg,Tablet,Sandoz,BATCH-2025-34149,53,2026-08-04,Aisle 2 - Shelf C,33.26,Medline Industries,2026-08-15,False
+MED-00989,Acetaminophen,Acetaminophen,Analgesic,500mg,Tablet,Pfizer Inc.,BATCH-2023-48086,49,2027-12-06,Aisle 1 - Shelf B,113.04,Henry Schein,2026-08-22,False
+MED-00990,Azithromycin,Azithromycin,Antibiotic,250mg,Tablet,Merck & Co.,BATCH-2023-38697,83,2027-11-15,Main Refrigerator A,28.99,AmerisourceBergen,2026-04-14,False
+MED-00991,Omeprazole,Omeprazole,Gastrointestinal,20mg,Capsule,Roche Holding,BATCH-2023-44313,42,2026-09-25,Aisle 1 - Shelf A,42.22,AmerisourceBergen,2026-07-29,False
+MED-00992,Meloxicam,Meloxicam,Analgesic/NSAID,15mg,Tablet,Teva Pharmaceutical,BATCH-2023-49986,34,2027-12-19,Main Refrigerator B,7.09,McKesson Corporation,2026-03-17,False
+MED-00993,Losartan,Losartan,Antihypertensive,50mg,Tablet,AstraZeneca PLC,BATCH-2022-25531,116,2026-12-02,Controlled Vault 1,27.11,Henry Schein,2026-07-31,True
+MED-00994,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,Merck & Co.,BATCH-2025-59054,133,2027-08-10,Aisle 3 - Shelf D,14.9,AmerisourceBergen,2026-08-22,False
+MED-00995,Allopurinol,Allopurinol,Antigout,100mg,Tablet,GSK plc,BATCH-2026-48559,67,2027-01-26,Aisle 2 - Shelf C,41.73,Henry Schein,2026-03-25,False
+MED-00996,Triamcinolone,Triamcinolone,Dermatological,0.1%,Ointment,AbbVie Inc.,BATCH-2026-74092,88,2026-09-19,Aisle 3 - Shelf D,8.5,AmerisourceBergen,2026-03-17,True
+MED-00997,Apixaban,Apixaban,Anticoagulant,5mg,Tablet,Novartis AG,BATCH-2025-94550,52,2027-12-21,Aisle 3 - Shelf D,19.52,AmerisourceBergen,2026-04-28,True
+MED-00998,Levothyroxine,Levothyroxine,Endocrine,50mcg,Tablet,Bristol Myers Squibb,BATCH-2024-78875,113,2028-04-22,Main Refrigerator B,35.15,AmerisourceBergen,2026-05-04,False
+MED-00999,Famotidine,Famotidine,Gastrointestinal,20mg,Tablet,GSK plc,BATCH-2023-38773,74,2027-07-31,Aisle 1 - Shelf A,10.72,Medline Industries,2026-05-24,False
+MED-01000,Simvastatin,Simvastatin,Antihyperlipidemic,10mg,Tablet,AbbVie Inc.,BATCH-2026-30605,220,2028-06-18,Controlled Vault 1,65.38,Medline Industries,2026-08-12,False
