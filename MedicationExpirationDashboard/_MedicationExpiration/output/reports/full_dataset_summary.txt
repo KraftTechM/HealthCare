@@ -1,0 +1,15 @@
+====================================================
+FULL MEDICATION INVENTORY SUMMARY REPORT
+====================================================
+
+Total Unique Medication Records : 1000
+Total Stock Units Across Facility: 129,958
+Total Valuation of Inventory     : $4,498,570.44
+Critical Status Medication Count : 429
+
+--- STATISTICAL DESCRIPTIONS ---
+                    count        mean          std   min        25%       50%      75%       max
+Quantity in Stock  1000.0   129.95800    66.916216  16.0    79.0000   119.000   167.25    454.00
+Unit Cost          1000.0    35.24664    35.207703   0.5    10.0950    24.600    48.69    260.96
+Total Stock Value  1000.0  4498.57044  5395.554572  15.4  1085.2875  2669.365  5784.18  46635.12
+Days Until Expiry  1000.0   301.57300   229.995114 -30.0    76.0000   261.500   516.00    728.00

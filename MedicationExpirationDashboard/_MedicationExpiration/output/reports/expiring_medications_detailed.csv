@@ -1,0 +1,85 @@
+Medication ID,Medication Name,Generic Name,Category,Expiration Date,Days Until Expiry,Quantity in Stock,Unit Cost,Total Stock Value,Critical Status,Storage Location
+MED-00091,Simvastatin,Simvastatin,Antihyperlipidemic,2026-09-04,1,119,36.01,4285.19,True,Aisle 1 - Shelf B
+MED-00157,Lorazepam,Lorazepam,Psychiatric,2026-09-04,1,117,101.87,11918.79,False,Main Refrigerator B
+MED-00284,Allopurinol,Allopurinol,Antigout,2026-09-04,1,261,7.25,1892.25,False,Controlled Vault 1
+MED-00397,Allopurinol,Allopurinol,Antigout,2026-09-04,1,154,24.63,3793.02,False,Aisle 2 - Shelf A
+MED-00541,Fluoxetine,Fluoxetine,Psychiatric,2026-09-05,2,118,47.3,5581.4,True,Aisle 1 - Shelf B
+MED-00085,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,2026-09-05,2,73,1.78,129.94,True,Main Refrigerator A
+MED-00975,Sertraline,Sertraline,Psychiatric,2026-09-05,2,151,86.28,13028.28,True,Narcotics Safe B
+MED-00496,Azelastine,Azelastine,Antihistamine,2026-09-06,3,85,53.82,4574.7,False,Aisle 2 - Shelf A
+MED-00564,Ranitidine,Ranitidine,Gastrointestinal,2026-09-07,4,139,2.04,283.56,False,Main Refrigerator A
+MED-00210,Ondansetron,Ondansetron,Antiemetic,2026-09-07,4,55,5.55,305.25,False,Aisle 2 - Shelf A
+MED-00201,Ciprofloxacin,Ciprofloxacin,Antibiotic,2026-09-08,5,135,18.25,2463.75,False,Narcotics Safe B
+MED-00281,Prednisone,Prednisone,Corticosteroid,2026-09-08,5,123,4.88,600.24,True,Aisle 3 - Shelf D
+MED-00899,Fluticasone,Fluticasone,Respiratory,2026-09-08,5,177,25.74,4555.98,True,Main Refrigerator B
+MED-00318,Metoprolol Tartrate,Metoprolol,Antihypertensive,2026-09-08,5,242,4.6,1113.1999999999998,True,Main Refrigerator A
+MED-00773,Escitalopram,Escitalopram,Psychiatric,2026-09-09,6,191,1.0,191.0,False,Controlled Vault 1
+MED-00824,Glipizide,Glipizide,Antidiabetic,2026-09-09,6,310,52.55,16290.5,True,Aisle 1 - Shelf B
+MED-00629,Warfarin,Warfarin,Anticoagulant,2026-09-10,7,139,72.06,10016.34,True,Aisle 1 - Shelf A
+MED-00369,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,2026-09-10,7,54,22.93,1238.22,False,Main Refrigerator B
+MED-00801,Ondansetron,Ondansetron,Antiemetic,2026-09-10,7,78,17.08,1332.2399999999998,False,Main Refrigerator A
+MED-00298,Doxycycline,Doxycycline,Antibiotic,2026-09-12,9,37,87.74,3246.3799999999997,False,Main Refrigerator A
+MED-00428,Rivaroxaban,Rivaroxaban,Anticoagulant,2026-09-12,9,69,13.38,923.22,True,Main Refrigerator A
+MED-00655,Furosemide,Furosemide,Diuretic,2026-09-13,10,260,34.45,8957.0,False,Aisle 2 - Shelf A
+MED-00293,Amlodipine,Amlodipine,Antihypertensive,2026-09-13,10,45,14.74,663.3,True,Main Refrigerator B
+MED-00709,Fluoxetine,Fluoxetine,Psychiatric,2026-09-14,11,100,16.62,1662.0,False,Aisle 1 - Shelf B
+MED-00890,Amoxicillin/Clavulanate,Amoxicillin/Clav,Antibiotic,2026-09-14,11,217,19.72,4279.24,False,Aisle 2 - Shelf A
+MED-00800,Montelukast,Montelukast,Respiratory,2026-09-15,12,198,20.41,4041.18,True,Aisle 2 - Shelf A
+MED-00659,Famotidine,Famotidine,Gastrointestinal,2026-09-15,12,89,68.26,6075.14,True,Aisle 3 - Shelf D
+MED-00360,Gabapentin,Gabapentin,Neurological,2026-09-15,12,112,205.3,22993.600000000002,False,Aisle 2 - Shelf C
+MED-00177,Meloxicam,Meloxicam,Analgesic/NSAID,2026-09-15,12,64,1.96,125.44,False,Aisle 2 - Shelf A
+MED-00393,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,2026-09-15,12,227,36.61,8310.47,False,Aisle 1 - Shelf B
+MED-00282,Atorvastatin,Atorvastatin,Antihyperlipidemic,2026-09-16,13,41,37.39,1532.99,False,Main Refrigerator A
+MED-00596,Alprazolam,Alprazolam,Psychiatric,2026-09-16,13,210,30.19,6339.900000000001,False,Aisle 3 - Shelf D
+MED-00660,Amlodipine,Amlodipine,Antihypertensive,2026-09-17,14,130,64.0,8320.0,True,Main Refrigerator A
+MED-00764,Fluoxetine,Fluoxetine,Psychiatric,2026-09-18,15,136,109.86,14940.96,False,Aisle 2 - Shelf A
+MED-00689,Pantoprazole,Pantoprazole,Gastrointestinal,2026-09-19,16,101,37.47,3784.47,False,Aisle 2 - Shelf A
+MED-00711,Albuterol,Albuterol,Respiratory,2026-09-19,16,108,15.84,1710.72,True,Main Refrigerator A
+MED-00129,Duloxetine,Duloxetine,Psychiatric,2026-09-19,16,71,50.67,3597.57,True,Controlled Vault 1
+MED-00131,Warfarin,Warfarin,Anticoagulant,2026-09-19,16,133,60.88,8097.04,True,Aisle 2 - Shelf A
+MED-00087,Sertraline,Sertraline,Psychiatric,2026-09-19,16,168,1.83,307.44,True,Aisle 1 - Shelf A
+MED-00996,Triamcinolone,Triamcinolone,Dermatological,2026-09-19,16,88,8.5,748.0,True,Aisle 3 - Shelf D
+MED-00150,Furosemide,Furosemide,Diuretic,2026-09-20,17,292,6.71,1959.32,False,Aisle 1 - Shelf B
+MED-00532,Hydrocortisone Cream,Hydrocortisone,Dermatological,2026-09-20,17,64,21.7,1388.8,False,Controlled Vault 1
+MED-00788,Atorvastatin,Atorvastatin,Antihyperlipidemic,2026-09-20,17,135,77.33,10439.55,False,Aisle 3 - Shelf D
+MED-00182,Metformin,Metformin,Antidiabetic,2026-09-20,17,131,11.85,1552.35,True,Main Refrigerator B
+MED-00584,Apixaban,Apixaban,Anticoagulant,2026-09-21,18,128,36.48,4669.44,True,Main Refrigerator B
+MED-00350,Lorazepam,Lorazepam,Psychiatric,2026-09-21,18,173,4.46,771.58,False,Aisle 3 - Shelf D
+MED-00618,Clopidogrel,Clopidogrel,Antiplatelet,2026-09-21,18,212,10.61,2249.3199999999997,False,Aisle 1 - Shelf A
+MED-00600,Ranitidine,Ranitidine,Gastrointestinal,2026-09-21,18,128,20.15,2579.2,False,Main Refrigerator B
+MED-00729,Glipizide,Glipizide,Antidiabetic,2026-09-22,19,97,1.4,135.79999999999998,True,Main Refrigerator A
+MED-00723,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,2026-09-23,20,196,56.55,11083.8,True,Main Refrigerator A
+MED-00140,Loratadine,Loratadine,Antihistamine,2026-09-23,20,95,0.93,88.35000000000001,True,Aisle 1 - Shelf B
+MED-00976,Montelukast,Montelukast,Respiratory,2026-09-23,20,156,14.35,2238.6,True,Aisle 2 - Shelf A
+MED-00193,Ciprofloxacin,Ciprofloxacin,Antibiotic,2026-09-24,21,116,27.46,3185.36,False,Aisle 3 - Shelf D
+MED-00720,Ondansetron,Ondansetron,Antiemetic,2026-09-24,21,122,46.22,5638.84,False,Main Refrigerator A
+MED-00972,Duloxetine,Duloxetine,Psychiatric,2026-09-24,21,140,12.45,1743.0,False,Aisle 2 - Shelf C
+MED-00307,Ondansetron,Ondansetron,Antiemetic,2026-09-24,21,111,1.82,202.02,False,Aisle 2 - Shelf C
+MED-00834,Insulin Glargine,Insulin Glargine,Antidiabetic,2026-09-25,22,155,16.43,2546.65,True,Aisle 1 - Shelf A
+MED-00170,Rivaroxaban,Rivaroxaban,Anticoagulant,2026-09-25,22,121,105.02,12707.42,True,Main Refrigerator B
+MED-00353,Metformin,Metformin,Antidiabetic,2026-09-25,22,90,43.61,3924.9,True,Narcotics Safe B
+MED-00591,Levothyroxine,Levothyroxine,Endocrine,2026-09-25,22,167,14.42,2408.14,False,Narcotics Safe B
+MED-00494,Glipizide,Glipizide,Antidiabetic,2026-09-25,22,121,26.26,3177.46,True,Aisle 3 - Shelf D
+MED-00589,Hydrocortisone Cream,Hydrocortisone,Dermatological,2026-09-25,22,227,54.28,12321.56,False,Aisle 1 - Shelf A
+MED-00991,Omeprazole,Omeprazole,Gastrointestinal,2026-09-25,22,42,42.22,1773.24,False,Aisle 1 - Shelf A
+MED-00385,Metoprolol Tartrate,Metoprolol,Antihypertensive,2026-09-26,23,101,3.36,339.36,True,Main Refrigerator B
+MED-00183,Omeprazole,Omeprazole,Gastrointestinal,2026-09-26,23,162,8.72,1412.64,False,Main Refrigerator B
+MED-00646,Alprazolam,Alprazolam,Psychiatric,2026-09-27,24,194,26.73,5185.62,False,Narcotics Safe B
+MED-00565,Losartan,Losartan,Antihypertensive,2026-09-27,24,118,5.44,641.9200000000001,True,Main Refrigerator A
+MED-00762,Pregabalin,Pregabalin,Neurological,2026-09-28,25,233,70.74,16482.42,False,Narcotics Safe B
+MED-00644,Loratadine,Loratadine,Antihistamine,2026-09-28,25,149,6.85,1020.65,True,Narcotics Safe B
+MED-00680,Ibuprofen,Ibuprofen,Analgesic/NSAID,2026-09-28,25,271,10.08,2731.68,False,Aisle 1 - Shelf B
+MED-00424,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,2026-09-28,25,108,13.8,1490.4,False,Aisle 2 - Shelf C
+MED-00323,Trazodone,Trazodone,Psychiatric,2026-09-28,25,194,22.55,4374.7,True,Narcotics Safe B
+MED-00349,Azithromycin,Azithromycin,Antibiotic,2026-09-29,26,50,27.68,1384.0,True,Aisle 1 - Shelf A
+MED-00371,Acetaminophen,Acetaminophen,Analgesic,2026-09-29,26,140,65.7,9198.0,False,Main Refrigerator A
+MED-00737,Hydrocodone/Acetaminophen,Hydrocodone/APAP,Analgesic,2026-09-29,26,110,1.33,146.3,True,Aisle 3 - Shelf D
+MED-00128,Rosuvastatin,Rosuvastatin,Antihyperlipidemic,2026-09-30,27,68,77.03,5238.04,True,Aisle 3 - Shelf D
+MED-00283,Furosemide,Furosemide,Diuretic,2026-10-01,28,156,8.59,1340.04,False,Aisle 2 - Shelf C
+MED-00199,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,2026-10-01,28,82,79.98,6558.360000000001,True,Main Refrigerator B
+MED-00077,Azelastine,Azelastine,Antihistamine,2026-10-02,29,68,161.87,11007.16,False,Main Refrigerator A
+MED-00491,Cyclobenzaprine,Cyclobenzaprine,Muscle Relaxant,2026-10-02,29,163,49.89,8132.07,True,Aisle 2 - Shelf C
+MED-00398,Pantoprazole,Pantoprazole,Gastrointestinal,2026-10-02,29,83,44.95,3730.8500000000004,True,Main Refrigerator B
+MED-00010,Trazodone,Trazodone,Psychiatric,2026-10-03,30,48,7.04,337.92,False,Aisle 2 - Shelf C
+MED-00590,Fluoxetine,Fluoxetine,Psychiatric,2026-10-03,30,191,20.81,3974.7099999999996,False,Main Refrigerator A
+MED-00767,Furosemide,Furosemide,Diuretic,2026-10-03,30,160,91.81,14689.6,False,Aisle 1 - Shelf B

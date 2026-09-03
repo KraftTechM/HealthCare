@@ -1,0 +1,1076 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Medication Expiry Executive Dashboard</title>
+            <style>
+                body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f8f9fa; }
+                h1 { color: #2c3e50; text-align: center; }
+                .metric-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 22%; display: inline-block; margin: 1%; text-align: center; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #e74c3c; }
+                .chart-container { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+                th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+                th { background-color: #34495e; color: white; }
+                tr:nth-child(even) { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <h1>Medication Inventory Expiry Analysis (30-Day Outlook)</h1>
+
+            <div>
+                <div class="metric-card">
+                    <div>Expiring Items</div>
+                    <div class="metric-value">84</div>
+                </div>
+                <div class="metric-card">
+                    <div>At-Risk Value</div>
+                    <div class="metric-value">$382,451.05</div>
+                </div>
+                <div class="metric-card">
+                    <div>Critical Items At-Risk</div>
+                    <div class="metric-value">39</div>
+                </div>
+                <div class="metric-card">
+                    <div>Total Units At-Risk</div>
+                    <div class="metric-value">11,393</div>
+                </div>
+            </div>
+
+            <div class="chart-container"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.0.0.min.js" integrity="sha256-FEYfO0yRyLtZCpnW0Dw/0DHKQO7Afrq3ml4+rBB818o=" crossorigin="anonymous"></script>                <div id="e6d57f0a-4fc7-4833-b8ab-9eb65cd9f8ef" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e6d57f0a-4fc7-4833-b8ab-9eb65cd9f8ef")) {                    Plotly.newPlot(                        "e6d57f0a-4fc7-4833-b8ab-9eb65cd9f8ef",                        [{"hovertemplate":"Expiration Date=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","line":{"color":"#e74c3c","dash":"solid","shape":"spline"},"marker":{"symbol":"circle"},"mode":"lines+markers","name":"","orientation":"v","showlegend":false,"x":["2026-09-04T00:00:00","2026-09-05T00:00:00","2026-09-06T00:00:00","2026-09-07T00:00:00","2026-09-08T00:00:00","2026-09-09T00:00:00","2026-09-10T00:00:00","2026-09-12T00:00:00","2026-09-13T00:00:00","2026-09-14T00:00:00","2026-09-15T00:00:00","2026-09-16T00:00:00","2026-09-17T00:00:00","2026-09-18T00:00:00","2026-09-19T00:00:00","2026-09-20T00:00:00","2026-09-21T00:00:00","2026-09-22T00:00:00","2026-09-23T00:00:00","2026-09-24T00:00:00","2026-09-25T00:00:00","2026-09-26T00:00:00","2026-09-27T00:00:00","2026-09-28T00:00:00","2026-09-29T00:00:00","2026-09-30T00:00:00","2026-10-01T00:00:00","2026-10-02T00:00:00","2026-10-03T00:00:00"],"xaxis":"x","y":{"dtype":"i1","bdata":"BAMBAgQCAwICAgUCAQEGBAQBAwQHAgIFAwECAwM="},"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Expiration Date"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Count"}},"legend":{"tracegroupgap":0},"title":{"text":"Daily Expiry Timeline (Next 30 Days)"}},                        {"responsive": true}                    )                };            </script>        </div></div>
+            <div class="chart-container"><div style="height:100%; width:100%;">                            <div id="5a036869-fb0f-462d-8948-f78efdc01e85" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("5a036869-fb0f-462d-8948-f78efdc01e85")) {                    Plotly.newPlot(                        "5a036869-fb0f-462d-8948-f78efdc01e85",                        [{"alignmentgroup":"True","bingroup":"x","hovertemplate":"Critical Status=True\u003cbr\u003eCategory=%{x}\u003cbr\u003ecount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"True","marker":{"color":"#e74c3c","pattern":{"shape":""}},"name":"True","offsetgroup":"True","orientation":"v","showlegend":true,"x":["Antihyperlipidemic","Psychiatric","Antihyperlipidemic","Psychiatric","Corticosteroid","Respiratory","Antihypertensive","Antidiabetic","Anticoagulant","Anticoagulant","Antihypertensive","Respiratory","Gastrointestinal","Antihypertensive","Respiratory","Psychiatric","Anticoagulant","Psychiatric","Dermatological","Antidiabetic","Anticoagulant","Antidiabetic","Antihyperlipidemic","Antihistamine","Respiratory","Antidiabetic","Anticoagulant","Antidiabetic","Antidiabetic","Antihypertensive","Antihypertensive","Antihistamine","Psychiatric","Antibiotic","Analgesic","Antihyperlipidemic","Muscle Relaxant","Muscle Relaxant","Gastrointestinal"],"xaxis":"x","yaxis":"y","type":"histogram"},{"alignmentgroup":"True","bingroup":"x","hovertemplate":"Critical Status=False\u003cbr\u003eCategory=%{x}\u003cbr\u003ecount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"False","marker":{"color":"#3498db","pattern":{"shape":""}},"name":"False","offsetgroup":"False","orientation":"v","showlegend":true,"x":["Psychiatric","Antigout","Antigout","Antihistamine","Gastrointestinal","Antiemetic","Antibiotic","Psychiatric","Antibiotic","Antiemetic","Antibiotic","Diuretic","Psychiatric","Antibiotic","Neurological","Analgesic\u002fNSAID","Antihyperlipidemic","Antihyperlipidemic","Psychiatric","Psychiatric","Gastrointestinal","Diuretic","Dermatological","Antihyperlipidemic","Psychiatric","Antiplatelet","Gastrointestinal","Antibiotic","Antiemetic","Psychiatric","Antiemetic","Endocrine","Dermatological","Gastrointestinal","Gastrointestinal","Psychiatric","Neurological","Analgesic\u002fNSAID","Analgesic","Analgesic","Diuretic","Antihistamine","Psychiatric","Psychiatric","Diuretic"],"xaxis":"x","yaxis":"y","type":"histogram"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Category"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"count"}},"legend":{"title":{"text":"Critical Status"},"tracegroupgap":0},"title":{"text":"Expiring Items by Category & Criticality"},"barmode":"group"},                        {"responsive": true}                    )                };            </script>        </div></div>
+            <div class="chart-container"><div style="height:100%; width:100%;">                            <div id="e0b9f444-7e77-4376-a43d-f3393064a4db" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e0b9f444-7e77-4376-a43d-f3393064a4db")) {                    Plotly.newPlot(                        "e0b9f444-7e77-4376-a43d-f3393064a4db",                        [{"branchvalues":"total","customdata":{"dtype":"f8","bdata":"PQrXozC9sEDsUbgeZUfHQAAAAAAAkZ1A1qNwPQqirUBmZmZmZs21QK5H4XoUPmBAcT0K1yNyyUAzMzMzs96xQClcj8L1uHFAAAAAAAAUc0AAAAAAgD+jQFK4HoXrwYJAFK5H4frLsUDMzMzMzGSRQAAAAAAA4GdAAAAAAEDRz0BSuB6FK5DDQHsUrkfhWJNAeOkmMYjurkD1KFyPwlypQPYoXI\u002fC2YxAbfRlJVSHtEBmZmZmZrqEQMrQrxkkMcJACtejcD23sECQwvUoXJKvQHI9Ctcju7dAZ2ZmZmZ01kBcj8L1KFxfQI\u002fC9Sg8O8BAKVyPwvXzl0BmZmZm5sO4QAAAAAAAQMBAPQrXo\u002fCQrUB7FK5H4bqaQHE9CtcjG6xA2KNwPQqhv0DXo3A9CjdzQAAAAAAAYIdAMzMzMzOzlUBmZmZmxmPEQGZmZmZmQZhAPQrXo3A9skBwPQrXoxyIQHA9CtejkqFAZmZmZmYmpECZmZmZmflgQGZmZmbmpcVAvn65k1CNhEAzMzMzM32hQB+F61G44qhAAAAAAAA8m0BxPQrXo0BpQM3MzMxM5aNAKVyPwrXRyEDNzMzMzKmuQOF6FK5H0KJAU7gehevSqEDiehSuxxDIQClcj8L1tJtA9ihcj8I1dUDD9ShcjxKWQIXrUbieQbRAkML1KFwPhEAUrkfhmhjQQI\u002fC9ShcV6VAmpmZmZlJl0AzMzMzsxaxQAAAAAAAoJVAAAAAAAD3wUCamZmZmUliQNejcD0KdrRA\u002fdg6lk+jv0CQwvUoXJ65QK5H4XqUf8VAuB6F6xHEv0A0MzMzsyWtQB+F61G4HnVAULgehWsNr0A9CtejML2wQOxRuB5lR8dAAAAAAACRnUDWo3A9CqKtQGZmZmZmzbVArkfhehQ+YEAFrsL\u002f6+K2QDMzMzOz3rFATDeJQXBzm0AAAAAAABRzQHaDKfLZ96BAUrgehevBgkAUrkfh+suxQMzMzMzMZJFAAAAAAEDRz0BSuB6FK5DDQHsUrkfhWJNAeOkmMYjurkD1KFyPwlypQPYoXI\u002fC2YxAbfRlJVSHtEBmZmZmZrqEQMrQrxkkMcJAv4htnmB0rkCQwvUoXJKvQHI9Ctcju7dAZ2ZmZmZ01kBcj8L1KFxfQI\u002fC9Sg8O8BAKVyPwvXzl0BmZmZm5sO4QB+F61G4OrJAexSuR+G6mkCn5tpIlueYQNijcD0Kob9ABJ020Gmjc0AAAAAAAGCHQDMzMzMzs5VAZmZmZsZjxEBmZmZmZkGYQD0K16NwPbJAcD0K16OSoUCF4XAzKZiiQJmZmZmZ+WBAZmZmZualxUC+frmTUI2EQDMzMzMzfaFAUDdskpGtp0BxPQrXo0BpQM3MzMxM5aNAKVyPwrXRyEDNzMzMzKmuQOF6FK5H0KJAU7gehevSqEDiehSuxxDIQPYoXI\u002fCNXVAw\u002fUoXI8SlkCF61G4nkG0QBSuR+GaGNBAj8L1KFxXpUCobofqdtG2QDMzMzOzFrFAmpmZmZlJYkDXo3A9Cna0QP3YOpZPo79AkML1KFyeuUCuR+F6lH\u002fFQLgehesRxL9ANDMzM7MlrUDSeo\u002fMOBeYQG\u002fkQI1uNs1ApPIN9qp6t0DpFOrInSi1QPfkXiGMJqtAaQmzcDtlqEBfCMuWJwCvQPnixRilfcJAKQfYtuUSoEDvdygK9DehQK+6d0hUUbRAj91nNup7vEA=","shape":"160, 1"},"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"hovertemplate":"labels=%{label}\u003cbr\u003eQuantity in Stock=%{value}\u003cbr\u003eparent=%{parent}\u003cbr\u003eid=%{id}\u003cbr\u003eTotal Stock Value=%{color}\u003cextra\u003e\u003c\u002fextra\u003e","ids":["AbbVie Inc.\u002fAntihyperlipidemic\u002fSimvastatin","AstraZeneca PLC\u002fPsychiatric\u002fLorazepam","Pfizer Inc.\u002fAntigout\u002fAllopurinol","Teva Pharmaceutical\u002fAntigout\u002fAllopurinol","GSK plc\u002fPsychiatric\u002fFluoxetine","Johnson & Johnson\u002fAntihyperlipidemic\u002fRosuvastatin","Novartis AG\u002fPsychiatric\u002fSertraline","Novartis AG\u002fAntihistamine\u002fAzelastine","Johnson & Johnson\u002fGastrointestinal\u002fRanitidine","GSK plc\u002fAntiemetic\u002fOndansetron","GSK plc\u002fAntibiotic\u002fCiprofloxacin","AbbVie Inc.\u002fCorticosteroid\u002fPrednisone","GSK plc\u002fRespiratory\u002fFluticasone","Teva Pharmaceutical\u002fAntihypertensive\u002fMetoprolol Tartrate","Novartis AG\u002fPsychiatric\u002fEscitalopram","Sandoz\u002fAntidiabetic\u002fGlipizide","Teva Pharmaceutical\u002fAnticoagulant\u002fWarfarin","Sanofi S.A.\u002fAntibiotic\u002fAmoxicillin\u002fClavulanate","Johnson & Johnson\u002fAntiemetic\u002fOndansetron","Roche Holding\u002fAntibiotic\u002fDoxycycline","GSK plc\u002fAnticoagulant\u002fRivaroxaban","Teva Pharmaceutical\u002fDiuretic\u002fFurosemide","Sandoz\u002fAntihypertensive\u002fAmlodipine","Teva Pharmaceutical\u002fPsychiatric\u002fFluoxetine","Johnson & Johnson\u002fAntibiotic\u002fAmoxicillin\u002fClavulanate","Bristol Myers Squibb\u002fRespiratory\u002fMontelukast","GSK plc\u002fGastrointestinal\u002fFamotidine","Merck & Co.\u002fNeurological\u002fGabapentin","Roche Holding\u002fAnalgesic\u002fNSAID\u002fMeloxicam","Teva Pharmaceutical\u002fAntihyperlipidemic\u002fRosuvastatin","GSK plc\u002fAntihyperlipidemic\u002fAtorvastatin","Merck & Co.\u002fPsychiatric\u002fAlprazolam","Pfizer Inc.\u002fAntihypertensive\u002fAmlodipine","Johnson & Johnson\u002fGastrointestinal\u002fPantoprazole","Roche Holding\u002fRespiratory\u002fAlbuterol","AbbVie Inc.\u002fPsychiatric\u002fDuloxetine","Sandoz\u002fAnticoagulant\u002fWarfarin","Johnson & Johnson\u002fPsychiatric\u002fSertraline","AbbVie Inc.\u002fDermatological\u002fTriamcinolone","Teva Pharmaceutical\u002fDermatological\u002fHydrocortisone Cream","Pfizer Inc.\u002fAntihyperlipidemic\u002fAtorvastatin","Merck & Co.\u002fAntidiabetic\u002fMetformin","Bristol Myers Squibb\u002fAnticoagulant\u002fApixaban","AbbVie Inc.\u002fPsychiatric\u002fLorazepam","Teva Pharmaceutical\u002fAntiplatelet\u002fClopidogrel","Roche Holding\u002fGastrointestinal\u002fRanitidine","Bristol Myers Squibb\u002fAntidiabetic\u002fGlipizide","Sandoz\u002fAntihyperlipidemic\u002fRosuvastatin","Sanofi S.A.\u002fAntihistamine\u002fLoratadine","Sandoz\u002fRespiratory\u002fMontelukast","Johnson & Johnson\u002fAntibiotic\u002fCiprofloxacin","Sanofi S.A.\u002fPsychiatric\u002fDuloxetine","Novartis AG\u002fAntiemetic\u002fOndansetron","Johnson & Johnson\u002fAntidiabetic\u002fInsulin Glargine","Pfizer Inc.\u002fAnticoagulant\u002fRivaroxaban","Sanofi S.A.\u002fAntidiabetic\u002fMetformin","Novartis AG\u002fEndocrine\u002fLevothyroxine","Roche Holding\u002fAntidiabetic\u002fGlipizide","Bristol Myers Squibb\u002fDermatological\u002fHydrocortisone Cream","Roche Holding\u002fGastrointestinal\u002fOmeprazole","Merck & Co.\u002fAntihypertensive\u002fMetoprolol Tartrate","Sanofi S.A.\u002fGastrointestinal\u002fOmeprazole","Sandoz\u002fPsychiatric\u002fAlprazolam","Pfizer Inc.\u002fAntihypertensive\u002fLosartan","AstraZeneca PLC\u002fNeurological\u002fPregabalin","Bristol Myers Squibb\u002fAnalgesic\u002fNSAID\u002fIbuprofen","Merck & Co.\u002fAnalgesic\u002fHydrocodone\u002fAcetaminophen","Bristol Myers Squibb\u002fPsychiatric\u002fTrazodone","GSK plc\u002fAntibiotic\u002fAzithromycin","Merck & Co.\u002fAnalgesic\u002fAcetaminophen","AbbVie Inc.\u002fAnalgesic\u002fHydrocodone\u002fAcetaminophen","Bristol Myers Squibb\u002fAntihyperlipidemic\u002fRosuvastatin","Merck & Co.\u002fDiuretic\u002fFurosemide","Teva Pharmaceutical\u002fMuscle Relaxant\u002fCyclobenzaprine","Sandoz\u002fAntihistamine\u002fAzelastine","Johnson & Johnson\u002fMuscle Relaxant\u002fCyclobenzaprine","Novartis AG\u002fGastrointestinal\u002fPantoprazole","Johnson & Johnson\u002fPsychiatric\u002fTrazodone","Sanofi S.A.\u002fPsychiatric\u002fFluoxetine","AbbVie Inc.\u002fAntihyperlipidemic","AstraZeneca PLC\u002fPsychiatric","Pfizer Inc.\u002fAntigout","Teva Pharmaceutical\u002fAntigout","GSK plc\u002fPsychiatric","Johnson & Johnson\u002fAntihyperlipidemic","Novartis AG\u002fPsychiatric","Novartis AG\u002fAntihistamine","Johnson & Johnson\u002fGastrointestinal","GSK plc\u002fAntiemetic","GSK plc\u002fAntibiotic","AbbVie Inc.\u002fCorticosteroid","GSK plc\u002fRespiratory","Teva Pharmaceutical\u002fAntihypertensive","Sandoz\u002fAntidiabetic","Teva Pharmaceutical\u002fAnticoagulant","Sanofi S.A.\u002fAntibiotic","Johnson & Johnson\u002fAntiemetic","Roche Holding\u002fAntibiotic","GSK plc\u002fAnticoagulant","Teva Pharmaceutical\u002fDiuretic","Sandoz\u002fAntihypertensive","Teva Pharmaceutical\u002fPsychiatric","Johnson & Johnson\u002fAntibiotic","Bristol Myers Squibb\u002fRespiratory","GSK plc\u002fGastrointestinal","Merck & Co.\u002fNeurological","Roche Holding\u002fAnalgesic\u002fNSAID","Teva Pharmaceutical\u002fAntihyperlipidemic","GSK plc\u002fAntihyperlipidemic","Merck & Co.\u002fPsychiatric","Pfizer Inc.\u002fAntihypertensive","Roche Holding\u002fRespiratory","AbbVie Inc.\u002fPsychiatric","Sandoz\u002fAnticoagulant","Johnson & Johnson\u002fPsychiatric","AbbVie Inc.\u002fDermatological","Teva Pharmaceutical\u002fDermatological","Pfizer Inc.\u002fAntihyperlipidemic","Merck & Co.\u002fAntidiabetic","Bristol Myers Squibb\u002fAnticoagulant","Teva Pharmaceutical\u002fAntiplatelet","Roche Holding\u002fGastrointestinal","Bristol Myers Squibb\u002fAntidiabetic","Sandoz\u002fAntihyperlipidemic","Sanofi S.A.\u002fAntihistamine","Sandoz\u002fRespiratory","Sanofi S.A.\u002fPsychiatric","Novartis AG\u002fAntiemetic","Johnson & Johnson\u002fAntidiabetic","Pfizer Inc.\u002fAnticoagulant","Sanofi S.A.\u002fAntidiabetic","Novartis AG\u002fEndocrine","Roche Holding\u002fAntidiabetic","Bristol Myers Squibb\u002fDermatological","Merck & Co.\u002fAntihypertensive","Sanofi S.A.\u002fGastrointestinal","Sandoz\u002fPsychiatric","AstraZeneca PLC\u002fNeurological","Bristol Myers Squibb\u002fAnalgesic\u002fNSAID","Merck & Co.\u002fAnalgesic","Bristol Myers Squibb\u002fPsychiatric","AbbVie Inc.\u002fAnalgesic","Bristol Myers Squibb\u002fAntihyperlipidemic","Merck & Co.\u002fDiuretic","Teva Pharmaceutical\u002fMuscle Relaxant","Sandoz\u002fAntihistamine","Johnson & Johnson\u002fMuscle Relaxant","Novartis AG\u002fGastrointestinal","AbbVie Inc.","AstraZeneca PLC","Pfizer Inc.","Teva Pharmaceutical","GSK plc","Johnson & Johnson","Novartis AG","Sandoz","Sanofi S.A.","Roche Holding","Bristol Myers Squibb","Merck & Co."],"labels":["Simvastatin","Lorazepam","Allopurinol","Allopurinol","Fluoxetine","Rosuvastatin","Sertraline","Azelastine","Ranitidine","Ondansetron","Ciprofloxacin","Prednisone","Fluticasone","Metoprolol Tartrate","Escitalopram","Glipizide","Warfarin","Amoxicillin\u002fClavulanate","Ondansetron","Doxycycline","Rivaroxaban","Furosemide","Amlodipine","Fluoxetine","Amoxicillin\u002fClavulanate","Montelukast","Famotidine","Gabapentin","Meloxicam","Rosuvastatin","Atorvastatin","Alprazolam","Amlodipine","Pantoprazole","Albuterol","Duloxetine","Warfarin","Sertraline","Triamcinolone","Hydrocortisone Cream","Atorvastatin","Metformin","Apixaban","Lorazepam","Clopidogrel","Ranitidine","Glipizide","Rosuvastatin","Loratadine","Montelukast","Ciprofloxacin","Duloxetine","Ondansetron","Insulin Glargine","Rivaroxaban","Metformin","Levothyroxine","Glipizide","Hydrocortisone Cream","Omeprazole","Metoprolol Tartrate","Omeprazole","Alprazolam","Losartan","Pregabalin","Ibuprofen","Hydrocodone\u002fAcetaminophen","Trazodone","Azithromycin","Acetaminophen","Hydrocodone\u002fAcetaminophen","Rosuvastatin","Furosemide","Cyclobenzaprine","Azelastine","Cyclobenzaprine","Pantoprazole","Trazodone","Fluoxetine","Antihyperlipidemic","Psychiatric","Antigout","Antigout","Psychiatric","Antihyperlipidemic","Psychiatric","Antihistamine","Gastrointestinal","Antiemetic","Antibiotic","Corticosteroid","Respiratory","Antihypertensive","Antidiabetic","Anticoagulant","Antibiotic","Antiemetic","Antibiotic","Anticoagulant","Diuretic","Antihypertensive","Psychiatric","Antibiotic","Respiratory","Gastrointestinal","Neurological","Analgesic\u002fNSAID","Antihyperlipidemic","Antihyperlipidemic","Psychiatric","Antihypertensive","Respiratory","Psychiatric","Anticoagulant","Psychiatric","Dermatological","Dermatological","Antihyperlipidemic","Antidiabetic","Anticoagulant","Antiplatelet","Gastrointestinal","Antidiabetic","Antihyperlipidemic","Antihistamine","Respiratory","Psychiatric","Antiemetic","Antidiabetic","Anticoagulant","Antidiabetic","Endocrine","Antidiabetic","Dermatological","Antihypertensive","Gastrointestinal","Psychiatric","Neurological","Analgesic\u002fNSAID","Analgesic","Psychiatric","Analgesic","Antihyperlipidemic","Diuretic","Muscle Relaxant","Antihistamine","Muscle Relaxant","Gastrointestinal","AbbVie Inc.","AstraZeneca PLC","Pfizer Inc.","Teva Pharmaceutical","GSK plc","Johnson & Johnson","Novartis AG","Sandoz","Sanofi S.A.","Roche Holding","Bristol Myers Squibb","Merck & Co."],"marker":{"coloraxis":"coloraxis","colors":{"dtype":"f8","bdata":"PQrXozC9sEDsUbgeZUfHQAAAAAAAkZ1A1qNwPQqirUBmZmZmZs21QK5H4XoUPmBAcT0K1yNyyUAzMzMzs96xQClcj8L1uHFAAAAAAAAUc0AAAAAAgD+jQFK4HoXrwYJAFK5H4frLsUDMzMzMzGSRQAAAAAAA4GdAAAAAAEDRz0BSuB6FK5DDQHsUrkfhWJNAeOkmMYjurkD1KFyPwlypQPYoXI\u002fC2YxAbfRlJVSHtEBmZmZmZrqEQMrQrxkkMcJACtejcD23sECQwvUoXJKvQHI9Ctcju7dAZ2ZmZmZ01kBcj8L1KFxfQI\u002fC9Sg8O8BAKVyPwvXzl0BmZmZm5sO4QAAAAAAAQMBAPQrXo\u002fCQrUB7FK5H4bqaQHE9CtcjG6xA2KNwPQqhv0DXo3A9CjdzQAAAAAAAYIdAMzMzMzOzlUBmZmZmxmPEQGZmZmZmQZhAPQrXo3A9skBwPQrXoxyIQHA9CtejkqFAZmZmZmYmpECZmZmZmflgQGZmZmbmpcVAvn65k1CNhEAzMzMzM32hQB+F61G44qhAAAAAAAA8m0BxPQrXo0BpQM3MzMxM5aNAKVyPwrXRyEDNzMzMzKmuQOF6FK5H0KJAU7gehevSqEDiehSuxxDIQClcj8L1tJtA9ihcj8I1dUDD9ShcjxKWQIXrUbieQbRAkML1KFwPhEAUrkfhmhjQQI\u002fC9ShcV6VAmpmZmZlJl0AzMzMzsxaxQAAAAAAAoJVAAAAAAAD3wUCamZmZmUliQNejcD0KdrRA\u002fdg6lk+jv0CQwvUoXJ65QK5H4XqUf8VAuB6F6xHEv0A0MzMzsyWtQB+F61G4HnVAULgehWsNr0A9CtejML2wQOxRuB5lR8dAAAAAAACRnUDWo3A9CqKtQGZmZmZmzbVArkfhehQ+YEAFrsL\u002f6+K2QDMzMzOz3rFATDeJQXBzm0AAAAAAABRzQHaDKfLZ96BAUrgehevBgkAUrkfh+suxQMzMzMzMZJFAAAAAAEDRz0BSuB6FK5DDQHsUrkfhWJNAeOkmMYjurkD1KFyPwlypQPYoXI\u002fC2YxAbfRlJVSHtEBmZmZmZrqEQMrQrxkkMcJAv4htnmB0rkCQwvUoXJKvQHI9Ctcju7dAZ2ZmZmZ01kBcj8L1KFxfQI\u002fC9Sg8O8BAKVyPwvXzl0BmZmZm5sO4QB+F61G4OrJAexSuR+G6mkCn5tpIlueYQNijcD0Kob9ABJ020Gmjc0AAAAAAAGCHQDMzMzMzs5VAZmZmZsZjxEBmZmZmZkGYQD0K16NwPbJAcD0K16OSoUCF4XAzKZiiQJmZmZmZ+WBAZmZmZualxUC+frmTUI2EQDMzMzMzfaFAUDdskpGtp0BxPQrXo0BpQM3MzMxM5aNAKVyPwrXRyEDNzMzMzKmuQOF6FK5H0KJAU7gehevSqEDiehSuxxDIQPYoXI\u002fCNXVAw\u002fUoXI8SlkCF61G4nkG0QBSuR+GaGNBAj8L1KFxXpUCobofqdtG2QDMzMzOzFrFAmpmZmZlJYkDXo3A9Cna0QP3YOpZPo79AkML1KFyeuUCuR+F6lH\u002fFQLgehesRxL9ANDMzM7MlrUDSeo\u002fMOBeYQG\u002fkQI1uNs1ApPIN9qp6t0DpFOrInSi1QPfkXiGMJqtAaQmzcDtlqEBfCMuWJwCvQPnixRilfcJAKQfYtuUSoEDvdygK9DehQK+6d0hUUbRAj91nNup7vEA="}},"name":"","parents":["AbbVie Inc.\u002fAntihyperlipidemic","AstraZeneca PLC\u002fPsychiatric","Pfizer Inc.\u002fAntigout","Teva Pharmaceutical\u002fAntigout","GSK plc\u002fPsychiatric","Johnson & Johnson\u002fAntihyperlipidemic","Novartis AG\u002fPsychiatric","Novartis AG\u002fAntihistamine","Johnson & Johnson\u002fGastrointestinal","GSK plc\u002fAntiemetic","GSK plc\u002fAntibiotic","AbbVie Inc.\u002fCorticosteroid","GSK plc\u002fRespiratory","Teva Pharmaceutical\u002fAntihypertensive","Novartis AG\u002fPsychiatric","Sandoz\u002fAntidiabetic","Teva Pharmaceutical\u002fAnticoagulant","Sanofi S.A.\u002fAntibiotic","Johnson & Johnson\u002fAntiemetic","Roche Holding\u002fAntibiotic","GSK plc\u002fAnticoagulant","Teva Pharmaceutical\u002fDiuretic","Sandoz\u002fAntihypertensive","Teva Pharmaceutical\u002fPsychiatric","Johnson & Johnson\u002fAntibiotic","Bristol Myers Squibb\u002fRespiratory","GSK plc\u002fGastrointestinal","Merck & Co.\u002fNeurological","Roche Holding\u002fAnalgesic\u002fNSAID","Teva Pharmaceutical\u002fAntihyperlipidemic","GSK plc\u002fAntihyperlipidemic","Merck & Co.\u002fPsychiatric","Pfizer Inc.\u002fAntihypertensive","Johnson & Johnson\u002fGastrointestinal","Roche Holding\u002fRespiratory","AbbVie Inc.\u002fPsychiatric","Sandoz\u002fAnticoagulant","Johnson & Johnson\u002fPsychiatric","AbbVie Inc.\u002fDermatological","Teva Pharmaceutical\u002fDermatological","Pfizer Inc.\u002fAntihyperlipidemic","Merck & Co.\u002fAntidiabetic","Bristol Myers Squibb\u002fAnticoagulant","AbbVie Inc.\u002fPsychiatric","Teva Pharmaceutical\u002fAntiplatelet","Roche Holding\u002fGastrointestinal","Bristol Myers Squibb\u002fAntidiabetic","Sandoz\u002fAntihyperlipidemic","Sanofi S.A.\u002fAntihistamine","Sandoz\u002fRespiratory","Johnson & Johnson\u002fAntibiotic","Sanofi S.A.\u002fPsychiatric","Novartis AG\u002fAntiemetic","Johnson & Johnson\u002fAntidiabetic","Pfizer Inc.\u002fAnticoagulant","Sanofi S.A.\u002fAntidiabetic","Novartis AG\u002fEndocrine","Roche Holding\u002fAntidiabetic","Bristol Myers Squibb\u002fDermatological","Roche Holding\u002fGastrointestinal","Merck & Co.\u002fAntihypertensive","Sanofi S.A.\u002fGastrointestinal","Sandoz\u002fPsychiatric","Pfizer Inc.\u002fAntihypertensive","AstraZeneca PLC\u002fNeurological","Bristol Myers Squibb\u002fAnalgesic\u002fNSAID","Merck & Co.\u002fAnalgesic","Bristol Myers Squibb\u002fPsychiatric","GSK plc\u002fAntibiotic","Merck & Co.\u002fAnalgesic","AbbVie Inc.\u002fAnalgesic","Bristol Myers Squibb\u002fAntihyperlipidemic","Merck & Co.\u002fDiuretic","Teva Pharmaceutical\u002fMuscle Relaxant","Sandoz\u002fAntihistamine","Johnson & Johnson\u002fMuscle Relaxant","Novartis AG\u002fGastrointestinal","Johnson & Johnson\u002fPsychiatric","Sanofi S.A.\u002fPsychiatric","AbbVie Inc.","AstraZeneca PLC","Pfizer Inc.","Teva Pharmaceutical","GSK plc","Johnson & Johnson","Novartis AG","Novartis AG","Johnson & Johnson","GSK plc","GSK plc","AbbVie Inc.","GSK plc","Teva Pharmaceutical","Sandoz","Teva Pharmaceutical","Sanofi S.A.","Johnson & Johnson","Roche Holding","GSK plc","Teva Pharmaceutical","Sandoz","Teva Pharmaceutical","Johnson & Johnson","Bristol Myers Squibb","GSK plc","Merck & Co.","Roche Holding","Teva Pharmaceutical","GSK plc","Merck & Co.","Pfizer Inc.","Roche Holding","AbbVie Inc.","Sandoz","Johnson & Johnson","AbbVie Inc.","Teva Pharmaceutical","Pfizer Inc.","Merck & Co.","Bristol Myers Squibb","Teva Pharmaceutical","Roche Holding","Bristol Myers Squibb","Sandoz","Sanofi S.A.","Sandoz","Sanofi S.A.","Novartis AG","Johnson & Johnson","Pfizer Inc.","Sanofi S.A.","Novartis AG","Roche Holding","Bristol Myers Squibb","Merck & Co.","Sanofi S.A.","Sandoz","AstraZeneca PLC","Bristol Myers Squibb","Merck & Co.","Bristol Myers Squibb","AbbVie Inc.","Bristol Myers Squibb","Merck & Co.","Teva Pharmaceutical","Sandoz","Johnson & Johnson","Novartis AG","","","","","","","","","","","",""],"values":{"dtype":"f8","bdata":"AAAAAADAXUAAAAAAAEBdQAAAAAAAUHBAAAAAAABAY0AAAAAAAIBdQAAAAAAAQFJAAAAAAADgYkAAAAAAAEBVQAAAAAAAYGFAAAAAAACAS0AAAAAAAOBgQAAAAAAAwF5AAAAAAAAgZkAAAAAAAEBuQAAAAAAA4GdAAAAAAABgc0AAAAAAAGBhQAAAAAAAAEtAAAAAAAAAaUAAAAAAAIBCQAAAAAAAQFFAAAAAAABAgUAAAAAAAIBGQAAAAAAAgG1AAAAAAAAga0AAAAAAAMBoQAAAAAAAQFZAAAAAAAAAXEAAAAAAAABQQAAAAAAAYGxAAAAAAACAREAAAAAAAEBqQAAAAAAAQGBAAAAAAABAWUAAAAAAAABbQAAAAAAAwFFAAAAAAACgYEAAAAAAAABlQAAAAAAAAFZAAAAAAAAAUEAAAAAAAOBgQAAAAAAAYGBAAAAAAAAAYEAAAAAAAKBlQAAAAAAAgGpAAAAAAAAAYEAAAAAAAEBYQAAAAAAAgGhAAAAAAACAbkAAAAAAAIBjQAAAAAAAAF1AAAAAAACAYUAAAAAAAMBbQAAAAAAAYGNAAAAAAABAXkAAAAAAAIBWQAAAAAAA4GRAAAAAAABAXkAAAAAAAGBsQAAAAAAAAEVAAAAAAABAWUAAAAAAAEBkQAAAAAAAQGhAAAAAAACAXUAAAAAAACBtQAAAAAAA8HBAAAAAAAAAW0AAAAAAAEBoQAAAAAAAAElAAAAAAACAYUAAAAAAAIBbQAAAAAAAAFFAAAAAAADAc0AAAAAAAIBUQAAAAAAAAFFAAAAAAABgZEAAAAAAAMBUQAAAAAAAAEhAAAAAAADgZ0AAAAAAAMBdQAAAAAAAQF1AAAAAAABQcEAAAAAAAEBjQAAAAAAAgF1AAAAAAABAUkAAAAAAAGB1QAAAAAAAQFVAAAAAAAAAbkAAAAAAAIBLQAAAAAAAIGdAAAAAAADAXkAAAAAAACBmQAAAAAAAQG5AAAAAAABgc0AAAAAAAGBhQAAAAAAAAEtAAAAAAAAAaUAAAAAAAIBCQAAAAAAAQFFAAAAAAABAgUAAAAAAAIBGQAAAAAAAgG1AAAAAAADQdEAAAAAAAMBoQAAAAAAAQFZAAAAAAAAAXEAAAAAAAABQQAAAAAAAYGxAAAAAAACAREAAAAAAAEBqQAAAAAAAAG9AAAAAAAAAW0AAAAAAAIBuQAAAAAAAoGBAAAAAAAAAa0AAAAAAAABWQAAAAAAAAFBAAAAAAADgYEAAAAAAAGBgQAAAAAAAAGBAAAAAAACAakAAAAAAAEBlQAAAAAAAQFhAAAAAAACAaEAAAAAAAIBuQAAAAAAAgGNAAAAAAACwdEAAAAAAAMBbQAAAAAAAYGNAAAAAAABAXkAAAAAAAIBWQAAAAAAA4GRAAAAAAABAXkAAAAAAAGBsQAAAAAAAQFlAAAAAAABAZEAAAAAAAEBoQAAAAAAAIG1AAAAAAADwcEAAAAAAAABvQAAAAAAAQGhAAAAAAACAW0AAAAAAAABRQAAAAAAAwHNAAAAAAACAVEAAAAAAAABRQAAAAAAAYGRAAAAAAADAVEAAAAAAAGCFQAAAAAAA4HVAAAAAAADoh0AAAAAAANCdQAAAAAAA8IZAAAAAAACQlUAAAAAAAKCIQAAAAAAAOJFAAAAAAACIi0AAAAAAAEB\u002fQAAAAAAAfJJAAAAAAAB4kUA="},"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"coloraxis":{"colorbar":{"title":{"text":"Total Stock Value"}},"colorscale":[[0.0,"rgb(255,245,240)"],[0.125,"rgb(254,224,210)"],[0.25,"rgb(252,187,161)"],[0.375,"rgb(252,146,114)"],[0.5,"rgb(251,106,74)"],[0.625,"rgb(239,59,44)"],[0.75,"rgb(203,24,29)"],[0.875,"rgb(165,15,21)"],[1.0,"rgb(103,0,13)"]],"autocolorscale":false},"legend":{"tracegroupgap":0},"title":{"text":"Expiring Stock Treemap (Size=Qty, Color=Value)"}},                        {"responsive": true}                    )                };            </script>        </div></div>
+
+            <div class="chart-container">
+                <h2>Expiring Medications Detailed Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Med ID</th>
+                            <th>Medication Name</th>
+                            <th>Category</th>
+                            <th>Expiry Date</th>
+                            <th>Days Left</th>
+                            <th>Qty</th>
+                            <th>Total Value</th>
+                            <th>Status</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+            <tr>
+                <td>MED-00091</td>
+                <td>Simvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-04</td>
+                <td><b>1</b></td>
+                <td>119</td>
+                <td>$4,285.19</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00157</td>
+                <td>Lorazepam</td>
+                <td>Psychiatric</td>
+                <td>2026-09-04</td>
+                <td><b>1</b></td>
+                <td>117</td>
+                <td>$11,918.79</td>
+                <td>Standard</td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00284</td>
+                <td>Allopurinol</td>
+                <td>Antigout</td>
+                <td>2026-09-04</td>
+                <td><b>1</b></td>
+                <td>261</td>
+                <td>$1,892.25</td>
+                <td>Standard</td>
+                <td>Controlled Vault 1</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00397</td>
+                <td>Allopurinol</td>
+                <td>Antigout</td>
+                <td>2026-09-04</td>
+                <td><b>1</b></td>
+                <td>154</td>
+                <td>$3,793.02</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00541</td>
+                <td>Fluoxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-09-05</td>
+                <td><b>2</b></td>
+                <td>118</td>
+                <td>$5,581.40</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00085</td>
+                <td>Rosuvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-05</td>
+                <td><b>2</b></td>
+                <td>73</td>
+                <td>$129.94</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00975</td>
+                <td>Sertraline</td>
+                <td>Psychiatric</td>
+                <td>2026-09-05</td>
+                <td><b>2</b></td>
+                <td>151</td>
+                <td>$13,028.28</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00496</td>
+                <td>Azelastine</td>
+                <td>Antihistamine</td>
+                <td>2026-09-06</td>
+                <td><b>3</b></td>
+                <td>85</td>
+                <td>$4,574.70</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00564</td>
+                <td>Ranitidine</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-07</td>
+                <td><b>4</b></td>
+                <td>139</td>
+                <td>$283.56</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00210</td>
+                <td>Ondansetron</td>
+                <td>Antiemetic</td>
+                <td>2026-09-07</td>
+                <td><b>4</b></td>
+                <td>55</td>
+                <td>$305.25</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00201</td>
+                <td>Ciprofloxacin</td>
+                <td>Antibiotic</td>
+                <td>2026-09-08</td>
+                <td><b>5</b></td>
+                <td>135</td>
+                <td>$2,463.75</td>
+                <td>Standard</td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00281</td>
+                <td>Prednisone</td>
+                <td>Corticosteroid</td>
+                <td>2026-09-08</td>
+                <td><b>5</b></td>
+                <td>123</td>
+                <td>$600.24</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00899</td>
+                <td>Fluticasone</td>
+                <td>Respiratory</td>
+                <td>2026-09-08</td>
+                <td><b>5</b></td>
+                <td>177</td>
+                <td>$4,555.98</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00318</td>
+                <td>Metoprolol Tartrate</td>
+                <td>Antihypertensive</td>
+                <td>2026-09-08</td>
+                <td><b>5</b></td>
+                <td>242</td>
+                <td>$1,113.20</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00773</td>
+                <td>Escitalopram</td>
+                <td>Psychiatric</td>
+                <td>2026-09-09</td>
+                <td><b>6</b></td>
+                <td>191</td>
+                <td>$191.00</td>
+                <td>Standard</td>
+                <td>Controlled Vault 1</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00824</td>
+                <td>Glipizide</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-09</td>
+                <td><b>6</b></td>
+                <td>310</td>
+                <td>$16,290.50</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00629</td>
+                <td>Warfarin</td>
+                <td>Anticoagulant</td>
+                <td>2026-09-10</td>
+                <td><b>7</b></td>
+                <td>139</td>
+                <td>$10,016.34</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00369</td>
+                <td>Amoxicillin/Clavulanate</td>
+                <td>Antibiotic</td>
+                <td>2026-09-10</td>
+                <td><b>7</b></td>
+                <td>54</td>
+                <td>$1,238.22</td>
+                <td>Standard</td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00801</td>
+                <td>Ondansetron</td>
+                <td>Antiemetic</td>
+                <td>2026-09-10</td>
+                <td><b>7</b></td>
+                <td>78</td>
+                <td>$1,332.24</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00298</td>
+                <td>Doxycycline</td>
+                <td>Antibiotic</td>
+                <td>2026-09-12</td>
+                <td><b>9</b></td>
+                <td>37</td>
+                <td>$3,246.38</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00428</td>
+                <td>Rivaroxaban</td>
+                <td>Anticoagulant</td>
+                <td>2026-09-12</td>
+                <td><b>9</b></td>
+                <td>69</td>
+                <td>$923.22</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00655</td>
+                <td>Furosemide</td>
+                <td>Diuretic</td>
+                <td>2026-09-13</td>
+                <td><b>10</b></td>
+                <td>260</td>
+                <td>$8,957.00</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00293</td>
+                <td>Amlodipine</td>
+                <td>Antihypertensive</td>
+                <td>2026-09-13</td>
+                <td><b>10</b></td>
+                <td>45</td>
+                <td>$663.30</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00709</td>
+                <td>Fluoxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-09-14</td>
+                <td><b>11</b></td>
+                <td>100</td>
+                <td>$1,662.00</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00890</td>
+                <td>Amoxicillin/Clavulanate</td>
+                <td>Antibiotic</td>
+                <td>2026-09-14</td>
+                <td><b>11</b></td>
+                <td>217</td>
+                <td>$4,279.24</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00800</td>
+                <td>Montelukast</td>
+                <td>Respiratory</td>
+                <td>2026-09-15</td>
+                <td><b>12</b></td>
+                <td>198</td>
+                <td>$4,041.18</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00659</td>
+                <td>Famotidine</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-15</td>
+                <td><b>12</b></td>
+                <td>89</td>
+                <td>$6,075.14</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00360</td>
+                <td>Gabapentin</td>
+                <td>Neurological</td>
+                <td>2026-09-15</td>
+                <td><b>12</b></td>
+                <td>112</td>
+                <td>$22,993.60</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00177</td>
+                <td>Meloxicam</td>
+                <td>Analgesic/NSAID</td>
+                <td>2026-09-15</td>
+                <td><b>12</b></td>
+                <td>64</td>
+                <td>$125.44</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00393</td>
+                <td>Rosuvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-15</td>
+                <td><b>12</b></td>
+                <td>227</td>
+                <td>$8,310.47</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00282</td>
+                <td>Atorvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-16</td>
+                <td><b>13</b></td>
+                <td>41</td>
+                <td>$1,532.99</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00596</td>
+                <td>Alprazolam</td>
+                <td>Psychiatric</td>
+                <td>2026-09-16</td>
+                <td><b>13</b></td>
+                <td>210</td>
+                <td>$6,339.90</td>
+                <td>Standard</td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00660</td>
+                <td>Amlodipine</td>
+                <td>Antihypertensive</td>
+                <td>2026-09-17</td>
+                <td><b>14</b></td>
+                <td>130</td>
+                <td>$8,320.00</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00764</td>
+                <td>Fluoxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-09-18</td>
+                <td><b>15</b></td>
+                <td>136</td>
+                <td>$14,940.96</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00689</td>
+                <td>Pantoprazole</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>101</td>
+                <td>$3,784.47</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00711</td>
+                <td>Albuterol</td>
+                <td>Respiratory</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>108</td>
+                <td>$1,710.72</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00129</td>
+                <td>Duloxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>71</td>
+                <td>$3,597.57</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Controlled Vault 1</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00131</td>
+                <td>Warfarin</td>
+                <td>Anticoagulant</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>133</td>
+                <td>$8,097.04</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00087</td>
+                <td>Sertraline</td>
+                <td>Psychiatric</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>168</td>
+                <td>$307.44</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00996</td>
+                <td>Triamcinolone</td>
+                <td>Dermatological</td>
+                <td>2026-09-19</td>
+                <td><b>16</b></td>
+                <td>88</td>
+                <td>$748.00</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00150</td>
+                <td>Furosemide</td>
+                <td>Diuretic</td>
+                <td>2026-09-20</td>
+                <td><b>17</b></td>
+                <td>292</td>
+                <td>$1,959.32</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00532</td>
+                <td>Hydrocortisone Cream</td>
+                <td>Dermatological</td>
+                <td>2026-09-20</td>
+                <td><b>17</b></td>
+                <td>64</td>
+                <td>$1,388.80</td>
+                <td>Standard</td>
+                <td>Controlled Vault 1</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00788</td>
+                <td>Atorvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-20</td>
+                <td><b>17</b></td>
+                <td>135</td>
+                <td>$10,439.55</td>
+                <td>Standard</td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00182</td>
+                <td>Metformin</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-20</td>
+                <td><b>17</b></td>
+                <td>131</td>
+                <td>$1,552.35</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00584</td>
+                <td>Apixaban</td>
+                <td>Anticoagulant</td>
+                <td>2026-09-21</td>
+                <td><b>18</b></td>
+                <td>128</td>
+                <td>$4,669.44</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00350</td>
+                <td>Lorazepam</td>
+                <td>Psychiatric</td>
+                <td>2026-09-21</td>
+                <td><b>18</b></td>
+                <td>173</td>
+                <td>$771.58</td>
+                <td>Standard</td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00618</td>
+                <td>Clopidogrel</td>
+                <td>Antiplatelet</td>
+                <td>2026-09-21</td>
+                <td><b>18</b></td>
+                <td>212</td>
+                <td>$2,249.32</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00600</td>
+                <td>Ranitidine</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-21</td>
+                <td><b>18</b></td>
+                <td>128</td>
+                <td>$2,579.20</td>
+                <td>Standard</td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00729</td>
+                <td>Glipizide</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-22</td>
+                <td><b>19</b></td>
+                <td>97</td>
+                <td>$135.80</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00723</td>
+                <td>Rosuvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-23</td>
+                <td><b>20</b></td>
+                <td>196</td>
+                <td>$11,083.80</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00140</td>
+                <td>Loratadine</td>
+                <td>Antihistamine</td>
+                <td>2026-09-23</td>
+                <td><b>20</b></td>
+                <td>95</td>
+                <td>$88.35</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00976</td>
+                <td>Montelukast</td>
+                <td>Respiratory</td>
+                <td>2026-09-23</td>
+                <td><b>20</b></td>
+                <td>156</td>
+                <td>$2,238.60</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 2 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00193</td>
+                <td>Ciprofloxacin</td>
+                <td>Antibiotic</td>
+                <td>2026-09-24</td>
+                <td><b>21</b></td>
+                <td>116</td>
+                <td>$3,185.36</td>
+                <td>Standard</td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00720</td>
+                <td>Ondansetron</td>
+                <td>Antiemetic</td>
+                <td>2026-09-24</td>
+                <td><b>21</b></td>
+                <td>122</td>
+                <td>$5,638.84</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00972</td>
+                <td>Duloxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-09-24</td>
+                <td><b>21</b></td>
+                <td>140</td>
+                <td>$1,743.00</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00307</td>
+                <td>Ondansetron</td>
+                <td>Antiemetic</td>
+                <td>2026-09-24</td>
+                <td><b>21</b></td>
+                <td>111</td>
+                <td>$202.02</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00834</td>
+                <td>Insulin Glargine</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>155</td>
+                <td>$2,546.65</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00170</td>
+                <td>Rivaroxaban</td>
+                <td>Anticoagulant</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>121</td>
+                <td>$12,707.42</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00353</td>
+                <td>Metformin</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>90</td>
+                <td>$3,924.90</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00591</td>
+                <td>Levothyroxine</td>
+                <td>Endocrine</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>167</td>
+                <td>$2,408.14</td>
+                <td>Standard</td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00494</td>
+                <td>Glipizide</td>
+                <td>Antidiabetic</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>121</td>
+                <td>$3,177.46</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00589</td>
+                <td>Hydrocortisone Cream</td>
+                <td>Dermatological</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>227</td>
+                <td>$12,321.56</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00991</td>
+                <td>Omeprazole</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-25</td>
+                <td><b>22</b></td>
+                <td>42</td>
+                <td>$1,773.24</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00385</td>
+                <td>Metoprolol Tartrate</td>
+                <td>Antihypertensive</td>
+                <td>2026-09-26</td>
+                <td><b>23</b></td>
+                <td>101</td>
+                <td>$339.36</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00183</td>
+                <td>Omeprazole</td>
+                <td>Gastrointestinal</td>
+                <td>2026-09-26</td>
+                <td><b>23</b></td>
+                <td>162</td>
+                <td>$1,412.64</td>
+                <td>Standard</td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00646</td>
+                <td>Alprazolam</td>
+                <td>Psychiatric</td>
+                <td>2026-09-27</td>
+                <td><b>24</b></td>
+                <td>194</td>
+                <td>$5,185.62</td>
+                <td>Standard</td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00565</td>
+                <td>Losartan</td>
+                <td>Antihypertensive</td>
+                <td>2026-09-27</td>
+                <td><b>24</b></td>
+                <td>118</td>
+                <td>$641.92</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00762</td>
+                <td>Pregabalin</td>
+                <td>Neurological</td>
+                <td>2026-09-28</td>
+                <td><b>25</b></td>
+                <td>233</td>
+                <td>$16,482.42</td>
+                <td>Standard</td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00644</td>
+                <td>Loratadine</td>
+                <td>Antihistamine</td>
+                <td>2026-09-28</td>
+                <td><b>25</b></td>
+                <td>149</td>
+                <td>$1,020.65</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00680</td>
+                <td>Ibuprofen</td>
+                <td>Analgesic/NSAID</td>
+                <td>2026-09-28</td>
+                <td><b>25</b></td>
+                <td>271</td>
+                <td>$2,731.68</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00424</td>
+                <td>Hydrocodone/Acetaminophen</td>
+                <td>Analgesic</td>
+                <td>2026-09-28</td>
+                <td><b>25</b></td>
+                <td>108</td>
+                <td>$1,490.40</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00323</td>
+                <td>Trazodone</td>
+                <td>Psychiatric</td>
+                <td>2026-09-28</td>
+                <td><b>25</b></td>
+                <td>194</td>
+                <td>$4,374.70</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Narcotics Safe B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00349</td>
+                <td>Azithromycin</td>
+                <td>Antibiotic</td>
+                <td>2026-09-29</td>
+                <td><b>26</b></td>
+                <td>50</td>
+                <td>$1,384.00</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 1 - Shelf A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00371</td>
+                <td>Acetaminophen</td>
+                <td>Analgesic</td>
+                <td>2026-09-29</td>
+                <td><b>26</b></td>
+                <td>140</td>
+                <td>$9,198.00</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00737</td>
+                <td>Hydrocodone/Acetaminophen</td>
+                <td>Analgesic</td>
+                <td>2026-09-29</td>
+                <td><b>26</b></td>
+                <td>110</td>
+                <td>$146.30</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00128</td>
+                <td>Rosuvastatin</td>
+                <td>Antihyperlipidemic</td>
+                <td>2026-09-30</td>
+                <td><b>27</b></td>
+                <td>68</td>
+                <td>$5,238.04</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 3 - Shelf D</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00283</td>
+                <td>Furosemide</td>
+                <td>Diuretic</td>
+                <td>2026-10-01</td>
+                <td><b>28</b></td>
+                <td>156</td>
+                <td>$1,340.04</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00199</td>
+                <td>Cyclobenzaprine</td>
+                <td>Muscle Relaxant</td>
+                <td>2026-10-01</td>
+                <td><b>28</b></td>
+                <td>82</td>
+                <td>$6,558.36</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00077</td>
+                <td>Azelastine</td>
+                <td>Antihistamine</td>
+                <td>2026-10-02</td>
+                <td><b>29</b></td>
+                <td>68</td>
+                <td>$11,007.16</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00491</td>
+                <td>Cyclobenzaprine</td>
+                <td>Muscle Relaxant</td>
+                <td>2026-10-02</td>
+                <td><b>29</b></td>
+                <td>163</td>
+                <td>$8,132.07</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00398</td>
+                <td>Pantoprazole</td>
+                <td>Gastrointestinal</td>
+                <td>2026-10-02</td>
+                <td><b>29</b></td>
+                <td>83</td>
+                <td>$3,730.85</td>
+                <td><span style="color:red; font-weight:bold;">CRITICAL</span></td>
+                <td>Main Refrigerator B</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00010</td>
+                <td>Trazodone</td>
+                <td>Psychiatric</td>
+                <td>2026-10-03</td>
+                <td><b>30</b></td>
+                <td>48</td>
+                <td>$337.92</td>
+                <td>Standard</td>
+                <td>Aisle 2 - Shelf C</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00590</td>
+                <td>Fluoxetine</td>
+                <td>Psychiatric</td>
+                <td>2026-10-03</td>
+                <td><b>30</b></td>
+                <td>191</td>
+                <td>$3,974.71</td>
+                <td>Standard</td>
+                <td>Main Refrigerator A</td>
+            </tr>
+            
+            <tr>
+                <td>MED-00767</td>
+                <td>Furosemide</td>
+                <td>Diuretic</td>
+                <td>2026-10-03</td>
+                <td><b>30</b></td>
+                <td>160</td>
+                <td>$14,689.60</td>
+                <td>Standard</td>
+                <td>Aisle 1 - Shelf B</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </body>
+        </html>
+        

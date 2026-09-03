@@ -1,0 +1,9 @@
+====================================================
+30-DAY EXPIRING MEDICATION ACTION REPORT
+====================================================
+
+Medications Expiring in <= 30 Days: 84
+Percentage of Total Inventory Data : 8.4%
+Total Stock Valuation At Risk     : $382,451.05
+High-Priority / Critical Items    : 39
+Affected Therapeutic Categories   : 20
