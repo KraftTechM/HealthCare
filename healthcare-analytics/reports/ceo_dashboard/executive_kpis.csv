@@ -1,0 +1,15 @@
+KPI,Value
+Total Encounters,1455.0
+Unique Patients,469.0
+Total Billed ($),34585946.56
+Total Paid ($),10008985.14
+Net Collection Rate,0.2894
+Denial Rate,0.5667
+Avg Length of Stay (d),4.05
+Median Length of Stay (d),2.0
+Encounters per Patient,3.1
+Avg Billed / Encounter ($),23770.41
+BP Control Rate,0.3763
+Abnormal Lab Rate,0.0938
+Obesity Rate (BMI>=30),0.6565
+30-day Readmission Rate,0.1072

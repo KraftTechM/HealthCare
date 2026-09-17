@@ -1,0 +1,139 @@
+HEALTHCARE DATA QUALITY REPORT
+Generated: 2026-09-17 08:11
+======================================================================
+
+======================================================================
+TABLE: PATIENTS  (525 rows, 11 cols)
+======================================================================
+
+-- Missing values --
+  ethnicity                     55  (10.48%)
+  race                          54  (10.29%)
+  dob                           10  (  1.9%)
+  mrn                            0  (  0.0%)
+  first_name                     0  (  0.0%)
+  last_name                      0  (  0.0%)
+  sex                            0  (  0.0%)
+  zip                            0  (  0.0%)
+  payer                          0  (  0.0%)
+  language                       0  (  0.0%)
+  is_test_patient                0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 0
+
+-- Numeric outliers (|z| > 3) --
+
+======================================================================
+TABLE: ENCOUNTERS  (1500 rows, 9 cols)
+======================================================================
+
+-- Missing values --
+  discharge_dt                 766  (51.07%)
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  admit_dt                       0  (  0.0%)
+  encounter_type                 0  (  0.0%)
+  facility                       0  (  0.0%)
+  department                     0  (  0.0%)
+  attending_provider             0  (  0.0%)
+  drg                            0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 1000
+
+======================================================================
+TABLE: DIAGNOSES  (3686 rows, 6 cols)
+======================================================================
+
+-- Missing values --
+  dx_desc                     3686  (100.0%)
+  present_on_admission         937  (25.42%)
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  dx_seq                         0  (  0.0%)
+  icd_code                       0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 3186
+
+-- Numeric outliers (|z| > 3) --
+
+======================================================================
+TABLE: LABS  (2238 rows, 7 cols)
+======================================================================
+
+-- Missing values --
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  loinc                          0  (  0.0%)
+  result_name                    0  (  0.0%)
+  value                          0  (  0.0%)
+  unit                           0  (  0.0%)
+  collected_dt                   0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 1816
+
+-- Numeric outliers (|z| > 3) --
+  value                     22
+
+======================================================================
+TABLE: VITALS  (1047 rows, 10 cols)
+======================================================================
+
+-- Missing values --
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  bp                             0  (  0.0%)
+  hr                             0  (  0.0%)
+  temp                           0  (  0.0%)
+  temp_unit                      0  (  0.0%)
+  weight                         0  (  0.0%)
+  weight_unit                    0  (  0.0%)
+  height_cm                      0  (  0.0%)
+  spo2                           0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 596
+
+-- Numeric outliers (|z| > 3) --
+
+======================================================================
+TABLE: MEDICATIONS  (1649 rows, 8 cols)
+======================================================================
+
+-- Missing values --
+  stop_dt                      831  (50.39%)
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  rxnorm                         0  (  0.0%)
+  med_name                       0  (  0.0%)
+  dose                           0  (  0.0%)
+  frequency                      0  (  0.0%)
+  start_dt                       0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 1236
+
+-- Numeric outliers (|z| > 3) --
+
+======================================================================
+TABLE: CLAIMS  (1500 rows, 8 cols)
+======================================================================
+
+-- Missing values --
+  denial_code                  650  (43.33%)
+  claim_id                       0  (  0.0%)
+  encounter_id                   0  (  0.0%)
+  mrn                            0  (  0.0%)
+  payer                          0  (  0.0%)
+  billed_amt                     0  (  0.0%)
+  paid_amt                       0  (  0.0%)
+  submitted_dt                   0  (  0.0%)
+
+-- Exact duplicate rows: 0
+-- Duplicate MRNs: 1000
+
+-- Numeric outliers (|z| > 3) --
+  paid_amt                  16
