@@ -1,0 +1,4 @@
+ec_type,n,mean_fpi_delay,median_fpi_delay,mean_approval_delay,mean_amendments
+CEC,1118,42.4,43.0,96.9,2.0
+IRB,610,24.5,17.5,63.6,2.0
+LEC,1272,106.5,103.0,44.2,2.0

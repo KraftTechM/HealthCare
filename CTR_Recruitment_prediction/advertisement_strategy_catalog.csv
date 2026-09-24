@@ -1,0 +1,11 @@
+channel,type,cost,reach,effectiveness,channel_label
+adv_poster,passive,200,low,0.15,Poster
+adv_pamphlet,passive,150,low,0.12,Pamphlet
+adv_email,active,500,high,0.45,Email
+adv_online,active,1200,high,0.35,Online
+adv_newsletter,passive,300,medium,0.2,Newsletter
+adv_newspaper,passive,800,medium,0.1,Newspaper
+adv_radio,passive,1500,medium,0.08,Radio
+adv_tv,passive,5000,high,0.12,TV
+adv_community_presentation,active,400,medium,0.4,Community
+adv_other,active,600,varies,0.3,Other

@@ -1,0 +1,16 @@
+Feature,Importance
+eligible_patient_pool_estimate,0.6262604261626131
+num_exclusion_criteria,0.20874375825788136
+num_visits,0.10604246132506055
+competing_trials_same_indication_region,0.017849675299133134
+biomarker_required,0.012842587241638228
+screen_failure_rate,0.009502307544342413
+recruitment_window_days,0.006941380212045325
+pi_experience_years,0.004795791301972605
+expected_duration_years,0.0016744379587247996
+pi_prior_trials_same_indication,0.0015515753021354832
+ec_submission_to_fpi_days,0.0004459757343732616
+ad_cost_total,0.0003618545986954472
+total_strategies,0.00028306905088456864
+num_active_strategies,0.00026791161804866874
+country_Japan,0.00021620727046410342

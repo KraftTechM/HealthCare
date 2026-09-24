@@ -1,0 +1,5 @@
+Metric,Value
+R²,0.983
+MAE (subjects),12.5
+Training rows,2400.0
+Test rows,600.0

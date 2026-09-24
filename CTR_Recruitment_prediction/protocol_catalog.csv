@@ -1,0 +1,4 @@
+protocol_id,therapeutic_area,phase,indication,sponsor_type,protocol_complexity_score,num_visits,num_inclusion_criteria,num_exclusion_criteria,biomarker_required,prior_therapy_restriction,placebo_controlled
+PROTO-A_ONCO,Oncology,III,NSCLC,Pharma,8,18,12,15,True,True,True
+PROTO-B_CARDIO,Cardiology,II,Heart Failure,Biotech,5,9,8,10,False,True,True
+PROTO-C_NEURO,Neurology,II,Alzheimer's,Academic,7,14,10,12,True,False,False
